@@ -1,0 +1,100 @@
+====================
+     12-02-2018
+====================
+
+TEST
+
+   * packages/apps/Settings/
+d36e0acccd Settings: add back selinux status in about
+
+====================
+     12-01-2018
+====================
+
+
+   * bionic/
+074159e64 bionic: Use legacy pthread_mutex_init() behavior on pre-P API levels
+
+   * frameworks/base/
+0e11087aee1 Avoid casting network traffic to StatusBarIconView to prevent crash
+
+====================
+     11-30-2018
+====================
+
+
+   * bionic/
+28b2612cf Actually restore pre-P mutex behavior
+
+   * frameworks/base/
+ed81796697d Add network traffic monitor properly to statusbar icons
+
+====================
+     11-29-2018
+====================
+
+
+====================
+     11-28-2018
+====================
+
+
+====================
+     11-27-2018
+====================
+
+
+   * packages/apps/H4K3RWalls/
+6c79de4 add 1 new wallpaper
+
+   * vendor/gzosp/
+a55baad reduce animation footprint / timing work
+c841aaa update to new awesome animation with better timings
+
+====================
+     11-26-2018
+====================
+
+
+   * build/make/
+67603b90f Changelog fix
+
+   * packages/apps/OmniSwitch/
+a533605 OmniSwitch: fix launcher style for proper themeing
+
+   * vendor/gzosp/
+496dad1 update changelog 1
+477bb8f hack the output
+
+====================
+     11-25-2018
+====================
+
+
+   * packages/apps/H4K3RWalls/
+26d51f2 Added 3 new wallpapers
+
+   * vendor/gzosp/
+f2e7497 Revert "releasetools: Replace key values in permission files during re-signing"
+1120960 update default wallpaper
+e8ea174 remove app section
+
+====================
+     11-24-2018
+====================
+
+
+   * packages/apps/H4K3RWalls/
+dbf51c4 pull up the girls a bit ;)
+45ece3c Add some wallpapers
+6b0a8ea bringup H4K3RWalls wallpaper app
+
+   * vendor/gzosp/
+d33abcf KernelAdiutor
+3bbfd1a hackerapps
+
+====================
+     11-23-2018
+====================
+
+
