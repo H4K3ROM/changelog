@@ -1,100 +1,129 @@
 ====================
-     12-02-2018
-====================
-
-TEST
-
-   * packages/apps/Settings/
-d36e0acccd Settings: add back selinux status in about
-
-====================
-     12-01-2018
+     01-05-2019
 ====================
 
 
-   * bionic/
-074159e64 bionic: Use legacy pthread_mutex_init() behavior on pre-P API levels
-
-   * frameworks/base/
-0e11087aee1 Avoid casting network traffic to StatusBarIconView to prevent crash
-
-====================
-     11-30-2018
-====================
-
-
-   * bionic/
-28b2612cf Actually restore pre-P mutex behavior
-
-   * frameworks/base/
-ed81796697d Add network traffic monitor properly to statusbar icons
-
-====================
-     11-29-2018
-====================
-
-
-====================
-     11-28-2018
-====================
-
-
-====================
-     11-27-2018
-====================
-
+   * kernel/oneplus/msm8996/
+fc31abd45294 ANDROID: mm: add config for default readahead size
+2949444fabfd op3: set default readahead to 2048KB
+82a14048666e arm64/configs: Remove LIMITS_LITE_HW config
+7e8b08e88e1c arm64/configs: op3: increase log buffer to 1 MiB
 
    * packages/apps/H4K3RWalls/
-6c79de4 add 1 new wallpaper
-
-   * vendor/gzosp/
-a55baad reduce animation footprint / timing work
-c841aaa update to new awesome animation with better timings
+7d81658 Skinny the build. Update wallpapers & add 2 new
 
 ====================
-     11-26-2018
+     01-04-2019
+====================
+
+
+   * packages/apps/Settings/
+0aa177b1c2 Add H4K3ROM Logo strings
+
+====================
+     01-03-2019
+====================
+
+
+   * packages/apps/Settings/
+8744a3c18e Add gzosp settings logo
+
+====================
+     01-02-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+df936b89 op3: Update ANT+ system blobs to P
+f852d9c9 op3: Restore OnePlus' logic to copy MBN from system
+
+   * vendor/gzosp/
+54930c83 Add US Carrier TING Data APN & MMS profiles
+
+====================
+     01-01-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+4a2d1917 Create h4k3rom_test.md
+12e73d8f Pull from H4K3ROM source
+
+   * kernel/oneplus/msm8996/
+e891f78c9db4 Create test.md
+
+   * packages/apps/F-Droid/privileged-extension/
+f21aa3d Merge https://gitlab.com/fdroid/privileged-extension into 9.0
+
+   * packages/apps/Settings/
+a88c18dc86 Update gzosp_strings.xml
+
+   * vendor/gzosp/
+de7b80f3 Delete h4k3rom.sh
+0d39a453 Merge https://github.com/GZOSP/vendor_gzosp into 9.0
+
+====================
+     12-31-2018
 ====================
 
 
    * build/make/
-67603b90f Changelog fix
+0e95762e7 Bringup h4k3rom.sh
 
-   * packages/apps/OmniSwitch/
-a533605 OmniSwitch: fix launcher style for proper themeing
-
-   * vendor/gzosp/
-496dad1 update changelog 1
-477bb8f hack the output
-
-====================
-     11-25-2018
-====================
-
-
-   * packages/apps/H4K3RWalls/
-26d51f2 Added 3 new wallpapers
+   * packages/apps/FlipFlap/
+12ec7e6 H4K3R FX
 
    * vendor/gzosp/
-f2e7497 Revert "releasetools: Replace key values in permission files during re-signing"
-1120960 update default wallpaper
-e8ea174 remove app section
+b8def1f9 Bringup H4K3RScript
 
 ====================
-     11-24-2018
+     12-30-2018
 ====================
 
 
-   * packages/apps/H4K3RWalls/
-dbf51c4 pull up the girls a bit ;)
-45ece3c Add some wallpapers
-6b0a8ea bringup H4K3RWalls wallpaper app
+   * external/F-Droid/
+fc646ed Update to Version 1.5 APK
+
+   * packages/apps/Settings/
+d4a315f540 Remove Accents WIP
+77f7e1f733 Revert "Live Volume Steps [2/2]"
+06d31d2900 Sync local packages_apps_settings
+52cf76f0b8 cleanup
 
    * vendor/gzosp/
-d33abcf KernelAdiutor
-3bbfd1a hackerapps
+611fe263 Remove phantom apk builds
 
 ====================
-     11-23-2018
+     12-29-2018
+====================
+
+
+   * manifest/
+63910b4 manifest: gzosp: track packages_services_Telephony
+
+   * packages/apps/Settings/
+d4bb48b8b3 Update gzosp_strings.xml
+56b656d23a Fruity Pebbles v2.0
+
+   * vendor/gzosp/
+ffa9fd7b Add OmniJaws & DSPManager
+63c35ee7 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0
+e380a4e6 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0 Remove the following test build commits: QSTiles: Add few more styles [1/3]
+5867d6b5 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0 Remove the following test build commits: QSTiles: Add few more styles [1/3]
+
+====================
+     12-28-2018
+====================
+
+
+   * manifest/
+55c8eea manifest: gzosp: track hardware_broadcom_wlan
+
+   * vendor/qcom/opensource/dataservices/
+06c78bd librmnetctl: Use generated kernel headers
+
+====================
+     12-27-2018
 ====================
 
 
