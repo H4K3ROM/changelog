@@ -1,5 +1,5 @@
 ====================
-     01-07-2019
+     01-08-2019
 ====================
 
 
@@ -12,12 +12,12 @@
 a3d37973 Bringup H4K3RWebb App A simple app that links XDA Thread, Rom Builds & Changelog revisions...
 
 ====================
+     01-07-2019
+====================
+
+
+====================
      01-06-2019
-====================
-
-
-====================
-     01-05-2019
 ====================
 
 
@@ -35,7 +35,7 @@ fc31abd45294 ANDROID: mm: add config for default readahead size
 7d81658 Skinny the build. Update wallpapers & add 2 new
 
 ====================
-     01-04-2019
+     01-05-2019
 ====================
 
 
@@ -43,7 +43,7 @@ fc31abd45294 ANDROID: mm: add config for default readahead size
 0aa177b1c2 Add H4K3ROM Logo strings
 
 ====================
-     01-03-2019
+     01-04-2019
 ====================
 
 
@@ -51,7 +51,7 @@ fc31abd45294 ANDROID: mm: add config for default readahead size
 8744a3c18e Add gzosp settings logo
 
 ====================
-     01-02-2019
+     01-03-2019
 ====================
 
 
@@ -64,7 +64,7 @@ f852d9c9 op3: Restore OnePlus' logic to copy MBN from system
 54930c83 Add US Carrier TING Data APN & MMS profiles
 
 ====================
-     01-01-2019
+     01-02-2019
 ====================
 
 
@@ -82,7 +82,7 @@ a88c18dc86 Update gzosp_strings.xml
 de7b80f3 Delete h4k3rom.sh
 
 ====================
-     12-31-2018
+     01-01-2019
 ====================
 
 
@@ -97,7 +97,7 @@ f21aa3d Merge https://gitlab.com/fdroid/privileged-extension into 9.0
 b8def1f9 Bringup H4K3RScript
 
 ====================
-     12-30-2018
+     12-31-2018
 ====================
 
 
@@ -108,7 +108,7 @@ fc646ed Update to Version 1.5 APK
 611fe263 Remove phantom apk builds
 
 ====================
-     12-29-2018
+     12-30-2018
 ====================
 
 
