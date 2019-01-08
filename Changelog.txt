@@ -1,7 +1,29 @@
 ====================
+     01-07-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+27f3e840 op3: Allow appdomain to get vendor_camera_prop
+18d09c44 op3: Label device-specific android_usb sysfs files.
+8df69651 Revert "op3: Set new QSEE listener status flag on old one changed"
+
+   * vendor/gzosp/
+a3d37973 Bringup H4K3RWebb App A simple app that links XDA Thread, Rom Builds & Changelog revisions...
+
+====================
+     01-06-2019
+====================
+
+
+====================
      01-05-2019
 ====================
 
+
+   * device/oneplus/oneplus3/
+641fce1b op3: Ship and enable atfwd daemon
+4f15027f op3: Update init.target.rc and fstab from LA.UM.7.5.r1-03100-8x96.0
 
    * kernel/oneplus/msm8996/
 fc31abd45294 ANDROID: mm: add config for default readahead size
@@ -34,6 +56,7 @@ fc31abd45294 ANDROID: mm: add config for default readahead size
 
 
    * device/oneplus/oneplus3/
+f7fd5856 op3: Move services to correct cpusets
 df936b89 op3: Update ANT+ system blobs to P
 f852d9c9 op3: Restore OnePlus' logic to copy MBN from system
 
@@ -52,28 +75,25 @@ f852d9c9 op3: Restore OnePlus' logic to copy MBN from system
    * kernel/oneplus/msm8996/
 e891f78c9db4 Create test.md
 
-   * packages/apps/F-Droid/privileged-extension/
-f21aa3d Merge https://gitlab.com/fdroid/privileged-extension into 9.0
-
    * packages/apps/Settings/
 a88c18dc86 Update gzosp_strings.xml
 
    * vendor/gzosp/
 de7b80f3 Delete h4k3rom.sh
-0d39a453 Merge https://github.com/GZOSP/vendor_gzosp into 9.0
 
 ====================
      12-31-2018
 ====================
 
 
-   * build/make/
-0e95762e7 Bringup h4k3rom.sh
+   * packages/apps/F-Droid/privileged-extension/
+f21aa3d Merge https://gitlab.com/fdroid/privileged-extension into 9.0
 
    * packages/apps/FlipFlap/
 12ec7e6 H4K3R FX
 
    * vendor/gzosp/
+0d39a453 Merge https://github.com/GZOSP/vendor_gzosp into 9.0
 b8def1f9 Bringup H4K3RScript
 
 ====================
@@ -83,12 +103,6 @@ b8def1f9 Bringup H4K3RScript
 
    * external/F-Droid/
 fc646ed Update to Version 1.5 APK
-
-   * packages/apps/Settings/
-d4a315f540 Remove Accents WIP
-77f7e1f733 Revert "Live Volume Steps [2/2]"
-06d31d2900 Sync local packages_apps_settings
-52cf76f0b8 cleanup
 
    * vendor/gzosp/
 611fe263 Remove phantom apk builds
@@ -102,6 +116,10 @@ d4a315f540 Remove Accents WIP
 63910b4 manifest: gzosp: track packages_services_Telephony
 
    * packages/apps/Settings/
+d4a315f540 Remove Accents WIP
+77f7e1f733 Revert "Live Volume Steps [2/2]"
+06d31d2900 Sync local packages_apps_settings
+52cf76f0b8 cleanup
 d4bb48b8b3 Update gzosp_strings.xml
 56b656d23a Fruity Pebbles v2.0
 
@@ -110,20 +128,4 @@ ffa9fd7b Add OmniJaws & DSPManager
 63c35ee7 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0
 e380a4e6 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0 Remove the following test build commits: QSTiles: Add few more styles [1/3]
 5867d6b5 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0 Remove the following test build commits: QSTiles: Add few more styles [1/3]
-
-====================
-     12-28-2018
-====================
-
-
-   * manifest/
-55c8eea manifest: gzosp: track hardware_broadcom_wlan
-
-   * vendor/qcom/opensource/dataservices/
-06c78bd librmnetctl: Use generated kernel headers
-
-====================
-     12-27-2018
-====================
-
 
