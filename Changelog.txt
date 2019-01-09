@@ -3,27 +3,38 @@
 ====================
 
 
-   * device/oneplus/oneplus3/
-27f3e840 op3: Allow appdomain to get vendor_camera_prop
-18d09c44 op3: Label device-specific android_usb sysfs files.
-8df69651 Revert "op3: Set new QSEE listener status flag on old one changed"
-
-   * vendor/gzosp/
-a3d37973 Bringup H4K3RWebb App A simple app that links XDA Thread, Rom Builds & Changelog revisions...
+   * frameworks/opt/telephony/
+e7a4776cd Revert "Implement signal strength hacks used on Huawei devices"
+db1100d59 Revert "telephony: Squashed support of dynamic signal strength thresholds"
+8896afaa3 Revert "telephony: Query LTE thresholds from CarrierConfig"
+e393e9c90 Revert "Telephony: Do not call onUssdRelease for Huawei RIL"
+275ff0bdf IMS: RTT feature changes
+58050360d MSIM: Fix to call setMccMnc() with proper mcc-mnc value
+00c80e857 Telephony: Enable data call on CSIM.
+cbe71ac5b SimPhoneBook: Add ANR/EMAIL support for USIM phonebook.
+f7bb149ce Avoid showing stack trace without QTI telephony extension
+cb436d42b Telephony: Send INITIAL_ATTACH only when it is applicable.
+0a78a2da9 Enable vendor Telephony plugin: MSIM Changes
+30fcede5b Enable vendor Telephony plugin
+33a6c1719 RIL: Allow overriding RadioResponse and RadioIndication
 
 ====================
      01-07-2019
 ====================
 
 
+   * vendor/gzosp/
+a3d37973 Bringup H4K3RWebb App A simple app that links XDA Thread, Rom Builds & Changelog revisions...
+
 ====================
      01-06-2019
 ====================
 
 
-   * device/oneplus/oneplus3/
-641fce1b op3: Ship and enable atfwd daemon
-4f15027f op3: Update init.target.rc and fstab from LA.UM.7.5.r1-03100-8x96.0
+====================
+     01-05-2019
+====================
+
 
    * kernel/oneplus/msm8996/
 fc31abd45294 ANDROID: mm: add config for default readahead size
@@ -35,7 +46,7 @@ fc31abd45294 ANDROID: mm: add config for default readahead size
 7d81658 Skinny the build. Update wallpapers & add 2 new
 
 ====================
-     01-05-2019
+     01-04-2019
 ====================
 
 
@@ -43,7 +54,7 @@ fc31abd45294 ANDROID: mm: add config for default readahead size
 0aa177b1c2 Add H4K3ROM Logo strings
 
 ====================
-     01-04-2019
+     01-03-2019
 ====================
 
 
@@ -51,20 +62,15 @@ fc31abd45294 ANDROID: mm: add config for default readahead size
 8744a3c18e Add gzosp settings logo
 
 ====================
-     01-03-2019
+     01-02-2019
 ====================
 
-
-   * device/oneplus/oneplus3/
-f7fd5856 op3: Move services to correct cpusets
-df936b89 op3: Update ANT+ system blobs to P
-f852d9c9 op3: Restore OnePlus' logic to copy MBN from system
 
    * vendor/gzosp/
 54930c83 Add US Carrier TING Data APN & MMS profiles
 
 ====================
-     01-02-2019
+     01-01-2019
 ====================
 
 
@@ -82,7 +88,7 @@ a88c18dc86 Update gzosp_strings.xml
 de7b80f3 Delete h4k3rom.sh
 
 ====================
-     01-01-2019
+     12-31-2018
 ====================
 
 
@@ -97,35 +103,19 @@ f21aa3d Merge https://gitlab.com/fdroid/privileged-extension into 9.0
 b8def1f9 Bringup H4K3RScript
 
 ====================
-     12-31-2018
+     12-30-2018
 ====================
 
 
    * external/F-Droid/
 fc646ed Update to Version 1.5 APK
 
-   * vendor/gzosp/
-611fe263 Remove phantom apk builds
-
-====================
-     12-30-2018
-====================
-
-
-   * manifest/
-63910b4 manifest: gzosp: track packages_services_Telephony
-
    * packages/apps/Settings/
 d4a315f540 Remove Accents WIP
 77f7e1f733 Revert "Live Volume Steps [2/2]"
 06d31d2900 Sync local packages_apps_settings
 52cf76f0b8 cleanup
-d4bb48b8b3 Update gzosp_strings.xml
-56b656d23a Fruity Pebbles v2.0
 
    * vendor/gzosp/
-ffa9fd7b Add OmniJaws & DSPManager
-63c35ee7 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0
-e380a4e6 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0 Remove the following test build commits: QSTiles: Add few more styles [1/3]
-5867d6b5 Merge branch '9.0' of https://github.com/H4K3ROM/vendor_gzosp into 9.0 Remove the following test build commits: QSTiles: Add few more styles [1/3]
+611fe263 Remove phantom apk builds
 
