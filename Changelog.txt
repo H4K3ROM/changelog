@@ -1,5 +1,5 @@
 ====================
-     02-02-2019
+     02-03-2019
 ====================
 
 
@@ -8,12 +8,37 @@
 0f827cfea h4k3d
 3b271081e Changelog & OTA Hack
 
+   * device/lineage/sepolicy/
+e6c3ce0 sepolicy: Allow recovery update_engine to setexec backuptool
+0211a9c sepolicy: Allow Settings to read ro.vendor.build.security_patch
+
+   * frameworks/av/
+2cc3062a4 Visualizer: fix native crash when visualizer release
+
+   * packages/apps/Settings/
+9e91908f1c Add H4K3ROM Logo Strings
+789c7a5f88 Create ic_lineage.xml
+
    * vendor/lineage/
+d3ffea2c add h4k3rom.sh file for build chmod
+e747b921 Cleanup bootanimation files not used in H4K3ROM
+8c715c34 h4k3d output & start new boot animations
+fae1e180 Update desc.txt
 58310816 upload h4k3rom desc.txt
 a0695cfa Delete desc.txt
 ef9e1ed1 h4k3rom bootanimation.tar
 07dce364 Delete bootanimation.tar
 7137b984 add changelog
+
+====================
+     02-02-2019
+====================
+
+
+   * device/qcom/sepolicy-legacy/
+8d40ce9 common: Allow webview_zygote to read /dev/ion
+
+   * vendor/lineage/
 686f1d96 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
 
    * vendor/oneplus/
@@ -24,13 +49,13 @@ ef9e1ed1 h4k3rom bootanimation.tar
 ====================
 
 
+   * lineage/mirror/
+2672810 Updated to 01-Feb-2019 23:01:11 UTC
+
 ====================
      01-31-2019
 ====================
 
-
-   * lineage/mirror/
-2672810 Updated to 01-Feb-2019 23:01:11 UTC
 
 ====================
      01-30-2019
@@ -75,6 +100,12 @@ c832b57f privapp-permissions: Remove org.lineageos.trebuchet permissions
 ====================
 
 
+   * packages/apps/Trebuchet/
+26258e1bf Trebuchet: implement hidden apps
+
+   * system/sepolicy/
+05ab40a1 sepolicy: public: add TCSETSF to the list of unprivileged TTY ioctls
+
    * vendor/oneplus/
 de2f9ac1 msm8998: update blobs from oos 9.0.3
 
@@ -84,7 +115,6 @@ de2f9ac1 msm8998: update blobs from oos 9.0.3
 
 
    * packages/apps/Trebuchet/
-26258e1bf Trebuchet: implement hidden apps
 35f4a332c Trebuchet: update deps
 
 ====================
@@ -103,26 +133,4 @@ c918a03 TelephonyExtUtils: Handle extphone binder death
 
    * system/sepolicy/
 4764b69a Android.mk: remove some build-log spam
-
-====================
-     01-24-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-3128609 op3: Update display postproc blobs from LA.UM.7.5.r1-03700-8x96.0
-a9b6643 op3: Remove unused jars
-
-   * frameworks/base/
-fecffa1f3c0 audio: Don't play sound effects if stream is muted
-
-   * kernel/oneplus/msm8996/
-1a394d137c55 op3: Disable IPC Router MHI transport
-9eeba1ed3f23 oneplus: make sure some wakelock references are destroyed
-2f0a171f2018 sched/core: Fix a race between try_to_wake_up() and a woken up task
-d05bad735fe8 tty:  check before stopping kthread
-
-   * vendor/oneplus/
-3179afa2 op3: Update display postproc blobs from LA.UM.7.5.r1-03700-8x96.0
-58738638 op3: Remove unused jars
 
