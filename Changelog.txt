@@ -1,19 +1,66 @@
 ====================
+     02-04-2019
+====================
+
+   * android/
+feb2253 manifest: Sync hardware/lineage/livedisplay
+
+   * build/soong/
+1c272bea Always link org.lineageos.platform-res for org.lineageos.platform.sdk
+
+   * device/lineage/sepolicy/
+c8ceb6f sepolicies: add Trust hal
+701b30d common: Migrate to livedisplay 2.0
+1c44e50 common: Add vendor.lineage.touch rules
+
+   * hardware/lineage/interfaces/
+c6e0e42 trust: create service
+4b1c700 interfaces: Add trust 1.0 HAL
+73c5a16 interfaces: Add touch HIDL interface definitions
+47208dd interfaces: Add 2.0 livedisplay interfaces
+
+   * lineage-sdk/
+fab8bbf LineageSettingsProvider: Fix migration of FORCE_SHOW_NAVBAR
+0cf2973 sdk: add Trust usb restrictor
+d853f89 PerformanceManager: Allow wait for MPCTL to start on boot
+a7d1594 LiveDisplayService: Catch NPE before LiveDisplayConfig is initialized
+dc5d872 LineageAudioService: Make audio session broadcast explicit
+b49ed55 sdk: Add HIDL compat in LineageHardwareManager
+7368c8e sdk: Deprecate some unused lineagehw features
+
+   * packages/apps/Settings/
+c7480d7ec7 Code cleanup fubar
+07effabf8b Hack some things
+
+   * packages/apps/Trebuchet/
+cbc5109d0 Set isInitialDown before working on the Array
+e653623bf Trebuchet: Add reverse engineered Q swipe down gesture
+
+   * vendor/lineage/
+8cbddc3e Update h4k3rom.sh
+
+====================
      02-03-2019
 ====================
 
 
-   * build/make/
-6f10b8b14 h4k3d
-0f827cfea h4k3d
-3b271081e Changelog & OTA Hack
-
    * device/lineage/sepolicy/
+c72a806 lineage: Rewrite Lineage Power HAL rules
+87d305d lineage: Properly write rules for Lineage LiveDisplay as a HAL
 e6c3ce0 sepolicy: Allow recovery update_engine to setexec backuptool
 0211a9c sepolicy: Allow Settings to read ro.vendor.build.security_patch
 
-   * frameworks/av/
-2cc3062a4 Visualizer: fix native crash when visualizer release
+   * hardware/qcom/audio-caf/msm8996/
+d2dfc74a1 hal: spkr_protection: compilation error fixes with the vndk
+
+   * hardware/qcom/media-caf/msm8952/
+c108ce3f7 mm-video-v4l2: C++11 requires a space between literal and string macro
+b9af12c5d mm-video-v4l2: Compilation warning fixes
+44b85bb31 libstagefrighthw: Compilation warning fixes
+8d7910226 libc2dcolorconvert: Compilation warning fixes
+
+   * lineage/mirror/
+84c6a6d Updated to 04-Feb-2019 23:00:52 UTC
 
    * packages/apps/Settings/
 9e91908f1c Add H4K3ROM Logo Strings
@@ -23,22 +70,41 @@ e6c3ce0 sepolicy: Allow recovery update_engine to setexec backuptool
 d3ffea2c add h4k3rom.sh file for build chmod
 e747b921 Cleanup bootanimation files not used in H4K3ROM
 8c715c34 h4k3d output & start new boot animations
-fae1e180 Update desc.txt
-58310816 upload h4k3rom desc.txt
-a0695cfa Delete desc.txt
-ef9e1ed1 h4k3rom bootanimation.tar
-07dce364 Delete bootanimation.tar
-7137b984 add changelog
+
+   * vendor/oneplus/
+5e71672c sdm845-common: Add fajita to build guard
+163d534a sdm845-commob: Update to Open Beta 11
+1c455029 msm8998: add missing PowerOffAlarm blobs
 
 ====================
      02-02-2019
 ====================
 
 
+   * build/make/
+6f10b8b14 h4k3d
+0f827cfea h4k3d
+3b271081e Changelog & OTA Hack
+
    * device/qcom/sepolicy-legacy/
 8d40ce9 common: Allow webview_zygote to read /dev/ion
 
+   * frameworks/av/
+2cc3062a4 Visualizer: fix native crash when visualizer release
+
+   * frameworks/base/
+0847bcd8972 Visualizer: fix native crash when visualizer release
+
+   * packages/apps/Trebuchet/
+51fcc5b08 Revert "Trebuchet: expand statusbar on swipe down"
+
    * vendor/lineage/
+fae1e180 Update desc.txt
+58310816 upload h4k3rom desc.txt
+a0695cfa Delete desc.txt
+ef9e1ed1 h4k3rom bootanimation.tar
+07dce364 Delete bootanimation.tar
+7137b984 add changelog
 686f1d96 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
 
    * vendor/oneplus/
@@ -49,13 +115,16 @@ ef9e1ed1 h4k3rom bootanimation.tar
 ====================
 
 
-   * lineage/mirror/
-2672810 Updated to 01-Feb-2019 23:01:11 UTC
+   * packages/apps/LineageParts/
+5ff7c28 parts: add Trust usb restrictor
 
 ====================
      01-31-2019
 ====================
 
+
+   * lineage/mirror/
+2672810 Updated to 01-Feb-2019 23:01:11 UTC
 
 ====================
      01-30-2019
@@ -100,9 +169,6 @@ c832b57f privapp-permissions: Remove org.lineageos.trebuchet permissions
 ====================
 
 
-   * packages/apps/Trebuchet/
-26258e1bf Trebuchet: implement hidden apps
-
    * system/sepolicy/
 05ab40a1 sepolicy: public: add TCSETSF to the list of unprivileged TTY ioctls
 
@@ -115,22 +181,6 @@ de2f9ac1 msm8998: update blobs from oos 9.0.3
 
 
    * packages/apps/Trebuchet/
+26258e1bf Trebuchet: implement hidden apps
 35f4a332c Trebuchet: update deps
-
-====================
-     01-25-2019
-====================
-
-
-   * device/qcom/sepolicy-legacy/
-36d4931 legacy: Label msm8916 sysfs_disk_stat
-d5c05df legacy: Label msm8916 sysfs_android_usb
-96662c5 sepolicy: Add vendor prefix to FM properties
-743f03d legacy: Label msm8916 sysfs_{battery,usb}_supply
-
-   * lineage-sdk/
-c918a03 TelephonyExtUtils: Handle extphone binder death
-
-   * system/sepolicy/
-4764b69a Android.mk: remove some build-log spam
 
