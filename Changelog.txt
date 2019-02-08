@@ -1,8 +1,232 @@
 ====================
-     02-04-2019
+     02-08-2019
+====================
+
+
+   * build/make/
+7d4c4f81a Merge https://github.com/LineageOS/android_build into lineage-16.0
+
+   * packages/apps/Settings/
+1ef9b2d592 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
+ce40716419 Settings: Move artwork and visualizer to "Lock screen preferences"
+
+====================
+     02-07-2019
+====================
+
+
+   * art/
+f443eb4537 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * bionic/
+2c489cfe6 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * bootable/recovery/
+e61adcc1 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * build/kati/
+e1ae0f6 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * build/make/
+1a4655959 Remove extra $ in soong_app_prebuilt
+238f876ee Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * dalvik/
+a879c37db Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * development/
+86865adca Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * external/f2fs-tools/
+f2dba35 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * external/skia/
+afc6528ade Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/av/
+feb51fdb5 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/base/
+18ad43ab562 SystemUI: Fix some issues with clock position
+12930acc507 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/native/
+4e76108cc Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/opt/net/wifi/
+9992063b7 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * frameworks/opt/telephony/
+dc96f18d4 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/interfaces/
+aa0e2959 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/nxp/nfc/
+ec3b549 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/audio/default/
+805056830 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/bootctrl/
+a1d491d Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/gps/
+5dc7ab4 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/media/
+a316b4cb8 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/qcom/sdm845/gps/
+236e6c3 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/ril/
+8f3b236 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * lineage-sdk/
+231167e Add emergency power menu constant
+
+   * lineage/wiki/
+91496d5 Fix typo in "Before install" section for pme
+
+   * packages/apps/Bluetooth/
+b25a5859 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Camera2/
+13539317c Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/CarrierConfig/
+240fe89 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/CellBroadcastReceiver/
+e4439ca8 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/CertInstaller/
+f5f144b Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Contacts/
+513604926 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/DeskClock/
+30c910065 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/DocumentsUI/
+d945fdf4 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Email/
+e3e6551bd Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/EmergencyInfo/
+945e797 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/KeyChain/
+beb9b46 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/ManagedProvisioning/
+6328a999 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Nfc/
+9219cd79 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/PackageInstaller/
+b6f5c297 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/PhoneCommon/
+c815455 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Settings/
+36da7689bf Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Stk/
+42bdef6 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/StorageManager/
+41a18ac Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/TvSettings/
+eb9b2f34 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/UnifiedEmail/
+84b7ce039 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/inputmethods/LatinIME/
+5ffe02861 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/ContactsProvider/
+09c216f7 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/DownloadProvider/
+f443f249 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/MediaProvider/
+9072294 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/TelephonyProvider/
+8f71026 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/providers/TvProvider/
+9989e28 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/screensavers/PhotoTable/
+6136119 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/services/BuiltInPrintService/
+a42c960 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/services/Telecomm/
+30f01ff3 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/services/Telephony/
+97fbb7294 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/bt/
+202d95a52 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/core/
+e211c8812 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/extras/
+c541ffcf Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/netd/
+ccc0d8d Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/security/
+b952db0 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/sepolicy/
+3ab36a06 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/update_engine/
+8d95962 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * system/vold/
+64a5178 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+====================
+     02-06-2019
+====================
+
+
+   * lineage/wiki/
+a9c64d9 wiki: Fix verifying_builds.md URL
+
+   * packages/apps/Messaging/
+40c8755 Switch to JobIntentService
+7d378ea Messaging: improve notification channels
+
+   * packages/apps/Snap/
+c8c7085a9 Snap: make support for bokeh mode configurable per device
+
+   * vendor/lineage/
+a78e2c4b attr rw
+
+====================
+     02-05-2019
 ====================
 
    * android/
+38eb834 manifest: android-9.0.0_r30 -> android-9.0.0_r31
 feb2253 manifest: Sync hardware/lineage/livedisplay
 
    * build/soong/
@@ -12,6 +236,10 @@ feb2253 manifest: Sync hardware/lineage/livedisplay
 c8ceb6f sepolicies: add Trust hal
 701b30d common: Migrate to livedisplay 2.0
 1c44e50 common: Add vendor.lineage.touch rules
+
+   * frameworks/base/
+38919152c0a base: add Trust usb restrictor
+afbbb20194d SystemUI: Add onStatusBarMotionEvent hook
 
    * hardware/lineage/interfaces/
 c6e0e42 trust: create service
@@ -30,17 +258,19 @@ b49ed55 sdk: Add HIDL compat in LineageHardwareManager
 
    * packages/apps/Settings/
 c7480d7ec7 Code cleanup fubar
-07effabf8b Hack some things
 
    * packages/apps/Trebuchet/
 cbc5109d0 Set isInitialDown before working on the Array
 e653623bf Trebuchet: Add reverse engineered Q swipe down gesture
 
    * vendor/lineage/
+d81cc84a Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+c742bfdb Make ready for H4K3ROM
+9717ee7b qcom: Mark some gralloc bits as valid
 8cbddc3e Update h4k3rom.sh
 
 ====================
-     02-03-2019
+     02-04-2019
 ====================
 
 
@@ -63,6 +293,7 @@ b9af12c5d mm-video-v4l2: Compilation warning fixes
 84c6a6d Updated to 04-Feb-2019 23:00:52 UTC
 
    * packages/apps/Settings/
+07effabf8b Hack some things
 9e91908f1c Add H4K3ROM Logo Strings
 789c7a5f88 Create ic_lineage.xml
 
@@ -73,11 +304,9 @@ e747b921 Cleanup bootanimation files not used in H4K3ROM
 
    * vendor/oneplus/
 5e71672c sdm845-common: Add fajita to build guard
-163d534a sdm845-commob: Update to Open Beta 11
-1c455029 msm8998: add missing PowerOffAlarm blobs
 
 ====================
-     02-02-2019
+     02-03-2019
 ====================
 
 
@@ -108,10 +337,12 @@ ef9e1ed1 h4k3rom bootanimation.tar
 686f1d96 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
 
    * vendor/oneplus/
+163d534a sdm845-commob: Update to Open Beta 11
+1c455029 msm8998: add missing PowerOffAlarm blobs
 7cdd162d msm8998: Update SDM blobs from LA.UM.7.4.r1-04100-8x98.0
 
 ====================
-     02-01-2019
+     02-02-2019
 ====================
 
 
@@ -119,7 +350,7 @@ ef9e1ed1 h4k3rom bootanimation.tar
 5ff7c28 parts: add Trust usb restrictor
 
 ====================
-     01-31-2019
+     02-01-2019
 ====================
 
 
@@ -127,7 +358,7 @@ ef9e1ed1 h4k3rom bootanimation.tar
 2672810 Updated to 01-Feb-2019 23:01:11 UTC
 
 ====================
-     01-30-2019
+     01-31-2019
 ====================
 
 
@@ -135,7 +366,7 @@ ef9e1ed1 h4k3rom bootanimation.tar
 6620a14 op3: Enable calling over LTE for Airtel India - Mumbai
 
 ====================
-     01-29-2019
+     01-30-2019
 ====================
 
 
@@ -152,35 +383,4 @@ a545fe9 DO NOT MERGE: Update Android tzdata from 2018g to 2018i.
    * vendor/lineage/
 c832b57f privapp-permissions: Remove org.lineageos.trebuchet permissions
 54c01074 privapp-permissions: Add new launcher3 permissions
-
-====================
-     01-28-2019
-====================
-
-
-   * device/qcom/sepolicy-legacy/
-74094da sepolicy: legacy: add additional usb charging path label
-
-   * hardware/qcom/audio-caf/msm8996/
-814f60cdb Build audio.primary.* with BOARD_VNDK_VERSION
-
-====================
-     01-27-2019
-====================
-
-
-   * system/sepolicy/
-05ab40a1 sepolicy: public: add TCSETSF to the list of unprivileged TTY ioctls
-
-   * vendor/oneplus/
-de2f9ac1 msm8998: update blobs from oos 9.0.3
-
-====================
-     01-26-2019
-====================
-
-
-   * packages/apps/Trebuchet/
-26258e1bf Trebuchet: implement hidden apps
-35f4a332c Trebuchet: update deps
 
