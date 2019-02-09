@@ -1,10 +1,34 @@
 ====================
+     02-09-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+47d6e41 Fix sepolicy where build breaks Oneplus3T
+
+   * hardware/broadcom/libbt/
+0919027 libbt: Align Samsung CID strings to those created by macloader
+
+   * kernel/oneplus/msm8996/
+8ed12a11472d add toggle for disabling newly added USB devices
+
+====================
      02-08-2019
 ====================
 
 
    * build/make/
 7d4c4f81a Merge https://github.com/LineageOS/android_build into lineage-16.0
+
+   * device/qcom/sepolicy-legacy/
+f6d960e legacy: Label some more sysfs_net
+
+   * hardware/lineage/livedisplay/
+62d6ecd livedisplay: sdm: Fix restoring default mode
+36ab575 livedisplay: sdm: Fix isSupported() checks
+
+   * lineage-sdk/
+5f6587d sdk: HIDLHelper: Remove public access modifier
 
    * packages/apps/Settings/
 1ef9b2d592 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
@@ -61,6 +85,12 @@ dc96f18d4 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
 
    * hardware/interfaces/
 aa0e2959 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * hardware/lineage/livedisplay/
+d4eb8a8 livedisplay: The module isn't proprietary
+0d26b6b livedisplay: Nuke color balance
+d421085 livedisplay: Minor code cleanup
+950336a livedisplay: Fix racy init
 
    * hardware/nxp/nfc/
 ec3b549 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
@@ -128,11 +158,18 @@ beb9b46 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
    * packages/apps/Nfc/
 9219cd79 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
 
+   * packages/apps/OmniSwitch/
+e904427 OmniSwitch: add option to hide button bar
+7f9af96 OmniSwitch: add option to bottom favorite apps in vertical
+
    * packages/apps/PackageInstaller/
 b6f5c297 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
 
    * packages/apps/PhoneCommon/
 c815455 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Phonograph/
+245dff64 Phonograph: use hard coded ripple_color to prevent theme issues
 
    * packages/apps/Settings/
 36da7689bf Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
@@ -247,6 +284,9 @@ c6e0e42 trust: create service
 73c5a16 interfaces: Add touch HIDL interface definitions
 47208dd interfaces: Add 2.0 livedisplay interfaces
 
+   * hardware/lineage/livedisplay/
+75ac2f2 livedisplay: Use 1 thread
+
    * lineage-sdk/
 fab8bbf LineageSettingsProvider: Fix migration of FORCE_SHOW_NAVBAR
 0cf2973 sdk: add Trust usb restrictor
@@ -279,6 +319,11 @@ c72a806 lineage: Rewrite Lineage Power HAL rules
 87d305d lineage: Properly write rules for Lineage LiveDisplay as a HAL
 e6c3ce0 sepolicy: Allow recovery update_engine to setexec backuptool
 0211a9c sepolicy: Allow Settings to read ro.vendor.build.security_patch
+
+   * hardware/lineage/livedisplay/
+7a5da24 livedisplay: sdm: Wire it up
+2667bbd livedisplay: sdm: Remove unused HALs
+ce53d14 livedisplay: legacymm: Wire it up
 
    * hardware/qcom/audio-caf/msm8996/
 d2dfc74a1 hal: spkr_protection: compilation error fixes with the vndk
@@ -324,6 +369,10 @@ e747b921 Cleanup bootanimation files not used in H4K3ROM
    * frameworks/base/
 0847bcd8972 Visualizer: fix native crash when visualizer release
 
+   * hardware/lineage/livedisplay/
+c6e1c35 livedisplay: legacymm: Remove unused HALs
+d723625 livedisplay: Add clang-format from hardware/interfaces
+
    * packages/apps/Trebuchet/
 51fcc5b08 Revert "Trebuchet: expand statusbar on swipe down"
 
@@ -364,23 +413,4 @@ ef9e1ed1 h4k3rom bootanimation.tar
 
    * device/oneplus/oneplus3/
 6620a14 op3: Enable calling over LTE for Airtel India - Mumbai
-
-====================
-     01-30-2019
-====================
-
-
-   * external/icu/
-0d011198e DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.
-9e0ab1daa DO NOT MERGE: Update Android ICU tzdata from 2018g to 2018i.
-ca0fde0a8 Revert "Update Android ICU tzdata from 2018g to 2018i"
-
-   * system/timezone/
-378350a DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.
-a545fe9 DO NOT MERGE: Update Android tzdata from 2018g to 2018i.
-9477ff8 Revert "Update Android tzdata from 2018g to 2018i"
-
-   * vendor/lineage/
-c832b57f privapp-permissions: Remove org.lineageos.trebuchet permissions
-54c01074 privapp-permissions: Add new launcher3 permissions
 
