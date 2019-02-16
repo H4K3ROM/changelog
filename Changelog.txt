@@ -1,4 +1,36 @@
 ====================
+     02-15-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+e24c635 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+ac68567 op3: Force HAL1 for certain apps
+
+   * device/qcom/sepolicy/
+cddb5d0 sepolicy: Label vendor.camera.hal1.packagelist
+
+   * frameworks/base/
+39e11299f0e Camera: Simplify code for Aux/Mono white and black lists
+fbb37381234 Camera: Force HAL1 for predefined package list.
+
+   * vendor/oneplus/
+33636c64 msm8998-common: add missing blobs
+
+====================
+     02-14-2019
+====================
+
+
+   * vendor/oneplus/
+85bc3373 oneplus2: Remove display calibration file
+
+====================
+     02-13-2019
+====================
+
+
+====================
      02-12-2019
 ====================
 
@@ -6,14 +38,9 @@
    * device/lineage/sepolicy/
 3937322 Make backuptool permissive only in non user builds
 3f58c82 Make sysinit permissive
-c0eb879 lineage: Use set_prop() macro for setting adb tcp property
 
    * device/oneplus/oneplus3/
 7177401 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-
-   * frameworks/base/
-1cfda74bfc6 SystemUI: Network Traffic [1/3]
-c0edcb7f8f2 SystemUI: Add Lineage statusbar item holder
 
    * hardware/qcom/display-caf/apq8084/
 215f9732b Make memtrack build with the VNDK.
@@ -34,9 +61,6 @@ b475875 Encode the Number of MNC Digits in CellIdentity
 83b7da8 wiki: device_install: Update A/B install logic
 61cf882 wiki: Add build verification instructions for 15.1 and beyond
 
-   * packages/apps/LineageParts/
-18e997c parts: don't allow clock and network traffic to be enabled at the same time
-
    * packages/apps/SetupWizard/
 85465bc SUW: Change WizardManager activity default state to disabled
 
@@ -48,24 +72,30 @@ d5dd3726 Update common.mk
 ====================
 
 
+   * device/lineage/sepolicy/
+c0eb879 lineage: Use set_prop() macro for setting adb tcp property
+
    * device/oneplus/oneplus3/
+88194f4 op3: Force HAL1 for certain apps
 412b9c6 op3: Enable workaround for old MCC/MNC format
 a5e7f74 op3: livedisplay: Support sysfs backend display modes
 1663031 op3: Migrate to livedisplay 2.0
 6e1f0b7 op3: Move perfboostsconfig.xml to vendor
 
+   * external/chromium-webview/
+fbc003a Update x86/x64 Chromium Webviews to 71.0.3578.99
+
    * frameworks/base/
+1cfda74bfc6 SystemUI: Network Traffic [1/3]
+c0edcb7f8f2 SystemUI: Add Lineage statusbar item holder
 a171b237418 fonts: Build different fonts.xml if EXCLUDE_SERIF_FONTS is true
 
+   * hardware/qcom/wlan-caf/
+9a9fda5 wcnss-service: Opt-in to disable copying WCNSS_qcom_cfg.ini to userdata
+
    * packages/apps/LineageParts/
+18e997c parts: don't allow clock and network traffic to be enabled at the same time
 ef6f13f StatusBarSettings: Hide network traffic settings if device has a notch
-
-   * packages/apps/Settings/
-97f8672b0d Hack some strings
-
-   * vendor/lineage/
-25b5aede Nix Lineage Updater
-7561b51e Update bacon.mk
 
    * vendor/oneplus/
 a3b68b6d op3: Move perfboostsconfig.xml from device
@@ -78,6 +108,9 @@ a3b68b6d op3: Move perfboostsconfig.xml from device
    * device/oneplus/oneplus3/
 4166f4d pull h4k3rom depends
 
+   * frameworks/av/
+7abefe9e8 effects: fix volume burst on pause/resume with AudioFX
+
    * kernel/oneplus/msm8996/
 298deed63255 msm: camera: Fix compilation
 093820defca7 Merge tag 'f359f7161a2e7ef6b5302465d5ba805aa90b58e0' into HEAD
@@ -87,15 +120,17 @@ aa88578baa61 Merge tag 'LA.UM.7.5.r1-04100-8x96.0' of https://source.codeaurora.
 173ac33 wiki: Promote LG G3 family to 15.1
 56a90e0 devices: Declare US proximity sensor support on the Mi MIX family
 
+   * packages/apps/Settings/
+97f8672b0d Hack some strings
+
    * vendor/lineage/
+25b5aede Nix Lineage Updater
+7561b51e Update bacon.mk
 cf30b9d3 Update common.mk
 ac5ded83 H4K3ROM Assets
 9d1eb83e Rebrand H4K3ROM
 ec2f2c4c H4K3ROM Build Output Filename Autogenerate
 f8163e35 h4k3rom out
-
-   * vendor/oneplus/
-8fa7606e msm8998-common: fix selinux neverallows
 
 ====================
      02-09-2019
@@ -115,11 +150,11 @@ e1238b4 Display: Remove vendor property context for lcd density
    * hardware/broadcom/libbt/
 0919027 libbt: Align Samsung CID strings to those created by macloader
 
-   * lineage/wiki/
-865d142 devices: Update bacon and shamu maintainers list
-
    * system/sepolicy/
 040aec06 Ignore newly added selinux objects
+
+   * vendor/oneplus/
+8fa7606e msm8998-common: fix selinux neverallows
 
 ====================
      02-08-2019
@@ -141,23 +176,14 @@ f4cb61e op3: Build Trust HAL
    * device/qcom/sepolicy-legacy/
 f6d960e legacy: Label some more sysfs_net
 
-   * hardware/qcom/media-caf/apq8084/
-fd36f77fd media: Use generated kernel headers
-3fe787adc Add -Wno-error to compile with global -Werror.
-4cc25ca7b Build libstagefrighthw with BOARD_VNDK_VERSION
-4a86c80bf Build libc2dcolorconvert with BOARD_VNDK_VERSION
-ea15be0a7 Build mm-video-v4l2 with BOARD_VNDK_VERSION
-a901ed3d0 mm-video-v4l2: Fix KW resported issues
-
    * kernel/oneplus/msm8996/
 8ed12a11472d add toggle for disabling newly added USB devices
 
-   * lineage-sdk/
-5f6587d sdk: HIDLHelper: Remove public access modifier
+   * lineage/wiki/
+865d142 devices: Update bacon and shamu maintainers list
 
    * packages/apps/Settings/
 1ef9b2d592 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
-ce40716419 Settings: Move artwork and visualizer to "Lock screen preferences"
 
 ====================
      02-07-2019
@@ -175,11 +201,19 @@ d4eb8a8 livedisplay: The module isn't proprietary
 d421085 livedisplay: Minor code cleanup
 950336a livedisplay: Fix racy init
 
-   * lineage/wiki/
-91496d5 Fix typo in "Before install" section for pme
+   * hardware/qcom/media-caf/apq8084/
+fd36f77fd media: Use generated kernel headers
+3fe787adc Add -Wno-error to compile with global -Werror.
+4cc25ca7b Build libstagefrighthw with BOARD_VNDK_VERSION
+4a86c80bf Build libc2dcolorconvert with BOARD_VNDK_VERSION
+ea15be0a7 Build mm-video-v4l2 with BOARD_VNDK_VERSION
+a901ed3d0 mm-video-v4l2: Fix KW resported issues
 
-   * packages/apps/Phonograph/
-245dff64 Phonograph: use hard coded ripple_color to prevent theme issues
+   * lineage-sdk/
+5f6587d sdk: HIDLHelper: Remove public access modifier
+
+   * packages/apps/Settings/
+ce40716419 Settings: Move artwork and visualizer to "Lock screen preferences"
 
 ====================
      02-06-2019
@@ -261,7 +295,7 @@ a316b4cb8 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
 231167e Add emergency power menu constant
 
    * lineage/wiki/
-a9c64d9 wiki: Fix verifying_builds.md URL
+91496d5 Fix typo in "Before install" section for pme
 
    * packages/apps/Bluetooth/
 b25a5859 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
@@ -311,6 +345,9 @@ b6f5c297 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
 
    * packages/apps/PhoneCommon/
 c815455 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
+
+   * packages/apps/Phonograph/
+245dff64 Phonograph: use hard coded ripple_color to prevent theme issues
 
    * packages/apps/Settings/
 36da7689bf Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
@@ -383,144 +420,4 @@ b952db0 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
 
    * system/vold/
 64a5178 Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31
-
-====================
-     02-05-2019
-====================
-
-   * android/
-38eb834 manifest: android-9.0.0_r30 -> android-9.0.0_r31
-
-   * frameworks/base/
-38919152c0a base: add Trust usb restrictor
-
-   * hardware/lineage/interfaces/
-c6e0e42 trust: create service
-4b1c700 interfaces: Add trust 1.0 HAL
-
-   * lineage-sdk/
-fab8bbf LineageSettingsProvider: Fix migration of FORCE_SHOW_NAVBAR
-0cf2973 sdk: add Trust usb restrictor
-
-   * packages/apps/Messaging/
-40c8755 Switch to JobIntentService
-7d378ea Messaging: improve notification channels
-
-   * packages/apps/Settings/
-c7480d7ec7 Code cleanup fubar
-
-   * packages/apps/Trebuchet/
-13e919f1b Trebuchet: Implement protected apps
-
-   * vendor/lineage/
-a78e2c4b attr rw
-d81cc84a Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-c742bfdb Make ready for H4K3ROM
-9717ee7b qcom: Mark some gralloc bits as valid
-8cbddc3e Update h4k3rom.sh
-
-====================
-     02-04-2019
-====================
-
-   * android/
-feb2253 manifest: Sync hardware/lineage/livedisplay
-
-   * build/soong/
-1c272bea Always link org.lineageos.platform-res for org.lineageos.platform.sdk
-
-   * device/lineage/sepolicy/
-c8ceb6f sepolicies: add Trust hal
-701b30d common: Migrate to livedisplay 2.0
-1c44e50 common: Add vendor.lineage.touch rules
-c72a806 lineage: Rewrite Lineage Power HAL rules
-87d305d lineage: Properly write rules for Lineage LiveDisplay as a HAL
-
-   * device/qcom/sepolicy/
-f30e936 sepolicy: Whitelist vold from reading mnt_vendor_file
-
-   * frameworks/base/
-afbbb20194d SystemUI: Add onStatusBarMotionEvent hook
-
-   * hardware/lineage/interfaces/
-73c5a16 interfaces: Add touch HIDL interface definitions
-47208dd interfaces: Add 2.0 livedisplay interfaces
-
-   * hardware/lineage/livedisplay/
-75ac2f2 livedisplay: Use 1 thread
-7a5da24 livedisplay: sdm: Wire it up
-2667bbd livedisplay: sdm: Remove unused HALs
-ce53d14 livedisplay: legacymm: Wire it up
-
-   * hardware/qcom/audio-caf/msm8996/
-d2dfc74a1 hal: spkr_protection: compilation error fixes with the vndk
-
-   * hardware/qcom/media-caf/msm8952/
-c108ce3f7 mm-video-v4l2: C++11 requires a space between literal and string macro
-b9af12c5d mm-video-v4l2: Compilation warning fixes
-44b85bb31 libstagefrighthw: Compilation warning fixes
-8d7910226 libc2dcolorconvert: Compilation warning fixes
-
-   * lineage-sdk/
-d853f89 PerformanceManager: Allow wait for MPCTL to start on boot
-a7d1594 LiveDisplayService: Catch NPE before LiveDisplayConfig is initialized
-dc5d872 LineageAudioService: Make audio session broadcast explicit
-b49ed55 sdk: Add HIDL compat in LineageHardwareManager
-7368c8e sdk: Deprecate some unused lineagehw features
-
-   * lineage/mirror/
-84c6a6d Updated to 04-Feb-2019 23:00:52 UTC
-
-   * packages/apps/Settings/
-07effabf8b Hack some things
-9e91908f1c Add H4K3ROM Logo Strings
-
-   * packages/apps/Trebuchet/
-cbc5109d0 Set isInitialDown before working on the Array
-e653623bf Trebuchet: Add reverse engineered Q swipe down gesture
-
-   * vendor/lineage/
-d3ffea2c add h4k3rom.sh file for build chmod
-
-====================
-     02-03-2019
-====================
-
-
-   * build/make/
-6f10b8b14 h4k3d
-0f827cfea h4k3d
-3b271081e Changelog & OTA Hack
-
-   * device/lineage/sepolicy/
-e6c3ce0 sepolicy: Allow recovery update_engine to setexec backuptool
-0211a9c sepolicy: Allow Settings to read ro.vendor.build.security_patch
-
-   * frameworks/av/
-2cc3062a4 Visualizer: fix native crash when visualizer release
-
-   * frameworks/base/
-0847bcd8972 Visualizer: fix native crash when visualizer release
-
-   * hardware/lineage/livedisplay/
-c6e1c35 livedisplay: legacymm: Remove unused HALs
-d723625 livedisplay: Add clang-format from hardware/interfaces
-
-   * packages/apps/Settings/
-789c7a5f88 Create ic_lineage.xml
-
-   * vendor/lineage/
-e747b921 Cleanup bootanimation files not used in H4K3ROM
-8c715c34 h4k3d output & start new boot animations
-fae1e180 Update desc.txt
-58310816 upload h4k3rom desc.txt
-a0695cfa Delete desc.txt
-ef9e1ed1 h4k3rom bootanimation.tar
-07dce364 Delete bootanimation.tar
-7137b984 add changelog
-
-   * vendor/oneplus/
-5e71672c sdm845-common: Add fajita to build guard
-163d534a sdm845-commob: Update to Open Beta 11
-1c455029 msm8998: add missing PowerOffAlarm blobs
 
