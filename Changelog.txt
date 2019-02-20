@@ -1,13 +1,78 @@
 ====================
-     02-16-2019
+     02-20-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+e9109bc Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+
+   * device/qcom/sepolicy/
+7ecbabc sdm660: Label persist partition for fsck
+
+   * frameworks/base/
+6632ad37c87 TunerServiceImpl: Add another key to blacklist
+
+   * lineage-sdk/
+66903b8 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
+
+   * packages/apps/Settings/
+c133f276f8 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
+
+   * system/sepolicy/
+687995ed Allow stats_companion to register thermal throttling event listener.
+
+====================
+     02-19-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+77551b6 op3: Fix neverallows
+
+====================
+     02-18-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+7f322fb op3: Update tftp_server blobs to P from daisy
+
+   * hardware/qcom/sdm845/data/ipacfg-mgr/
+7db5efa os_pickup: Guard to avoid conflicts with CAF repos
+
+   * lineage-sdk/
+569e080 H4K3Rishly modify the settings info
+c9f1d67 sdk: Cleanup usage of List.toArray(T[] a)
+
+   * packages/apps/LineageParts/
+26276ea Update strings.xml
+422d22f fix trust string rename fubar
+a2a43a1 Update strings.xml
+aade5e8 H4K3RLY FX
+
+   * packages/apps/Settings/
+e2f313a356 Settings: refresh search index check on build change
+
+   * vendor/lineage/
+0cbaf874 Update default wallpaper to something H4K3RLY worthy & cool...
+
+   * vendor/oneplus/
+9d1581e7 op3: Update tftp_server blobs to P from daisy
+
+====================
+     02-17-2019
 ====================
 
 
    * device/lineage/sepolicy/
+a21eabf common: Label livedisplay 2.0 sysfs service
 16c5b62 Remove minivold rules
 f982155 Move snap/gallery definitions back to private
 6c19eed Clean-up recovery rules a bit
 7e67a4b Label adb.network.port as system_prop
+
+   * device/oneplus/oneplus3/
+6e39d53 op3: livedisplay: Support HBM
 
    * frameworks/base/
 ce5f58b4c3b Informing app idle listeners on enabled state changes.
@@ -18,6 +83,9 @@ b6a34438d1c Fix for CTS testAllowWhileIdleJobInTempwhitelist
    * packages/apps/H4K3RWalls/
 7c97b14 Update Wallpaper #6
 
+   * packages/apps/Snap/
+c1f9b6c4d Snap: Fix shutter button size
+
    * system/sepolicy/
 4c9031e4 sepolicy: public: Exclude Recovery from system mount neverallow
 
@@ -25,7 +93,7 @@ b6a34438d1c Fix for CTS testAllowWhileIdleJobInTempwhitelist
 b549a3ab Add back OmniSwitch Merge branch 'lineage-16.0' of https://github.com/H4K3ROM/android_vendor_lineage into lineage-16.0
 
 ====================
-     02-15-2019
+     02-16-2019
 ====================
 
 
@@ -44,7 +112,7 @@ fbb37381234 Camera: Force HAL1 for predefined package list.
 33636c64 msm8998-common: add missing blobs
 
 ====================
-     02-14-2019
+     02-15-2019
 ====================
 
 
@@ -52,15 +120,18 @@ fbb37381234 Camera: Force HAL1 for predefined package list.
 85bc3373 oneplus2: Remove display calibration file
 
 ====================
-     02-13-2019
+     02-14-2019
 ====================
 
+
+   * packages/apps/Settings/
+07eac18bce Settings: Add back summary_collapsed_preference_list for zh-rCN
 
    * packages/services/Telephony/
 f826bad87 set config_enabled_lte to true by default
 
 ====================
-     02-12-2019
+     02-13-2019
 ====================
 
 
@@ -97,7 +168,7 @@ b475875 Encode the Number of MNC Digits in CellIdentity
 d5dd3726 Update common.mk
 
 ====================
-     02-11-2019
+     02-12-2019
 ====================
 
 
@@ -130,7 +201,7 @@ ef6f13f StatusBarSettings: Hide network traffic settings if device has a notch
 a3b68b6d op3: Move perfboostsconfig.xml from device
 
 ====================
-     02-10-2019
+     02-11-2019
 ====================
 
 
@@ -139,6 +210,9 @@ a3b68b6d op3: Move perfboostsconfig.xml from device
 
    * frameworks/av/
 7abefe9e8 effects: fix volume burst on pause/resume with AudioFX
+
+   * hardware/lineage/livedisplay/
+8d13803 livedisplay: sysfs: Wire it up
 
    * kernel/oneplus/msm8996/
 298deed63255 msm: camera: Fix compilation
@@ -161,88 +235,4 @@ ac5ded83 H4K3ROM Assets
 9d1eb83e Rebrand H4K3ROM
 ec2f2c4c H4K3ROM Build Output Filename Autogenerate
 f8163e35 h4k3rom out
-
-====================
-     02-09-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-9da55a6 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-47d6e41 Fix sepolicy where build breaks Oneplus3T
-
-   * device/qcom/sepolicy-legacy/
-b49a3dd legacy: Ignore neverallows
-e1238b4 Display: Remove vendor property context for lcd density
-
-   * system/sepolicy/
-040aec06 Ignore newly added selinux objects
-
-   * vendor/oneplus/
-8fa7606e msm8998-common: fix selinux neverallows
-
-====================
-     02-08-2019
-====================
-
-
-   * build/make/
-7d4c4f81a Merge https://github.com/LineageOS/android_build into lineage-16.0
-
-   * device/lineage/sepolicy/
-ff9271d Snap and gallery require to run vendor code
-da24d05 Remove not allowed rule
-de42705 Revert "common: Add sf_lcd_density_prop type and labelled props"
-b986852 qcom: Remove power HAL 1.0 label
-
-   * device/oneplus/oneplus3/
-540fa66 op3: Convert KeyDisabler to touch HAL
-1015246 op3: Convert TouchscreenGestures to touch HAL
-087ef97 op3: Supresses NFC 1.1 denials
-f4cb61e op3: Build Trust HAL
-
-   * device/qcom/sepolicy-legacy/
-f6d960e legacy: Label some more sysfs_net
-
-   * hardware/broadcom/libbt/
-0919027 libbt: Align Samsung CID strings to those created by macloader
-
-   * kernel/oneplus/msm8996/
-8ed12a11472d add toggle for disabling newly added USB devices
-
-   * lineage/wiki/
-865d142 devices: Update bacon and shamu maintainers list
-
-   * packages/apps/Settings/
-1ef9b2d592 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
-
-====================
-     02-07-2019
-====================
-
-
-   * hardware/lineage/livedisplay/
-781eb9d livedisplay: sysfs: Remove unused HALs
-8475e6c livedisplay: sysfs: Add LineageOS copyrights
-733de0b livedisplay: sysfs: Add autogenerated code
-62d6ecd livedisplay: sdm: Fix restoring default mode
-36ab575 livedisplay: sdm: Fix isSupported() checks
-d4eb8a8 livedisplay: The module isn't proprietary
-0d26b6b livedisplay: Nuke color balance
-d421085 livedisplay: Minor code cleanup
-950336a livedisplay: Fix racy init
-
-   * hardware/qcom/media-caf/apq8084/
-fd36f77fd media: Use generated kernel headers
-3fe787adc Add -Wno-error to compile with global -Werror.
-4cc25ca7b Build libstagefrighthw with BOARD_VNDK_VERSION
-4a86c80bf Build libc2dcolorconvert with BOARD_VNDK_VERSION
-ea15be0a7 Build mm-video-v4l2 with BOARD_VNDK_VERSION
-a901ed3d0 mm-video-v4l2: Fix KW resported issues
-
-   * lineage-sdk/
-5f6587d sdk: HIDLHelper: Remove public access modifier
-
-   * packages/apps/Settings/
-ce40716419 Settings: Move artwork and visualizer to "Lock screen preferences"
 
