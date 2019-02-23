@@ -1,10 +1,61 @@
 ====================
+     02-23-2019
+====================
+
+
+   * hardware/lineage/livedisplay/
+d84525d Revert "livedisplay: sdm: Fix restoring default mode"
+
+   * vendor/lineage/
+f79d4ed1 Update to H4K3RWebb App [logo & new shortcut]
+
+====================
+     02-22-2019
+====================
+
+
+====================
+     02-21-2019
+====================
+
+
+   * hardware/qcom/bt-caf/
+a790391 Add compat for old wcnss_filter
+
+   * kernel/oneplus/msm8996/
+e63a0acdde56 cfq-iosched: fix the setting of IOPS mode on SSDs
+b1b5982043e1 block: Make CFQ default to IOPS mode on SSDs
+
+====================
      02-20-2019
 ====================
 
 
+   * device/lineage/sepolicy/
+72c407d common: Restrict HAL permissions to server side
+
    * device/oneplus/oneplus3/
 e9109bc Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+
+   * frameworks/base/
+720d0b59c56 SystemUI: Make recents grid view accept more than 8 tasks
+
+   * hardware/qcom/media-caf/msm8996/
+10fa1b415 media: Don't link libgpustats
+
+   * lineage-sdk/
+66903b8 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
+
+   * lineage/mirror/
+49c4f05 Updated to 20-Feb-2019 23:01:12 UTC
+
+   * packages/apps/Settings/
+c133f276f8 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
+
+====================
+     02-19-2019
+====================
+
 
    * device/qcom/sepolicy/
 7ecbabc sdm660: Label persist partition for fsck
@@ -12,22 +63,11 @@ e9109bc Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into 
    * frameworks/base/
 6632ad37c87 TunerServiceImpl: Add another key to blacklist
 
-   * lineage-sdk/
-66903b8 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
-
-   * packages/apps/Settings/
-c133f276f8 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
+   * hardware/qcom/media-caf/msm8998/
+9a441ee9c media: Don't link libgpustats
 
    * system/sepolicy/
 687995ed Allow stats_companion to register thermal throttling event listener.
-
-====================
-     02-19-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-77551b6 op3: Fix neverallows
 
 ====================
      02-18-2019
@@ -35,14 +75,32 @@ c133f276f8 Merge https://github.com/LineageOS/android_packages_apps_Settings int
 
 
    * device/oneplus/oneplus3/
+77551b6 op3: Fix neverallows
 7f322fb op3: Update tftp_server blobs to P from daisy
-
-   * hardware/qcom/sdm845/data/ipacfg-mgr/
-7db5efa os_pickup: Guard to avoid conflicts with CAF repos
 
    * lineage-sdk/
 569e080 H4K3Rishly modify the settings info
 c9f1d67 sdk: Cleanup usage of List.toArray(T[] a)
+
+   * vendor/oneplus/
+9d1581e7 op3: Update tftp_server blobs to P from daisy
+
+====================
+     02-17-2019
+====================
+
+
+   * device/lineage/sepolicy/
+78fce70 common: Mark platform_app as hal_lineage_livedisplay client
+
+   * device/oneplus/oneplus3/
+6e39d53 op3: livedisplay: Support HBM
+
+   * hardware/qcom/sdm845/data/ipacfg-mgr/
+7db5efa os_pickup: Guard to avoid conflicts with CAF repos
+
+   * packages/apps/H4K3RWalls/
+7c97b14 Update Wallpaper #6
 
    * packages/apps/LineageParts/
 26276ea Update strings.xml
@@ -55,12 +113,10 @@ e2f313a356 Settings: refresh search index check on build change
 
    * vendor/lineage/
 0cbaf874 Update default wallpaper to something H4K3RLY worthy & cool...
-
-   * vendor/oneplus/
-9d1581e7 op3: Update tftp_server blobs to P from daisy
+b549a3ab Add back OmniSwitch Merge branch 'lineage-16.0' of https://github.com/H4K3ROM/android_vendor_lineage into lineage-16.0
 
 ====================
-     02-17-2019
+     02-16-2019
 ====================
 
 
@@ -72,7 +128,8 @@ f982155 Move snap/gallery definitions back to private
 7e67a4b Label adb.network.port as system_prop
 
    * device/oneplus/oneplus3/
-6e39d53 op3: livedisplay: Support HBM
+e24c635 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+ac68567 op3: Force HAL1 for certain apps
 
    * frameworks/base/
 ce5f58b4c3b Informing app idle listeners on enabled state changes.
@@ -80,26 +137,16 @@ b6a34438d1c Fix for CTS testAllowWhileIdleJobInTempwhitelist
 7233bfee46e Null locale causing the VTS fail.
 439d12dfca2 SettingsProvider: Allow accessing LineageSettings via settings command
 
-   * packages/apps/H4K3RWalls/
-7c97b14 Update Wallpaper #6
-
    * packages/apps/Snap/
 c1f9b6c4d Snap: Fix shutter button size
 
    * system/sepolicy/
 4c9031e4 sepolicy: public: Exclude Recovery from system mount neverallow
 
-   * vendor/lineage/
-b549a3ab Add back OmniSwitch Merge branch 'lineage-16.0' of https://github.com/H4K3ROM/android_vendor_lineage into lineage-16.0
-
 ====================
-     02-16-2019
+     02-15-2019
 ====================
 
-
-   * device/oneplus/oneplus3/
-e24c635 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-ac68567 op3: Force HAL1 for certain apps
 
    * device/qcom/sepolicy/
 cddb5d0 sepolicy: Label vendor.camera.hal1.packagelist
@@ -112,127 +159,13 @@ fbb37381234 Camera: Force HAL1 for predefined package list.
 33636c64 msm8998-common: add missing blobs
 
 ====================
-     02-15-2019
-====================
-
-
-   * vendor/oneplus/
-85bc3373 oneplus2: Remove display calibration file
-
-====================
      02-14-2019
 ====================
 
 
-   * packages/apps/Settings/
-07eac18bce Settings: Add back summary_collapsed_preference_list for zh-rCN
-
-   * packages/services/Telephony/
-f826bad87 set config_enabled_lte to true by default
-
-====================
-     02-13-2019
-====================
-
-
-   * device/lineage/sepolicy/
-3937322 Make backuptool permissive only in non user builds
-3f58c82 Make sysinit permissive
-
-   * device/oneplus/oneplus3/
-7177401 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-
-   * hardware/qcom/display-caf/apq8084/
-215f9732b Make memtrack build with the VNDK.
-7676dcabb Add missing includes.
-bdf8b28bf libmemtrack: Add open method for apq8084.memtrack
-a59401577 display: Use generated kernel headers
-3ac0314c9 hal: Added LOCAL_VENDOR_MODULE to set output path of the binaries
-a04c97c6c Use header lib instead of using global include path
-
-   * hardware/qcom/media-caf/apq8084/
-020312314 Revert "media: Avoid collision with FFMPEG plugin"
-
-   * hardware/ril-caf/
-b475875 Encode the Number of MNC Digits in CellIdentity
-
-   * lineage/wiki/
-0bc46cf wiki: build: correct links for blobs extraction and signing builds
-83b7da8 wiki: device_install: Update A/B install logic
-61cf882 wiki: Add build verification instructions for 15.1 and beyond
-
-   * packages/apps/SetupWizard/
-85465bc SUW: Change WizardManager activity default state to disabled
-
-   * vendor/lineage/
-d5dd3726 Update common.mk
-
-====================
-     02-12-2019
-====================
-
-
-   * device/lineage/sepolicy/
-c0eb879 lineage: Use set_prop() macro for setting adb tcp property
-
-   * device/oneplus/oneplus3/
-88194f4 op3: Force HAL1 for certain apps
-412b9c6 op3: Enable workaround for old MCC/MNC format
-a5e7f74 op3: livedisplay: Support sysfs backend display modes
-1663031 op3: Migrate to livedisplay 2.0
-6e1f0b7 op3: Move perfboostsconfig.xml to vendor
-
-   * external/chromium-webview/
-fbc003a Update x86/x64 Chromium Webviews to 71.0.3578.99
-
-   * frameworks/base/
-1cfda74bfc6 SystemUI: Network Traffic [1/3]
-c0edcb7f8f2 SystemUI: Add Lineage statusbar item holder
-a171b237418 fonts: Build different fonts.xml if EXCLUDE_SERIF_FONTS is true
-
-   * hardware/qcom/wlan-caf/
-9a9fda5 wcnss-service: Opt-in to disable copying WCNSS_qcom_cfg.ini to userdata
-
-   * packages/apps/LineageParts/
-18e997c parts: don't allow clock and network traffic to be enabled at the same time
-ef6f13f StatusBarSettings: Hide network traffic settings if device has a notch
+   * hardware/qcom/display-caf/msm8916/
+b3f161d95 Revert "libqdutils: Separate out display config from libqdutils"
 
    * vendor/oneplus/
-a3b68b6d op3: Move perfboostsconfig.xml from device
-
-====================
-     02-11-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-4166f4d pull h4k3rom depends
-
-   * frameworks/av/
-7abefe9e8 effects: fix volume burst on pause/resume with AudioFX
-
-   * hardware/lineage/livedisplay/
-8d13803 livedisplay: sysfs: Wire it up
-
-   * kernel/oneplus/msm8996/
-298deed63255 msm: camera: Fix compilation
-093820defca7 Merge tag 'f359f7161a2e7ef6b5302465d5ba805aa90b58e0' into HEAD
-aa88578baa61 Merge tag 'LA.UM.7.5.r1-04100-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
-
-   * lineage/wiki/
-173ac33 wiki: Promote LG G3 family to 15.1
-56a90e0 devices: Declare US proximity sensor support on the Mi MIX family
-
-   * packages/apps/Settings/
-97f8672b0d Hack some strings
-
-   * vendor/lineage/
-25b5aede Nix Lineage Updater
-7561b51e Update bacon.mk
-0e73f0b0 Output fixes
-cf30b9d3 Update common.mk
-ac5ded83 H4K3ROM Assets
-9d1eb83e Rebrand H4K3ROM
-ec2f2c4c H4K3ROM Build Output Filename Autogenerate
-f8163e35 h4k3rom out
+85bc3373 oneplus2: Remove display calibration file
 
