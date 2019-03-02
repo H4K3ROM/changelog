@@ -1,13 +1,350 @@
 ====================
+     03-01-2019
+====================
+
+
+   * bootable/recovery/
+6be0f1d0 Revert LineageOS commit that breaks build OnePlus3T
+95d4d182 Revert some LineageOS commit I6f3de1c
+
+   * device/oneplus/oneplus3/
+ce55e93 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+
+   * hardware/qcom/fm/
+1b4078d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * lineage-sdk/
+2028d7b Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
+
+   * lineage/crowdin/
+2ae0562 crowdin: Re-add removing empty xml files
+
+   * lineage/wiki/
+fb4bf57 signing_builds: No need to make dist
+
+   * packages/apps/LineageParts/
+8d96331 Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
+
+   * packages/apps/Snap/
+39f672bed Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+====================
+     02-28-2019
+====================
+
+   * android/
+8804725 lineage: Re-enable SDM845 CAF HALs
+
+   * lineage/crowdin/
+cfc875a crowdin: Remove Keyguard from config
+1bb2f92 crowdin: Only push the translation changes
+
+   * lineage/website/
+e1aa317 Fix 16.0 shipping date
+03be616 Changelog 22
+
+====================
+     02-27-2019
+====================
+
+
+   * lineage/crowdin/
+6e0a703 crowdin: submit: Switch to JSON
+d13658a crowdin: Add option to submit all translation changes
+
+   * vendor/qcom/opensource/cryptfs_hw/
+3318816 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+====================
+     02-26-2019
+====================
+
+
+   * bootable/recovery/
+ced3ce6d recovery: Allow custom bootloader msg offset in block misc
+
+   * device/oneplus/oneplus3/
+1ba9c40 op3: Add QCOM's WFD implementation
+
+   * device/oppo/common/
+ef315a2 Automatic translation import
+
+   * device/qcom/sepolicy/
+6c1c6e3 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * device/qcom/sepolicy-legacy/
+d4aaecb sepolicy: Resolve cameraserver denials
+2f7a25d legacy: Resolve hal_camera_default denials
+075c18c sepolicy: Label vendor.post_boot.parsed
+518da5d sepolicy: Resolve hal_nfc denials
+3e7b817 legacy: Resolve rome BT denials
+336815d sepolicy: Correctly label display.qservice per SoC
+
+   * frameworks/av/
+c68ad7070 stagefright: add changes related to high-framerates in CameraSource
+
+   * frameworks/base/
+d68fceba707 Automatic translation import
+5f41896f7b8 WifiDisplayController: handle preexisting p2p connection status
+b4e19e580bc WiFiDisplayController: Defer the P2P Initialization from its constructor.
+0f641c2b8e7 Merge changes for launching wifidisplay from system settings
+
+   * frameworks/opt/net/wifi/
+6724d8686 WiFi: Ignore connectivity scans during WFD session
+
+   * hardware/qcom/bt-caf/
+e5da643 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * hardware/qcom/fm/
+f44384a Automatic translation import
+
+   * hardware/qcom/media-caf/msm8998/
+125f38c75 Fix invalid logical constant creation.
+
+   * hardware/qcom/wlan-caf/
+0a614e2 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * lineage-sdk/
+7c58c4c Automatic translation import
+
+   * lineage/jenkins/
+e05e45c hudson: The real lineage-16.0 ship commit
+
+   * lineage/wiki/
+1069697 wiki: Update for initial 16.0 devices list
+ed02405 devices: Add Poco F1 (beryllium)
+b414c33 devices: Add Huawei P20 Pro (charlotte)
+504eef3 devices: Add Honor View 10 (berkeley)
+4510382 wiki: Add `Cortex-A73 & Cortex-A53` to list of valid CPUs
+ae21f3d wiki: Add `ARM Mali-G72 MP12` to list of valid GPUs
+f91d858 devices: Add Xiaomi MIX 2S (polaris)
+
+   * packages/apps/AudioFX/
+bdda295 Automatic translation import
+
+   * packages/apps/Bluetooth/
+99da10d1 Automatic translation import
+
+   * packages/apps/Calendar/
+2e3e6145 Automatic translation import
+
+   * packages/apps/Camera2/
+3881ba411 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+6ca28b43 Automatic translation import
+
+   * packages/apps/CertInstaller/
+bb8806e Automatic translation import
+
+   * packages/apps/Contacts/
+96310c6bc Automatic translation import
+
+   * packages/apps/DeskClock/
+a6afbe5bc Automatic translation import
+
+   * packages/apps/Dialer/
+f6131b9ee Automatic translation import
+
+   * packages/apps/DocumentsUI/
+02da8bc0 Automatic translation import
+
+   * packages/apps/Eleven/
+c54c473 Automatic translation import
+
+   * packages/apps/Email/
+014feb0cd Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+4c0429e Automatic translation import
+
+   * packages/apps/ExactCalculator/
+351bea9 Automatic translation import
+
+   * packages/apps/Exchange/
+635b80a9 Automatic translation import
+
+   * packages/apps/Gallery2/
+ee16d7a73 Automatic translation import
+
+   * packages/apps/HTMLViewer/
+4f3d2a2 Automatic translation import
+
+   * packages/apps/Jelly/
+8d6d0bc Automatic translation import
+
+   * packages/apps/KeyChain/
+b9e2ade Automatic translation import
+
+   * packages/apps/LineageParts/
+2e3a13a Automatic translation import
+
+   * packages/apps/LockClock/
+1fb7ab2 Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+34f61939 Automatic translation import
+
+   * packages/apps/Nfc/
+1be41703 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+65a37f22 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+7fa4dbf Automatic translation import
+
+   * packages/apps/Profiles/
+a5e82a3 Automatic translation import
+
+   * packages/apps/Recorder/
+f439076 Automatic translation import
+
+   * packages/apps/SafetyRegulatoryInfo/
+67a84d6 Automatic translation import
+
+   * packages/apps/SetupWizard/
+a63e7dc Automatic translation import
+
+   * packages/apps/Snap/
+0b449ed17 Automatic translation import
+
+   * packages/apps/Stk/
+66d9752 Automatic translation import
+
+   * packages/apps/StorageManager/
+e381bd7 Automatic translation import
+
+   * packages/apps/Tag/
+21c21c0 Automatic translation import
+
+   * packages/apps/Terminal/
+a22a21d Automatic translation import
+
+   * packages/apps/Trebuchet/
+7a7693590 Automatic translation import
+
+   * packages/apps/TvSettings/
+263066a4 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+4eb92ca6b Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+efb671b Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+c85c5b2e0 Automatic translation import
+
+   * packages/providers/BlockedNumberProvider/
+ed01762 Automatic translation import
+
+   * packages/providers/BookmarkProvider/
+97270ec Automatic translation import
+
+   * packages/providers/CalendarProvider/
+64ac76a Automatic translation import
+
+   * packages/providers/CallLogProvider/
+bc45b64 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+0aef30e0 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+b170d5b6 Automatic translation import
+
+   * packages/providers/MediaProvider/
+8ec73b0 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+b4fa63a Automatic translation import
+
+   * packages/providers/TvProvider/
+424cd73 Automatic translation import
+
+   * packages/providers/UserDictionaryProvider/
+fc8c96b Automatic translation import
+
+   * packages/providers/WeatherProvider/
+326755b Automatic translation import
+
+   * packages/screensavers/Basic/
+52cd3e9 Automatic translation import
+
+   * packages/screensavers/PhotoTable/
+dae7491 Automatic translation import
+
+   * packages/services/BuiltInPrintService/
+17c9346 Automatic translation import
+
+   * packages/services/Mms/
+600a172 Automatic translation import
+
+   * packages/services/Telecomm/
+7ef5d265 Automatic translation import
+
+   * packages/services/Telephony/
+5612572ac Automatic translation import
+
+   * packages/wallpapers/LivePicker/
+6e031e0 Automatic translation import
+
+   * vendor/oneplus/
+e125a453 op3: Add QCOM WFD stack
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+4f0ea34 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * vendor/qcom/opensource/dataservices/
+c2c0364 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * vendor/qcom/opensource/interfaces/
+bd2b995 interfaces: Regen blueprints
+aa6b069 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+   * vendor/qcom/opensource/thermal-engine/
+3e8495d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+
+====================
+     02-25-2019
+====================
+
+
+   * bionic/
+e78571b0a libc: Optimize ARM memcmp by using NEON.
+
+   * device/oneplus/oneplus3/
+11a717a Revert "op3: HAX: Disable lineage charger"
+
+   * lineage/wiki/
+ce4d5a9 wiki: Update documentation for 16.0
+
+   * packages/apps/Contacts/
+7adcb8432 Fix casting warnings in ContactSaveService
+
+   * vendor/oneplus/
+af7deb81 msm8998-common: remove gps hacks
+
+====================
      02-24-2019
 ====================
 
+
+   * device/oneplus/oneplus3/
+c3bbc98 op3: Restore aggressive task scheduling
 
    * device/qcom/sepolicy-legacy/
 94a4f67 Revert "legacy: allow init to read /proc/device-tree"
 
    * external/exfat/
 5e45863 Android: remove "tags" from Android.bp.
+
+   * frameworks/base/
+5cf3446e4f3 keylayout: add missing buttons to Razer Serval
+
+   * hardware/qcom/media-caf/msm8996/
+406a31fc9 Fix invalid logical constant creation.
 
    * lineage/jenkins/
 b8cf202 Prepare for 16.0
@@ -35,8 +372,15 @@ b8cf202 Prepare for 16.0
 ====================
 
 
+   * hardware/interfaces/
+4971085a wifi: Increase kMaxStopCompleteWaitMs to 250 msec.
+94993057 wifi: Use stub for add_or_remove_virtual_intf functionality
+
    * hardware/lineage/livedisplay/
 d84525d Revert "livedisplay: sdm: Fix restoring default mode"
+
+   * vendor/oneplus/
+9cfd5e20 msm8998: add missing soter blobs
 
 ====================
      02-21-2019
@@ -56,6 +400,7 @@ b1b5982043e1 block: Make CFQ default to IOPS mode on SSDs
 
 
    * device/lineage/sepolicy/
+351eedd sepolicy: Move superuser policy to private
 72c407d common: Restrict HAL permissions to server side
 
    * device/oneplus/oneplus3/
@@ -72,114 +417,4 @@ e9109bc Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into 
 
    * packages/apps/Settings/
 c133f276f8 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
-
-====================
-     02-19-2019
-====================
-
-
-   * device/qcom/sepolicy/
-7ecbabc sdm660: Label persist partition for fsck
-
-   * frameworks/base/
-6632ad37c87 TunerServiceImpl: Add another key to blacklist
-
-   * hardware/qcom/media-caf/msm8998/
-9a441ee9c media: Don't link libgpustats
-
-   * lineage/mirror/
-49c4f05 Updated to 20-Feb-2019 23:01:12 UTC
-
-   * system/sepolicy/
-687995ed Allow stats_companion to register thermal throttling event listener.
-
-====================
-     02-18-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-77551b6 op3: Fix neverallows
-7f322fb op3: Update tftp_server blobs to P from daisy
-
-   * hardware/qcom/media-caf/apq8084/
-2829c41c4 libmm-omxcore: add -Wno-error to another line to compile with global -Werror
-
-   * vendor/oneplus/
-9d1581e7 op3: Update tftp_server blobs to P from daisy
-
-====================
-     02-17-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-6e39d53 op3: livedisplay: Support HBM
-
-   * hardware/qcom/sdm845/data/ipacfg-mgr/
-7db5efa os_pickup: Guard to avoid conflicts with CAF repos
-
-   * lineage-sdk/
-569e080 H4K3Rishly modify the settings info
-c9f1d67 sdk: Cleanup usage of List.toArray(T[] a)
-
-   * packages/apps/H4K3RWalls/
-7c97b14 Update Wallpaper #6
-
-   * packages/apps/LineageParts/
-26276ea Update strings.xml
-422d22f fix trust string rename fubar
-a2a43a1 Update strings.xml
-aade5e8 H4K3RLY FX
-
-   * packages/apps/Settings/
-e2f313a356 Settings: refresh search index check on build change
-
-   * vendor/lineage/
-0cbaf874 Update default wallpaper to something H4K3RLY worthy & cool...
-b549a3ab Add back OmniSwitch Merge branch 'lineage-16.0' of https://github.com/H4K3ROM/android_vendor_lineage into lineage-16.0
-
-====================
-     02-16-2019
-====================
-
-
-   * device/lineage/sepolicy/
-78fce70 common: Mark platform_app as hal_lineage_livedisplay client
-a21eabf common: Label livedisplay 2.0 sysfs service
-16c5b62 Remove minivold rules
-f982155 Move snap/gallery definitions back to private
-6c19eed Clean-up recovery rules a bit
-7e67a4b Label adb.network.port as system_prop
-
-   * frameworks/base/
-ce5f58b4c3b Informing app idle listeners on enabled state changes.
-b6a34438d1c Fix for CTS testAllowWhileIdleJobInTempwhitelist
-7233bfee46e Null locale causing the VTS fail.
-439d12dfca2 SettingsProvider: Allow accessing LineageSettings via settings command
-
-   * packages/apps/Snap/
-c1f9b6c4d Snap: Fix shutter button size
-
-   * system/sepolicy/
-4c9031e4 sepolicy: public: Exclude Recovery from system mount neverallow
-
-====================
-     02-15-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-e24c635 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-ac68567 op3: Force HAL1 for certain apps
-
-   * device/qcom/sepolicy/
-cddb5d0 sepolicy: Label vendor.camera.hal1.packagelist
-
-   * frameworks/base/
-39e11299f0e Camera: Simplify code for Aux/Mono white and black lists
-fbb37381234 Camera: Force HAL1 for predefined package list.
-
-   * vendor/oneplus/
-33636c64 msm8998-common: add missing blobs
 
