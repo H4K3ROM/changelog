@@ -1,20 +1,102 @@
 ====================
-     03-01-2019
+     03-05-2019
 ====================
 
+   * android/
+b3e921a manifest: Track our device/google/atv
+
+   * build/soong/
+dc2431fd Fix formatting
+
+   * lineage/jenkins/
+987ae1f Pull payton
+ca6b16d hudson: Update devices.json with new devices
+
+====================
+     03-04-2019
+====================
+
+   * android/
+c4e3bae Fork external/proguard
+
+   * build/make/
+c24d38ed8 Merge https://github.com/LineageOS/android_build into lineage-16.0
+
+   * vendor/lineage/
+491c1564 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+bff959a5 extract_utils: template: introduce kang mode
+d5d0fea7 extract_utils: template: make --section argument non-positional
+4931a060 extract_utils: template: use quotation marks and variable curly braces consistently
+5238ba8f extract_utils: make --section match words anywhere in the line
+bec92eba extract_utils: introduce -k (kang mode) option
+c503446e extract_utils: cleanup variable names and arguments passed to extract() function
+78d690d1 extract_utils: be compatible with system-as-root layouts
+4fe79b11 extract_utils: drop the "/system/" prefix from prints of blob names
+
+   * vendor/oneplus/
+884c08af msm8998-common: add binhaxxed camera libs to fix front cam
+
+====================
+     03-03-2019
+====================
+
+
+   * external/bash/
+a40f251 bash: Silence all build warnings
+
+   * external/openssh/
+729a9063 openssh: Silence build warnings
+
+   * external/rsync/
+4a30b87d rsync: Silence build warnings
+
+   * frameworks/native/
+bce6604f7 input: Adjust priority
+
+   * packages/apps/Bluetooth/
+d559f31b Bluetooth: Remove unused string resources
+364b045b Fix generating id in android namespace
+
+   * packages/apps/Calendar/
+e02be421 Calendar: Fix translatables
+
+   * packages/apps/Contacts/
+0bdcf0bb3 Contacts: Remove unused boolean resource
+
+   * packages/apps/Snap/
+d11351354 Snap: Add back original-package in manifest
+a0be5c22f Snap: Remove unused resources
+
+====================
+     03-02-2019
+====================
+
+
+   * art/
+a590a49a84 Add an option to disable sse4.2 features
 
    * bootable/recovery/
 6be0f1d0 Revert LineageOS commit that breaks build OnePlus3T
 95d4d182 Revert some LineageOS commit I6f3de1c
 
-   * device/oneplus/oneplus3/
-ce55e93 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+   * build/make/
+f53239293 Use flags from Soong for d8, r8, dx and desugar
+
+   * build/soong/
+ef83e2fb Optimize CPU time when running d8, r8, dx and desugar
+
+   * device/qcom/sepolicy/
+1b9a7b9 sepolicy: Replace unrecognized character
+
+   * external/proguard/
+118ffd4 Allow passing extra java arguments to proguard
+
+   * frameworks/base/
+cb0e9d09068 Include InCallNotification.ogg in AllAudio.mk file
+1a9fb7c0321 Add ChargingStarted + InCallNotif to AudioPackage
 
    * hardware/qcom/fm/
 1b4078d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * lineage-sdk/
-2028d7b Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
 
    * lineage/crowdin/
 2ae0562 crowdin: Re-add removing empty xml files
@@ -22,18 +104,45 @@ ce55e93 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into 
    * lineage/wiki/
 fb4bf57 signing_builds: No need to make dist
 
-   * packages/apps/LineageParts/
-8d96331 Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
-
    * packages/apps/Snap/
 39f672bed Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 
 ====================
-     02-28-2019
+     03-01-2019
 ====================
 
    * android/
 8804725 lineage: Re-enable SDM845 CAF HALs
+
+   * device/oneplus/oneplus3/
+ce55e93 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+
+   * hardware/qcom/display/
+250c51746 hwc: msm8084: Remove _vendor from libbfqio
+
+   * hardware/qcom/display-caf/apq8084/
+5d0f880d7 hwc: Remove _vendor from libbfqio
+
+   * hardware/qcom/display-caf/msm8916/
+197a40e18 hwc: Remove _vendor from libbfqio
+
+   * hardware/qcom/display-caf/msm8952/
+f38874231 hwc: Remove _vendor from libbfqio
+
+   * hardware/qcom/display-caf/msm8974/
+0cc9709b8 hwc: Remove _vendor from libbfqio
+
+   * hardware/qcom/display-caf/msm8994/
+4523303d9 hwc: Remove _vendor from libbfqio
+
+   * hardware/qcom/display-caf/msm8996/
+44a0b38f9 hwc: Remove _vendor from libbfqio
+
+   * hardware/qcom/display-caf/msm8998/
+7489d6c3e hwc: Remove _vendor from libbfqio
+
+   * lineage-sdk/
+2028d7b Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
 
    * lineage/crowdin/
 cfc875a crowdin: Remove Keyguard from config
@@ -43,20 +152,32 @@ cfc875a crowdin: Remove Keyguard from config
 e1aa317 Fix 16.0 shipping date
 03be616 Changelog 22
 
+   * packages/apps/LineageParts/
+8d96331 Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
+
+   * vendor/lineage/
+506c0b73 libbfqio: Remove vendor variant
+
 ====================
-     02-27-2019
+     02-28-2019
 ====================
 
+
+   * frameworks/base/
+e91a4e3147e SystemUI: Remove unused resources
 
    * lineage/crowdin/
 6e0a703 crowdin: submit: Switch to JSON
 d13658a crowdin: Add option to submit all translation changes
 
-   * vendor/qcom/opensource/cryptfs_hw/
-3318816 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
+   * packages/providers/CalendarProvider/
+e6a9c36 CalendarProvider: Remove unused string resource
+
+   * packages/services/Telephony/
+a7d255500 Telephony: Mark enhanced_4g_lte_mode_title_variant as untranslatable
 
 ====================
-     02-26-2019
+     02-27-2019
 ====================
 
 
@@ -290,8 +411,14 @@ dae7491 Automatic translation import
    * packages/wallpapers/LivePicker/
 6e031e0 Automatic translation import
 
+   * vendor/lineage/
+e5acfae0 soong_config: Add BOOTLOADER_MESSAGE_OFFSET
+
    * vendor/oneplus/
 e125a453 op3: Add QCOM WFD stack
+
+   * vendor/qcom/opensource/cryptfs_hw/
+3318816 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 
    * vendor/qcom/opensource/data-ipa-cfg-mgr/
 4f0ea34 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
@@ -307,15 +434,21 @@ aa6b069 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 3e8495d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 
 ====================
-     02-25-2019
+     02-26-2019
 ====================
 
 
-   * bionic/
-e78571b0a libc: Optimize ARM memcmp by using NEON.
-
    * device/oneplus/oneplus3/
 11a717a Revert "op3: HAX: Disable lineage charger"
+
+   * external/p7zip/
+b3b6f89 p7zip: Silence all warnings
+
+   * external/unrar/
+9b2e2b9 unrar: Silence more build warnings
+
+   * external/zip/
+c4117e1 zip: Silence build warnings
 
    * lineage/wiki/
 ce4d5a9 wiki: Update documentation for 16.0
@@ -327,9 +460,15 @@ ce4d5a9 wiki: Update documentation for 16.0
 af7deb81 msm8998-common: remove gps hacks
 
 ====================
-     02-24-2019
+     02-25-2019
 ====================
 
+
+   * bionic/
+e78571b0a libc: Optimize ARM memcmp by using NEON.
+
+   * build/make/
+b77d71ca7 Remove TARGET_USES_MKE2FS
 
    * device/oneplus/oneplus3/
 c3bbc98 op3: Restore aggressive task scheduling
@@ -349,72 +488,24 @@ c3bbc98 op3: Restore aggressive task scheduling
    * lineage/jenkins/
 b8cf202 Prepare for 16.0
 
-   * packages/apps/H4K3RWalls/
-67dc513 update wallpaper icon h4k3rwalls...
-
    * packages/apps/H4K3RWebb/
 6833e11 Create README.md
 3748671 H4K3RWebb: A simple portal app that links XDA Thread, Builds & Changelog revisions...
+
+   * packages/apps/Phonograph/
+461ef8b6 Phonograph: update jaudiotagger jar with fix for ogg tags
 
    * system/sepolicy/
 28f93c95 sepolicy: Treat proc-based DT fstab the same and sys-based
 
    * vendor/lineage/
-7fc3e6ff Update to H4K3RWebb App [logo & new shortcut]
+7484149d vendor/lineage: Drop obsolete TW_EXCLUDE_SUPERSU flag
 
 ====================
-     02-23-2019
-====================
-
-
-====================
-     02-22-2019
+     02-24-2019
 ====================
 
 
-   * hardware/interfaces/
-4971085a wifi: Increase kMaxStopCompleteWaitMs to 250 msec.
-94993057 wifi: Use stub for add_or_remove_virtual_intf functionality
-
-   * hardware/lineage/livedisplay/
-d84525d Revert "livedisplay: sdm: Fix restoring default mode"
-
-   * vendor/oneplus/
-9cfd5e20 msm8998: add missing soter blobs
-
-====================
-     02-21-2019
-====================
-
-
-   * hardware/qcom/bt-caf/
-a790391 Add compat for old wcnss_filter
-
-   * kernel/oneplus/msm8996/
-e63a0acdde56 cfq-iosched: fix the setting of IOPS mode on SSDs
-b1b5982043e1 block: Make CFQ default to IOPS mode on SSDs
-
-====================
-     02-20-2019
-====================
-
-
-   * device/lineage/sepolicy/
-351eedd sepolicy: Move superuser policy to private
-72c407d common: Restrict HAL permissions to server side
-
-   * device/oneplus/oneplus3/
-e9109bc Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-
-   * frameworks/base/
-720d0b59c56 SystemUI: Make recents grid view accept more than 8 tasks
-
-   * hardware/qcom/media-caf/msm8996/
-10fa1b415 media: Don't link libgpustats
-
-   * lineage-sdk/
-66903b8 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
-
-   * packages/apps/Settings/
-c133f276f8 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
+   * packages/apps/H4K3RWalls/
+67dc513 update wallpaper icon h4k3rwalls...
 
