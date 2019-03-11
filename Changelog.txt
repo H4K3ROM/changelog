@@ -1,20 +1,116 @@
 ====================
-     03-06-2019
+     03-10-2019
+====================
+
+
+   * build/make/
+520666a24 Merge https://github.com/LineageOS/android_build into lineage-16.0
+
+   * lineage/crowdin/
+bfa2f95 crowdin: Add missing import
+
+   * lineage/jenkins/
+022bca9 Revert "Pull payton"
+
+   * vendor/lineage/
+850b26d2 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+
+====================
+     03-09-2019
+====================
+
+
+====================
+     03-08-2019
+====================
+
+
+   * bionic/
+c4af9b080 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * build/make/
+4e9fc9c19 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * device/qcom/sepolicy/
+71e1820 sepolicy: Fix video4linux "name" node labeling
+
+   * frameworks/av/
+2f2f3e8cf Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * frameworks/base/
+56ff46447cb Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * frameworks/native/
+89a3c4932 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * hardware/nxp/nfc/
+81275d3 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * lineage/jenkins/
+56fa21d hudson: Add Mi 8 (dipper)
+
+   * lineage/wiki/
+414ab32 dipper: Update peripherals list
+20f00f5 devices: Add Mi 8 (dipper)
+
+   * packages/apps/PackageInstaller/
+8bc1ef8f Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * packages/apps/SetupWizard/
+2f90346 SUW: Don't make google suw use material_light
+
+   * system/bt/
+ac0161c61 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * system/core/
+ca27d679e Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * system/tools/hidl/
+284d76a Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
+
+   * vendor/lineage/
+4b93d993 sensitive_pn: New United Kingdom helplines
+
+====================
+     03-07-2019
 ====================
 
 
    * device/oneplus/oneplus3/
 e3527ce Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+
+   * kernel/oneplus/msm8996/
+499e7d4d403a Merge tag 'fcb460df96bef09c4770e491ac8c1b48eb039b08' into HEAD
+f0d4e8cab68a Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
+
+   * lineage/mirror/
+c8167fb Updated to 07-Mar-19 09:03:19 UTC
+
+   * packages/services/Telephony/
+fbdc8c914 Stop generating ids in android namespace.
+e696ae2d0 Fix resource warnings.
+
+====================
+     03-06-2019
+====================
+
+
+   * device/oneplus/oneplus3/
 cf657b5 op3: Update firmware requirement
 
    * frameworks/base/
 f03742d3e09 Show mobile icons with left-to-right in order of slot index
 5d188f34fb3 Revert "SystemUI: Sort subscriptions in reversed order"
 
+   * system/extras/su/
+af63088 su: Add back mistakenly removed code
+
 ====================
      03-05-2019
 ====================
 
+   * android/
+c88b27c manifest: android-9.0.0_r31 -> android-9.0.0_r34
 
    * lineage/wiki/
 8a3683e i9300: Battery is removable
@@ -36,6 +132,9 @@ b3e921a manifest: Track our device/google/atv
    * build/soong/
 dc2431fd Fix formatting
 
+   * device/qcom/sepolicy/
+cc99b04 sepolicy: Label persist.nfc.hci_network_reset_req
+
    * lineage/jenkins/
 987ae1f Pull payton
 ca6b16d hudson: Update devices.json with new devices
@@ -53,8 +152,15 @@ c4e3bae Fork external/proguard
    * build/make/
 c24d38ed8 Merge https://github.com/LineageOS/android_build into lineage-16.0
 
+   * packages/apps/Email/
+2652d44c5 Email: Fix generating id in android namespace
+
+   * packages/apps/OmniSwitch/
+4b89307 OmniSwitch: fix deep shortcut icon resizing
+
    * vendor/lineage/
 491c1564 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+4818c230 extract_utils: introduce support for executing blob fixups
 bff959a5 extract_utils: template: introduce kang mode
 d5d0fea7 extract_utils: template: make --section argument non-positional
 4931a060 extract_utils: template: use quotation marks and variable curly braces consistently
@@ -97,15 +203,28 @@ d559f31b Bluetooth: Remove unused string resources
    * packages/apps/Calendar/
 e02be421 Calendar: Fix translatables
 
+   * packages/apps/CellBroadcastReceiver/
+5ae5367a Fix a warning in generating id in android namespace.
+a9c37dbe Fix resource warnings.
+
    * packages/apps/Contacts/
 0bdcf0bb3 Contacts: Remove unused boolean resource
+
+   * packages/apps/PackageInstaller/
+fccc1438 PackageInstaller: Fix generating id in android namespace
 
    * packages/apps/Snap/
 d11351354 Snap: Add back original-package in manifest
 a0be5c22f Snap: Remove unused resources
 
+   * system/extras/
+ccbf905a Remove -Wno-error from system/extras
+
    * system/sepolicy/
 c74b6f66 sepolicy: Allow init to chown sysfs LED files
+
+   * vendor/qcom/opensource/cryptfs_hw/
+1e56c85 cryptfs_hw: Cleanup should_use_keymaster
 
 ====================
      03-01-2019
@@ -159,352 +278,6 @@ fb4bf57 signing_builds: No need to make dist
    * packages/apps/Snap/
 39f672bed Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 
-====================
-     02-28-2019
-====================
-
-   * android/
-8804725 lineage: Re-enable SDM845 CAF HALs
-
-   * device/oneplus/oneplus3/
-5ae0d62 op3: Fix applying sysfs display mode on boot
-
-   * hardware/qcom/display/
-250c51746 hwc: msm8084: Remove _vendor from libbfqio
-
-   * hardware/qcom/display-caf/apq8084/
-5d0f880d7 hwc: Remove _vendor from libbfqio
-
-   * hardware/qcom/display-caf/msm8916/
-197a40e18 hwc: Remove _vendor from libbfqio
-
-   * hardware/qcom/display-caf/msm8952/
-f38874231 hwc: Remove _vendor from libbfqio
-
-   * hardware/qcom/display-caf/msm8974/
-0cc9709b8 hwc: Remove _vendor from libbfqio
-
-   * hardware/qcom/display-caf/msm8994/
-4523303d9 hwc: Remove _vendor from libbfqio
-
-   * hardware/qcom/display-caf/msm8996/
-44a0b38f9 hwc: Remove _vendor from libbfqio
-
-   * hardware/qcom/display-caf/msm8998/
-7489d6c3e hwc: Remove _vendor from libbfqio
-
-   * lineage/crowdin/
-cfc875a crowdin: Remove Keyguard from config
-1bb2f92 crowdin: Only push the translation changes
-
-   * lineage/website/
-e1aa317 Fix 16.0 shipping date
-03be616 Changelog 22
-
    * vendor/lineage/
 506c0b73 libbfqio: Remove vendor variant
-
-====================
-     02-27-2019
-====================
-
-
-   * frameworks/base/
-e91a4e3147e SystemUI: Remove unused resources
-
-   * lineage/crowdin/
-6e0a703 crowdin: submit: Switch to JSON
-d13658a crowdin: Add option to submit all translation changes
-
-   * packages/providers/CalendarProvider/
-e6a9c36 CalendarProvider: Remove unused string resource
-
-   * packages/services/Telephony/
-a7d255500 Telephony: Mark enhanced_4g_lte_mode_title_variant as untranslatable
-
-   * vendor/qcom/opensource/cryptfs_hw/
-3318816 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-====================
-     02-26-2019
-====================
-
-
-   * bootable/recovery/
-ced3ce6d recovery: Allow custom bootloader msg offset in block misc
-
-   * device/oneplus/oneplus3/
-1ba9c40 op3: Add QCOM's WFD implementation
-
-   * device/oppo/common/
-ef315a2 Automatic translation import
-
-   * device/qcom/sepolicy/
-6c1c6e3 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * device/qcom/sepolicy-legacy/
-d4aaecb sepolicy: Resolve cameraserver denials
-2f7a25d legacy: Resolve hal_camera_default denials
-075c18c sepolicy: Label vendor.post_boot.parsed
-518da5d sepolicy: Resolve hal_nfc denials
-3e7b817 legacy: Resolve rome BT denials
-336815d sepolicy: Correctly label display.qservice per SoC
-
-   * frameworks/av/
-c68ad7070 stagefright: add changes related to high-framerates in CameraSource
-
-   * frameworks/base/
-d68fceba707 Automatic translation import
-5f41896f7b8 WifiDisplayController: handle preexisting p2p connection status
-b4e19e580bc WiFiDisplayController: Defer the P2P Initialization from its constructor.
-0f641c2b8e7 Merge changes for launching wifidisplay from system settings
-
-   * frameworks/opt/net/wifi/
-6724d8686 WiFi: Ignore connectivity scans during WFD session
-
-   * hardware/qcom/bt-caf/
-e5da643 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * hardware/qcom/fm/
-f44384a Automatic translation import
-
-   * hardware/qcom/media-caf/msm8998/
-125f38c75 Fix invalid logical constant creation.
-
-   * hardware/qcom/wlan-caf/
-0a614e2 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * lineage-sdk/
-7c58c4c Automatic translation import
-
-   * lineage/jenkins/
-e05e45c hudson: The real lineage-16.0 ship commit
-
-   * lineage/wiki/
-1069697 wiki: Update for initial 16.0 devices list
-ed02405 devices: Add Poco F1 (beryllium)
-b414c33 devices: Add Huawei P20 Pro (charlotte)
-504eef3 devices: Add Honor View 10 (berkeley)
-4510382 wiki: Add `Cortex-A73 & Cortex-A53` to list of valid CPUs
-ae21f3d wiki: Add `ARM Mali-G72 MP12` to list of valid GPUs
-f91d858 devices: Add Xiaomi MIX 2S (polaris)
-
-   * packages/apps/AudioFX/
-bdda295 Automatic translation import
-
-   * packages/apps/Bluetooth/
-99da10d1 Automatic translation import
-
-   * packages/apps/Calendar/
-2e3e6145 Automatic translation import
-
-   * packages/apps/Camera2/
-3881ba411 Automatic translation import
-
-   * packages/apps/CellBroadcastReceiver/
-6ca28b43 Automatic translation import
-
-   * packages/apps/CertInstaller/
-bb8806e Automatic translation import
-
-   * packages/apps/Contacts/
-96310c6bc Automatic translation import
-
-   * packages/apps/DeskClock/
-a6afbe5bc Automatic translation import
-
-   * packages/apps/Dialer/
-f6131b9ee Automatic translation import
-
-   * packages/apps/DocumentsUI/
-02da8bc0 Automatic translation import
-
-   * packages/apps/Eleven/
-c54c473 Automatic translation import
-
-   * packages/apps/Email/
-014feb0cd Automatic translation import
-
-   * packages/apps/EmergencyInfo/
-4c0429e Automatic translation import
-
-   * packages/apps/ExactCalculator/
-351bea9 Automatic translation import
-
-   * packages/apps/Exchange/
-635b80a9 Automatic translation import
-
-   * packages/apps/Gallery2/
-ee16d7a73 Automatic translation import
-
-   * packages/apps/HTMLViewer/
-4f3d2a2 Automatic translation import
-
-   * packages/apps/Jelly/
-8d6d0bc Automatic translation import
-
-   * packages/apps/KeyChain/
-b9e2ade Automatic translation import
-
-   * packages/apps/LineageParts/
-2e3a13a Automatic translation import
-
-   * packages/apps/LockClock/
-1fb7ab2 Automatic translation import
-
-   * packages/apps/ManagedProvisioning/
-34f61939 Automatic translation import
-
-   * packages/apps/Nfc/
-1be41703 Automatic translation import
-
-   * packages/apps/PackageInstaller/
-65a37f22 Automatic translation import
-
-   * packages/apps/PhoneCommon/
-7fa4dbf Automatic translation import
-
-   * packages/apps/Profiles/
-a5e82a3 Automatic translation import
-
-   * packages/apps/Recorder/
-f439076 Automatic translation import
-
-   * packages/apps/SafetyRegulatoryInfo/
-67a84d6 Automatic translation import
-
-   * packages/apps/SetupWizard/
-a63e7dc Automatic translation import
-
-   * packages/apps/Snap/
-0b449ed17 Automatic translation import
-
-   * packages/apps/Stk/
-66d9752 Automatic translation import
-
-   * packages/apps/StorageManager/
-e381bd7 Automatic translation import
-
-   * packages/apps/Tag/
-21c21c0 Automatic translation import
-
-   * packages/apps/Terminal/
-a22a21d Automatic translation import
-
-   * packages/apps/Trebuchet/
-7a7693590 Automatic translation import
-
-   * packages/apps/TvSettings/
-263066a4 Automatic translation import
-
-   * packages/apps/UnifiedEmail/
-4eb92ca6b Automatic translation import
-
-   * packages/apps/WallpaperPicker/
-efb671b Automatic translation import
-
-   * packages/inputmethods/LatinIME/
-c85c5b2e0 Automatic translation import
-
-   * packages/providers/BlockedNumberProvider/
-ed01762 Automatic translation import
-
-   * packages/providers/BookmarkProvider/
-97270ec Automatic translation import
-
-   * packages/providers/CalendarProvider/
-64ac76a Automatic translation import
-
-   * packages/providers/CallLogProvider/
-bc45b64 Automatic translation import
-
-   * packages/providers/ContactsProvider/
-0aef30e0 Automatic translation import
-
-   * packages/providers/DownloadProvider/
-b170d5b6 Automatic translation import
-
-   * packages/providers/MediaProvider/
-8ec73b0 Automatic translation import
-
-   * packages/providers/TelephonyProvider/
-b4fa63a Automatic translation import
-
-   * packages/providers/TvProvider/
-424cd73 Automatic translation import
-
-   * packages/providers/UserDictionaryProvider/
-fc8c96b Automatic translation import
-
-   * packages/providers/WeatherProvider/
-326755b Automatic translation import
-
-   * packages/screensavers/Basic/
-52cd3e9 Automatic translation import
-
-   * packages/screensavers/PhotoTable/
-dae7491 Automatic translation import
-
-   * packages/services/BuiltInPrintService/
-17c9346 Automatic translation import
-
-   * packages/services/Mms/
-600a172 Automatic translation import
-
-   * packages/services/Telecomm/
-7ef5d265 Automatic translation import
-
-   * packages/services/Telephony/
-5612572ac Automatic translation import
-
-   * packages/wallpapers/LivePicker/
-6e031e0 Automatic translation import
-
-   * vendor/lineage/
-e5acfae0 soong_config: Add BOOTLOADER_MESSAGE_OFFSET
-
-   * vendor/oneplus/
-e125a453 op3: Add QCOM WFD stack
-
-   * vendor/qcom/opensource/data-ipa-cfg-mgr/
-4f0ea34 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * vendor/qcom/opensource/dataservices/
-c2c0364 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * vendor/qcom/opensource/interfaces/
-bd2b995 interfaces: Regen blueprints
-aa6b069 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * vendor/qcom/opensource/thermal-engine/
-3e8495d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-====================
-     02-25-2019
-====================
-
-
-   * bionic/
-e78571b0a libc: Optimize ARM memcmp by using NEON.
-
-   * device/oneplus/oneplus3/
-11a717a Revert "op3: HAX: Disable lineage charger"
-
-   * external/p7zip/
-b3b6f89 p7zip: Silence all warnings
-
-   * external/unrar/
-9b2e2b9 unrar: Silence more build warnings
-
-   * external/zip/
-c4117e1 zip: Silence build warnings
-
-   * lineage/wiki/
-ce4d5a9 wiki: Update documentation for 16.0
-
-   * packages/apps/Contacts/
-7adcb8432 Fix casting warnings in ContactSaveService
-
-   * vendor/oneplus/
-af7deb81 msm8998-common: remove gps hacks
 
