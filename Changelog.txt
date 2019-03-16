@@ -1,4 +1,16 @@
 ====================
+     03-16-2019
+====================
+
+
+   * packages/apps/LineageParts/
+0f6f8ce Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
+
+   * vendor/lineage/
+5b7497d8 v_03.15.19
+71bc7013 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+
+====================
      03-15-2019
 ====================
 
@@ -6,32 +18,29 @@
    * hardware/qcom/audio/default/
 c009fa9b9 msm8960: Add SND_DEVICE_OUT_VOICE_MUSIC_TX
 
-   * packages/apps/LineageParts/
-0f6f8ce Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
-
-   * vendor/lineage/
-71bc7013 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-
-====================
-     03-14-2019
-====================
-
-
-   * system/core/
-4fc8aaa4a storaged: change log level for health HAL calls
-
    * vendor/lineage/
 13cff904 Add APN ION Mobile & APN for Roaming
 26d738ba config: Remove duplicate keyguard.no_require_sim prop
 b0e4491d overlay: Move managed profiles overlay to frameworks/base
 
 ====================
-     03-13-2019
+     03-14-2019
 ====================
 
 
    * hardware/qcom/display-caf/apq8084/
 dfd2336ce hwc: Handle validateAndSet failures in AD prepare call
+
+   * system/core/
+4fc8aaa4a storaged: change log level for health HAL calls
+
+====================
+     03-13-2019
+====================
+
+
+   * lineage/jenkins/
+5a2771b add kccat6/lentislte to 16.0 targets
 
    * lineage/wiki/
 cac8dc5 devices: add kccat6/lentislte 16.0 support
@@ -45,12 +54,18 @@ f369f8a wiki: bacon: Add custom TWRP
 ====================
 
 
+   * lineage/crowdin/
+7820a79 crowdin: Update readme
+1f18776 crowdin: Fix for sub   *s
+67f1493 crowdin: Fix for devicesettings
+
    * lineage/jenkins/
-5a2771b add kccat6/lentislte to 16.0 targets
 3eea478 hudson: Promote Lenovo Yoga Tab 3 Plus to 16.0
 
    * lineage/wiki/
 490e5c8 devices: Promote Lenovo Yoga Tab 3 Plus to 16.0 and update maintainers
+df4dff9 wiki: Update bardock/bardockpro maintainers
+6f7a8a6 devices: update kccat6/lentislte maintainers list
 
 ====================
      03-11-2019
@@ -59,27 +74,6 @@ f369f8a wiki: bacon: Add custom TWRP
 
    * build/make/
 520666a24 Merge https://github.com/LineageOS/android_build into lineage-16.0
-
-   * lineage/crowdin/
-7820a79 crowdin: Update readme
-1f18776 crowdin: Fix for sub   *s
-67f1493 crowdin: Fix for devicesettings
-
-   * lineage/jenkins/
-ed02f23 hudson: Promote marlin/sailfish to 16.0
-
-   * lineage/wiki/
-df4dff9 wiki: Update bardock/bardockpro maintainers
-6f7a8a6 devices: update kccat6/lentislte maintainers list
-6c045e5 devices: Promote marlin/sailfish to 16.0
-
-   * vendor/lineage/
-850b26d2 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-
-====================
-     03-10-2019
-====================
-
 
    * device/oppo/common/
 c35ed08 Automatic translation import
@@ -94,7 +88,11 @@ c35ed08 Automatic translation import
 bfa2f95 crowdin: Add missing import
 
    * lineage/jenkins/
+ed02f23 hudson: Promote marlin/sailfish to 16.0
 022bca9 Revert "Pull payton"
+
+   * lineage/wiki/
+6c045e5 devices: Promote marlin/sailfish to 16.0
 
    * packages/apps/AudioFX/
 4194a4d Automatic translation import
@@ -267,8 +265,11 @@ b27c4ac Automatic translation import
    * packages/wallpapers/LivePicker/
 2028a53 Automatic translation import
 
+   * vendor/lineage/
+850b26d2 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+
 ====================
-     03-09-2019
+     03-10-2019
 ====================
 
 
@@ -281,7 +282,7 @@ a8750b4a kernel: Move kernel module dir cleanup/creation to module install targe
 995aff2a kernel: Add more threads to kernel build process
 
 ====================
-     03-08-2019
+     03-09-2019
 ====================
 
 
@@ -290,9 +291,6 @@ c4af9b080 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
 
    * build/make/
 4e9fc9c19 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * device/qcom/sepolicy/
-71e1820 sepolicy: Fix video4linux "name" node labeling
 
    * external/chromium-webview/
 7390467 Update x86/x86_64 Chromium Webview to 72.0.3626.121
@@ -309,18 +307,11 @@ c4af9b080 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
    * hardware/nxp/nfc/
 81275d3 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
 
-   * lineage/jenkins/
-56fa21d hudson: Add Mi 8 (dipper)
-
    * lineage/wiki/
 414ab32 dipper: Update peripherals list
-20f00f5 devices: Add Mi 8 (dipper)
 
    * packages/apps/PackageInstaller/
 8bc1ef8f Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * packages/apps/SetupWizard/
-2f90346 SUW: Don't make google suw use material_light
 
    * packages/services/OmniJaws/
 f4fc7fb Automatic AICP translation import
@@ -338,19 +329,28 @@ ca27d679e Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
 4b93d993 sensitive_pn: New United Kingdom helplines
 
 ====================
-     03-07-2019
+     03-08-2019
 ====================
 
 
-   * device/oneplus/oneplus3/
-e3527ce Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+   * device/qcom/sepolicy/
+71e1820 sepolicy: Fix video4linux "name" node labeling
 
    * kernel/oneplus/msm8996/
 499e7d4d403a Merge tag 'fcb460df96bef09c4770e491ac8c1b48eb039b08' into HEAD
 f0d4e8cab68a Merge tag 'LA.UM.7.5.r1-04300-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
 
+   * lineage/jenkins/
+56fa21d hudson: Add Mi 8 (dipper)
+
    * lineage/mirror/
 c8167fb Updated to 07-Mar-19 09:03:19 UTC
+
+   * lineage/wiki/
+20f00f5 devices: Add Mi 8 (dipper)
+
+   * packages/apps/SetupWizard/
+2f90346 SUW: Don't make google suw use material_light
 
    * packages/services/Telephony/
 fbdc8c914 Stop generating ids in android namespace.
@@ -363,11 +363,12 @@ fcd61207 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 460e28d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 
 ====================
-     03-06-2019
+     03-07-2019
 ====================
 
 
    * device/oneplus/oneplus3/
+e3527ce Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
 cf657b5 op3: Update firmware requirement
 
    * frameworks/base/
