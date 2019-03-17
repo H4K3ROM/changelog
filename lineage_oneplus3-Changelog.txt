@@ -7,11 +7,28 @@
 9677956 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
 6fa0482 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
 
+   * frameworks/av/
+88e51d5ce Request to reset effect buffer in clearInputBuffer
+76faa78b0 Revert "effects: fix volume burst on pause/resume with AudioFX"
+
+   * frameworks/base/
+f709f80b522 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
+1119403bf25 Add bluetooth icon.
+09b74fe12af Clean up screenshot if nothing selected
+f9f8bb65adf IMMS should preserve selected IME upon boot
+8bb87768c42 Add bluetooth icon.
+
    * lineage-sdk/
 1d6a815 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
 
    * lineage/mirror/
 678499d Updated to 17-Mar-2019 16:48 UTC
+
+   * packages/apps/Bluetooth/
+72ad4a04 Update Bluetooth to use adaptive icon.
+
+   * system/core/
+d339252ee Fix path for treble default prop
 
    * vendor/lineage/
 de260705 V_03.17.19b
@@ -49,21 +66,16 @@ dfaee8ab msm8998: add missing blobs
    * hardware/qcom/audio/default/
 c009fa9b9 msm8960: Add SND_DEVICE_OUT_VOICE_MUSIC_TX
 
-   * vendor/lineage/
-13cff904 Add APN ION Mobile & APN for Roaming
-
 ====================
      03-14-2019
 ====================
 
 
-   * hardware/qcom/display-caf/apq8084/
-dfd2336ce hwc: Handle validateAndSet failures in AD prepare call
-
    * system/core/
 4fc8aaa4a storaged: change log level for health HAL calls
 
    * vendor/lineage/
+13cff904 Add APN ION Mobile & APN for Roaming
 26d738ba config: Remove duplicate keyguard.no_require_sim prop
 b0e4491d overlay: Move managed profiles overlay to frameworks/base
 
@@ -71,6 +83,9 @@ b0e4491d overlay: Move managed profiles overlay to frameworks/base
      03-13-2019
 ====================
 
+
+   * hardware/qcom/display-caf/apq8084/
+dfd2336ce hwc: Handle validateAndSet failures in AD prepare call
 
    * lineage/jenkins/
 5a2771b add kccat6/lentislte to 16.0 targets
@@ -86,10 +101,6 @@ f369f8a wiki: bacon: Add custom TWRP
      03-12-2019
 ====================
 
-
-   * lineage/crowdin/
-7820a79 crowdin: Update readme
-1f18776 crowdin: Fix for sub   *s
 
    * lineage/jenkins/
 3eea478 hudson: Promote Lenovo Yoga Tab 3 Plus to 16.0
@@ -122,8 +133,9 @@ c35ed08 Automatic translation import
 13e33b7 Automatic translation import
 
    * lineage/crowdin/
+7820a79 crowdin: Update readme
+1f18776 crowdin: Fix for sub   *s
 67f1493 crowdin: Fix for devicesettings
-bfa2f95 crowdin: Add missing import
 
    * lineage/jenkins/
 ed02f23 hudson: Promote marlin/sailfish to 16.0
@@ -312,8 +324,16 @@ b27c4ac Automatic translation import
 ====================
 
 
+   * lineage/crowdin/
+bfa2f95 crowdin: Add missing import
+
    * lineage/jenkins/
 022bca9 Revert "Pull payton"
+
+====================
+     03-09-2019
+====================
+
 
    * vendor/lineage/
 9985f596 kernel: Use build-image-kernel-modules instead of copying it
@@ -322,11 +342,6 @@ a3254465 kernel: Use a macro for kernel build targets
 a8750b4a kernel: Move kernel module dir cleanup/creation to module install target
 117a0fd3 kernel: Move full kernel build guard flag below all targets
 995aff2a kernel: Add more threads to kernel build process
-
-====================
-     03-09-2019
-====================
-
 
 ====================
      03-08-2019
