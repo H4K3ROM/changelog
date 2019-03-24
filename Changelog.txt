@@ -1,4 +1,111 @@
 ====================
+     03-23-2019
+====================
+
+
+   * build/make/
+f76f860d8 Merge https://github.com/LineageOS/android_build into lineage-16.0
+
+   * device/oneplus/oneplus3/
+42eac0b Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+
+   * frameworks/base/
+b8dffccda70 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
+
+   * packages/apps/Settings/
+2369a88985 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
+
+====================
+     03-22-2019
+====================
+
+
+   * build/make/
+ff947a844 Quote message in echo-error/echo-warning macros
+
+   * frameworks/base/
+a83ab6d4b18 Prevent NFE in SystemUI when parsing invalid int
+1a9c57c3bd3 Prevent NFE in SystemUI when parsing invalid int (2)
+93cae807482 Prevent NFE in SystemUI when parsing invalid int
+
+====================
+     03-21-2019
+====================
+
+
+   * frameworks/base/
+f95e183acd8 SystemUI: Fix FORCE_SHOW_NAVBAR handling on user switch
+
+   * frameworks/native/
+7420ead85 Respect source crop when capturing layers.
+ce3a2e785 libgui: add docs to geometry states and captureScreen
+da424fa68 surfaceflinger: fix captureScreen for landscape LCM
+14ebd1a72 surfaceflinger: improve RenderArea needsFiltering
+0ddca9c26 surfaceflinger: respect install orientation in DisplayRenderArea
+1e419f913 surfaceflinger: add install orientation to DisplayDevice
+301d1e9ef surfaceflinger: make mPrimaryDisplayOrientation static
+0a3c7c287 surfaceflinger: clean up captureScreen
+dd03b9a20 surfaceflinger: silence some RenderArea errors
+32d2b5f95 surfaceflinger: fix race conditions in captureScreen
+a91970e4c surfaceflinger: remove ISurfaceComposer.h from RenderArea
+accebc70a surfaceflinger: reorder width and height in RenderArea ctor
+89a8eee37 surfaceflinger: documents RenderArea
+84a57218d Revert "Revert screenshot changes to exclude black cutout"
+8a9b703e4 Revert "APP may display abnormally in landscape LCM"
+
+   * lineage/jenkins/
+ec5c817 hudson: Promote Mi 8996 family to 16.0
+acb4907 hudson: Promote the Nextbit Robin to 16.0
+
+   * lineage/wiki/
+a604316 devices: Promote Mi 8996 family to 16.0
+eb3152f wiki: devices: ether: Provide reason for multiple builds
+
+   * packages/apps/Snap/
+e313b99c2 Snap: Fix picture size preference
+
+   * packages/apps/Trebuchet/
+60f402b8d Lint fix: Invalid vector path in horizontal_ellipsis
+
+====================
+     03-20-2019
+====================
+
+
+   * lineage/wiki/
+1ddb0c3 wiki: devices: ether: Promote to 16.0
+
+====================
+     03-19-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+e6400ea op3: Remove camera HAL hacks
+
+   * lineage/wiki/
+cff5bf3 wiki: submitting a port: link to charter for device support requirements
+77f693f devices: Promote tissot to 16.0
+
+   * vendor/oneplus/
+ffff9250 op3: Remove camera HAL hacks
+
+====================
+     03-18-2019
+====================
+
+
+   * lineage/wiki/
+ea8526e wiki: devices: shamu: Provide reason for multiple builds
+fd3b91d wiki: Add multiple_versions_reason flag
+6893d08 wiki: Add device Update template/pages
+686a332 wiki: translations: add section for product and quantity strings
+ef944a3 wiki: devices: nash: Add more detailed information about device support
+
+   * system/vold/
+6df01f9 increase timeout for waiting on block device
+
+====================
      03-17-2019
 ====================
 
@@ -31,7 +138,11 @@ f9f8bb65adf IMMS should preserve selected IME upon boot
 d339252ee Fix path for treble default prop
 
    * vendor/lineage/
+5c6e572d Add files via upload
+0147e1cb Add files via upload
 de260705 V_03.17.19b
+4c57955b V_03.15.19
+61d3aa85 v_03_17_19
 
 ====================
      03-16-2019
@@ -66,6 +177,9 @@ dfaee8ab msm8998: add missing blobs
    * hardware/qcom/audio/default/
 c009fa9b9 msm8960: Add SND_DEVICE_OUT_VOICE_MUSIC_TX
 
+   * lineage/jenkins/
+4c46a4d hudson: Promote tissot to 16.0
+
 ====================
      03-14-2019
 ====================
@@ -78,331 +192,4 @@ c009fa9b9 msm8960: Add SND_DEVICE_OUT_VOICE_MUSIC_TX
 13cff904 Add APN ION Mobile & APN for Roaming
 26d738ba config: Remove duplicate keyguard.no_require_sim prop
 b0e4491d overlay: Move managed profiles overlay to frameworks/base
-
-====================
-     03-13-2019
-====================
-
-
-   * hardware/qcom/display-caf/apq8084/
-dfd2336ce hwc: Handle validateAndSet failures in AD prepare call
-
-   * lineage/jenkins/
-5a2771b add kccat6/lentislte to 16.0 targets
-
-   * lineage/wiki/
-cac8dc5 devices: add kccat6/lentislte 16.0 support
-f369f8a wiki: bacon: Add custom TWRP
-
-   * packages/apps/Nfc/
-563cf694 NfcNci: make T3T/Nfc-F HCE optional
-
-====================
-     03-12-2019
-====================
-
-
-   * lineage/jenkins/
-3eea478 hudson: Promote Lenovo Yoga Tab 3 Plus to 16.0
-
-   * lineage/wiki/
-490e5c8 devices: Promote Lenovo Yoga Tab 3 Plus to 16.0 and update maintainers
-
-====================
-     03-11-2019
-====================
-
-
-   * build/make/
-520666a24 Merge https://github.com/LineageOS/android_build into lineage-16.0
-
-   * device/oneplus/oneplus3/
-05b3216 op3: pocketmode: Use OnePlus pocket sensor for pocket detection
-cabac84 op3: doze: Use OnePlus pocket sensor for pocket and wave detection
-
-   * device/oppo/common/
-c35ed08 Automatic translation import
-
-   * frameworks/base/
-2f15373dd50 Automatic translation import
-
-   * hardware/qcom/fm/
-8184149 Automatic translation import
-
-   * lineage-sdk/
-13e33b7 Automatic translation import
-
-   * lineage/crowdin/
-7820a79 crowdin: Update readme
-1f18776 crowdin: Fix for sub   *s
-67f1493 crowdin: Fix for devicesettings
-
-   * lineage/jenkins/
-ed02f23 hudson: Promote marlin/sailfish to 16.0
-
-   * lineage/wiki/
-df4dff9 wiki: Update bardock/bardockpro maintainers
-6f7a8a6 devices: update kccat6/lentislte maintainers list
-6c045e5 devices: Promote marlin/sailfish to 16.0
-
-   * packages/apps/AudioFX/
-4194a4d Automatic translation import
-
-   * packages/apps/Bluetooth/
-6ea8ba06 Automatic translation import
-
-   * packages/apps/Calendar/
-24896ebe Automatic translation import
-
-   * packages/apps/Camera2/
-a0bea7a0c Automatic translation import
-
-   * packages/apps/CellBroadcastReceiver/
-abd4899a Automatic translation import
-
-   * packages/apps/CertInstaller/
-2945748 Automatic translation import
-
-   * packages/apps/Contacts/
-f17625859 Automatic translation import
-
-   * packages/apps/DeskClock/
-8c1a7c1d7 Automatic translation import
-
-   * packages/apps/Dialer/
-efde518c4 Automatic translation import
-
-   * packages/apps/DocumentsUI/
-d2a5d9d7 Automatic translation import
-
-   * packages/apps/Eleven/
-9235548 Automatic translation import
-
-   * packages/apps/Email/
-05046546c Automatic translation import
-
-   * packages/apps/EmergencyInfo/
-67e1636 Automatic translation import
-
-   * packages/apps/ExactCalculator/
-383d6d9 Automatic translation import
-
-   * packages/apps/Exchange/
-b18ae4de Automatic translation import
-
-   * packages/apps/Gallery2/
-79da8948a Automatic translation import
-
-   * packages/apps/HTMLViewer/
-83a1a64 Automatic translation import
-
-   * packages/apps/Jelly/
-7b518c6 Automatic translation import
-
-   * packages/apps/KeyChain/
-b1d4448 Automatic translation import
-
-   * packages/apps/LineageParts/
-cf4225a Automatic translation import
-
-   * packages/apps/LockClock/
-eb40ba6 Automatic translation import
-
-   * packages/apps/ManagedProvisioning/
-f2106ddf Automatic translation import
-
-   * packages/apps/Nfc/
-cff6a276 Automatic translation import
-
-   * packages/apps/PackageInstaller/
-2dc49cc7 Automatic translation import
-
-   * packages/apps/PhoneCommon/
-dac2b06 Automatic translation import
-
-   * packages/apps/Profiles/
-20f1080 Automatic translation import
-
-   * packages/apps/Recorder/
-fa335f9 Automatic translation import
-
-   * packages/apps/SafetyRegulatoryInfo/
-f617317 Automatic translation import
-
-   * packages/apps/SetupWizard/
-03f1ab4 Automatic translation import
-
-   * packages/apps/Snap/
-e725b2c3f Automatic translation import
-
-   * packages/apps/Stk/
-7f5fc6f Automatic translation import
-
-   * packages/apps/StorageManager/
-dcbde0d Automatic translation import
-
-   * packages/apps/Tag/
-00b453e Automatic translation import
-
-   * packages/apps/Terminal/
-20b82f7 Automatic translation import
-
-   * packages/apps/Trebuchet/
-3edcfa189 Automatic translation import
-
-   * packages/apps/TvSettings/
-b9631aed Automatic translation import
-
-   * packages/apps/UnifiedEmail/
-c68a95e29 Automatic translation import
-
-   * packages/apps/WallpaperPicker/
-3256671 Automatic translation import
-
-   * packages/inputmethods/LatinIME/
-1e604da33 Automatic translation import
-
-   * packages/providers/BlockedNumberProvider/
-a7692be Automatic translation import
-
-   * packages/providers/BookmarkProvider/
-3327e9c Automatic translation import
-
-   * packages/providers/CalendarProvider/
-9b1aebd Automatic translation import
-
-   * packages/providers/CallLogProvider/
-e2e0c6f Automatic translation import
-
-   * packages/providers/ContactsProvider/
-177d0bd0 Automatic translation import
-
-   * packages/providers/DownloadProvider/
-6ad3cc0d Automatic translation import
-
-   * packages/providers/MediaProvider/
-f45db34 Automatic translation import
-
-   * packages/providers/TelephonyProvider/
-411a707 Automatic translation import
-
-   * packages/providers/TvProvider/
-892dad5 Automatic translation import
-
-   * packages/providers/UserDictionaryProvider/
-edbff5b Automatic translation import
-
-   * packages/providers/WeatherProvider/
-426e74f Automatic translation import
-
-   * packages/screensavers/Basic/
-157a344 Automatic translation import
-
-   * packages/screensavers/PhotoTable/
-6f31f1e Automatic translation import
-
-   * packages/services/BuiltInPrintService/
-b27c4ac Automatic translation import
-
-   * packages/services/Mms/
-2225679 Automatic translation import
-
-   * packages/services/Telecomm/
-083d4a2a Automatic translation import
-
-   * packages/services/Telephony/
-9d10b1986 Automatic translation import
-
-   * packages/wallpapers/LivePicker/
-2028a53 Automatic translation import
-
-   * vendor/lineage/
-850b26d2 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-
-====================
-     03-10-2019
-====================
-
-
-   * lineage/crowdin/
-bfa2f95 crowdin: Add missing import
-
-   * lineage/jenkins/
-022bca9 Revert "Pull payton"
-
-====================
-     03-09-2019
-====================
-
-
-   * vendor/lineage/
-9985f596 kernel: Use build-image-kernel-modules instead of copying it
-a3254465 kernel: Use a macro for kernel build targets
-0724f78a kernel: Detect kernel module usage better
-a8750b4a kernel: Move kernel module dir cleanup/creation to module install target
-117a0fd3 kernel: Move full kernel build guard flag below all targets
-995aff2a kernel: Add more threads to kernel build process
-
-====================
-     03-08-2019
-====================
-
-
-   * bionic/
-c4af9b080 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * build/make/
-4e9fc9c19 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * device/qcom/sepolicy/
-71e1820 sepolicy: Fix video4linux "name" node labeling
-
-   * external/chromium-webview/
-7390467 Update x86/x86_64 Chromium Webview to 72.0.3626.121
-
-   * frameworks/av/
-2f2f3e8cf Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * frameworks/base/
-56ff46447cb Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * frameworks/native/
-89a3c4932 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * hardware/nxp/nfc/
-81275d3 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * lineage/jenkins/
-56fa21d hudson: Add Mi 8 (dipper)
-
-   * lineage/wiki/
-414ab32 dipper: Update peripherals list
-20f00f5 devices: Add Mi 8 (dipper)
-
-   * packages/apps/PackageInstaller/
-8bc1ef8f Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * packages/apps/SetupWizard/
-2f90346 SUW: Don't make google suw use material_light
-
-   * packages/services/OmniJaws/
-f4fc7fb Automatic AICP translation import
-
-   * system/bt/
-ac0161c61 Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * system/core/
-ca27d679e Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * system/tools/hidl/
-284d76a Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34
-
-   * vendor/lineage/
-4b93d993 sensitive_pn: New United Kingdom helplines
-
-   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
-fcd61207 Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
-
-   * vendor/nxp/opensource/halimpl/
-460e28d Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD
 
