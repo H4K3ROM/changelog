@@ -1,4 +1,96 @@
 ====================
+     03-30-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+6ebf76e op3: Enable OEM unlock and bootable image signing
+
+====================
+     03-29-2019
+====================
+
+
+   * vendor/oneplus/
+9723d2a7 oneplus2: Add back stock libOpenCL
+
+====================
+     03-28-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+c6ac099 op3: Enable OEM unlock and bootable image signing
+
+====================
+     03-27-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+b8fb821 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+
+   * frameworks/base/
+f7fda1113cf Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
+
+   * kernel/oneplus/msm8996/
+4a6738221330 power: don't ever reboot to verity red
+
+   * lineage/wiki/
+319f82c devices: ether: weekly -> nightly
+
+   * packages/apps/LineageParts/
+f61e21c StatusBarSettings: Hide NW traffic from search results if not available
+
+====================
+     03-26-2019
+====================
+
+
+   * lineage/jenkins/
+6f5afcd hudson: d80x: promote to 16.0
+
+   * lineage/wiki/
+626b4ab wiki: d80x: promote to 16.0 and update mantainers
+
+   * packages/apps/Phonograph/
+2a5380a9 Phonograph: fix startForeground usage in P
+
+====================
+     03-25-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+3df74be op3: Add human-readable message on modem assertion failure
+
+   * device/qcom/sepolicy/
+a7143aa common: Add missing CNE rules
+c70a2d0 Partial Revert "sepolicy: Allow the QCOM Boot Control HAL needed permissions"
+4d95a24 sepolicy: Allow the QCOM Boot Control HAL needed permissions
+
+   * packages/apps/LineageParts/
+1496b9c StatusBarSettings: Hide NW traffic from search results if not available
+
+====================
+     03-24-2019
+====================
+
+
+   * frameworks/base/
+867a1260a12 PhoneWindowManager: Fix screen peek KEY_FOCUS handling
+
+   * lineage/wiki/
+88afbb2 wiki: devices: oneplus2: Provide reason for multiple builds
+
+   * vendor/htc/
+113aafc initial commit
+147487e Initial commit
+
+   * vendor/oneplus/
+e290c493 oneplus2: Remove unused camera firmware
+
+====================
      03-23-2019
 ====================
 
@@ -66,130 +158,4 @@ e313b99c2 Snap: Fix picture size preference
 
    * packages/apps/Trebuchet/
 60f402b8d Lint fix: Invalid vector path in horizontal_ellipsis
-
-====================
-     03-20-2019
-====================
-
-
-   * lineage/wiki/
-1ddb0c3 wiki: devices: ether: Promote to 16.0
-
-====================
-     03-19-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-e6400ea op3: Remove camera HAL hacks
-
-   * lineage/wiki/
-cff5bf3 wiki: submitting a port: link to charter for device support requirements
-77f693f devices: Promote tissot to 16.0
-
-   * vendor/oneplus/
-ffff9250 op3: Remove camera HAL hacks
-
-====================
-     03-18-2019
-====================
-
-
-   * lineage/wiki/
-ea8526e wiki: devices: shamu: Provide reason for multiple builds
-fd3b91d wiki: Add multiple_versions_reason flag
-6893d08 wiki: Add device Update template/pages
-686a332 wiki: translations: add section for product and quantity strings
-ef944a3 wiki: devices: nash: Add more detailed information about device support
-
-   * system/vold/
-6df01f9 increase timeout for waiting on block device
-
-====================
-     03-17-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-9677956 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-6fa0482 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-
-   * frameworks/av/
-88e51d5ce Request to reset effect buffer in clearInputBuffer
-76faa78b0 Revert "effects: fix volume burst on pause/resume with AudioFX"
-
-   * frameworks/base/
-f709f80b522 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
-1119403bf25 Add bluetooth icon.
-09b74fe12af Clean up screenshot if nothing selected
-f9f8bb65adf IMMS should preserve selected IME upon boot
-8bb87768c42 Add bluetooth icon.
-
-   * lineage-sdk/
-1d6a815 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
-
-   * lineage/mirror/
-678499d Updated to 17-Mar-2019 16:48 UTC
-
-   * packages/apps/Bluetooth/
-72ad4a04 Update Bluetooth to use adaptive icon.
-
-   * system/core/
-d339252ee Fix path for treble default prop
-
-   * vendor/lineage/
-5c6e572d Add files via upload
-0147e1cb Add files via upload
-de260705 V_03.17.19b
-4c57955b V_03.15.19
-61d3aa85 v_03_17_19
-
-====================
-     03-16-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-00273dc op3: wifi: Enhance move_wifi_data.sh to copy required files
-ba84f55 op3: wifi: Add move_wifi_data.sh
-223c178 Revert "op3: Allow appdomain to get vendor_camera_prop"
-d144ada op3: List additional native libraries to expose to apps
-d773928 op3: Remove audio policy copy
-
-   * packages/apps/LineageParts/
-0f6f8ce Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
-
-   * vendor/lineage/
-5b7497d8 v_03.15.19
-71bc7013 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-
-   * vendor/oneplus/
-dfaee8ab msm8998: add missing blobs
-
-====================
-     03-15-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-3e3a870 op3: audio: config: Remove 2 instance support for "primary input"
-
-   * hardware/qcom/audio/default/
-c009fa9b9 msm8960: Add SND_DEVICE_OUT_VOICE_MUSIC_TX
-
-   * lineage/jenkins/
-4c46a4d hudson: Promote tissot to 16.0
-
-====================
-     03-14-2019
-====================
-
-
-   * system/core/
-4fc8aaa4a storaged: change log level for health HAL calls
-
-   * vendor/lineage/
-13cff904 Add APN ION Mobile & APN for Roaming
-26d738ba config: Remove duplicate keyguard.no_require_sim prop
-b0e4491d overlay: Move managed profiles overlay to frameworks/base
 
