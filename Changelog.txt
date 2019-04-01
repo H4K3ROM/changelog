@@ -1,4 +1,11 @@
 ====================
+     04-01-2019
+====================
+
+   * device/oneplus/oneplus3/
+d06b29e ### Test Build for H4K3ROM Android-10.0 Q ###
+
+====================
      03-30-2019
 ====================
 
@@ -83,10 +90,6 @@ c70a2d0 Partial Revert "sepolicy: Allow the QCOM Boot Control HAL needed permiss
    * lineage/wiki/
 88afbb2 wiki: devices: oneplus2: Provide reason for multiple builds
 
-   * vendor/htc/
-113aafc initial commit
-147487e Initial commit
-
    * vendor/oneplus/
 e290c493 oneplus2: Remove unused camera firmware
 
@@ -107,6 +110,10 @@ b8dffccda70 Merge https://github.com/LineageOS/android_frameworks_base into line
    * packages/apps/Settings/
 2369a88985 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
 
+   * vendor/htc/
+113aafc initial commit
+147487e Initial commit
+
 ====================
      03-22-2019
 ====================
@@ -119,43 +126,4 @@ ff947a844 Quote message in echo-error/echo-warning macros
 a83ab6d4b18 Prevent NFE in SystemUI when parsing invalid int
 1a9c57c3bd3 Prevent NFE in SystemUI when parsing invalid int (2)
 93cae807482 Prevent NFE in SystemUI when parsing invalid int
-
-====================
-     03-21-2019
-====================
-
-
-   * frameworks/base/
-f95e183acd8 SystemUI: Fix FORCE_SHOW_NAVBAR handling on user switch
-
-   * frameworks/native/
-7420ead85 Respect source crop when capturing layers.
-ce3a2e785 libgui: add docs to geometry states and captureScreen
-da424fa68 surfaceflinger: fix captureScreen for landscape LCM
-14ebd1a72 surfaceflinger: improve RenderArea needsFiltering
-0ddca9c26 surfaceflinger: respect install orientation in DisplayRenderArea
-1e419f913 surfaceflinger: add install orientation to DisplayDevice
-301d1e9ef surfaceflinger: make mPrimaryDisplayOrientation static
-0a3c7c287 surfaceflinger: clean up captureScreen
-dd03b9a20 surfaceflinger: silence some RenderArea errors
-32d2b5f95 surfaceflinger: fix race conditions in captureScreen
-a91970e4c surfaceflinger: remove ISurfaceComposer.h from RenderArea
-accebc70a surfaceflinger: reorder width and height in RenderArea ctor
-89a8eee37 surfaceflinger: documents RenderArea
-84a57218d Revert "Revert screenshot changes to exclude black cutout"
-8a9b703e4 Revert "APP may display abnormally in landscape LCM"
-
-   * lineage/jenkins/
-ec5c817 hudson: Promote Mi 8996 family to 16.0
-acb4907 hudson: Promote the Nextbit Robin to 16.0
-
-   * lineage/wiki/
-a604316 devices: Promote Mi 8996 family to 16.0
-eb3152f wiki: devices: ether: Provide reason for multiple builds
-
-   * packages/apps/Snap/
-e313b99c2 Snap: Fix picture size preference
-
-   * packages/apps/Trebuchet/
-60f402b8d Lint fix: Invalid vector path in horizontal_ellipsis
 
