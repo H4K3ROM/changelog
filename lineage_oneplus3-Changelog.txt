@@ -1,5 +1,36 @@
 ====================
-     04-07-2019
+     04-10-2019
+====================
+
+
+   * bootable/recovery/
+2c88bba1 Let's try LineageOS commits *many* from Apr 4, 2019 now that H4K3ROM updated to 9.0.0_r35 Merge https://github.com/LineageOS/android_bootable_recovery into lineage-16.0
+
+   * frameworks/base/
+06ca9beb12e Automatic translation import Update bluetooth drawable * Last minute change in AOSP wasn't pulled in
+
+   * lineage-sdk/
+1701b96 Automatic translation import
+
+   * packages/apps/LineageParts/
+948291f Automatic translation import
+
+   * packages/apps/Settings/
+d30815fe7a Automatic translation import
+
+====================
+     04-09-2019
+====================
+
+
+   * lineage/wiki/
+c4b35a4 wiki: Remove contributors no longer working on    *
+
+   * packages/apps/Settings/
+ccdaf09ac2 Automatic translation import
+
+====================
+     04-08-2019
 ====================
 
 
@@ -7,20 +38,161 @@
 85be897e3 Merge https://github.com/LineageOS/android_build into lineage-16.0
 ca07b9e85 Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
 
+   * device/oppo/common/
+d493fda Automatic translation import
+
    * frameworks/base/
+e28dab4bb43 Automatic translation import
+3a34c8356ad Update bluetooth drawable
 8174c3f7b1d Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
-3da54b5c05f Rotation related corrections
-9248ee4f969 Add back ACCELEROMETER_ROTATION_ANGLES and update references
+
+   * hardware/qcom/fm/
+d78abd7 Automatic translation import
 
    * lineage-sdk/
+952ef00 Automatic translation import
 62f7f6c Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
-db39c9a Revert "lineage-sdk: Add ACCELEROMETER_ROTATION_ANGLES to system settings"
+
+   * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+1e2212d Automatic translation import
 
    * lineage/crowdin/
 8262498 config: 16.0: Add kuntao devicesettings
 
+   * lineage/wiki/
+66ec674 devices: Promote crackling/kipper/lettuce to 16.0
+78d1113 devices: Promote OPPO msm8939 to 16.0
+7b038e1 wiki: Allow devices to format data on upgrade due to unfixable issues
+64fa2df wiki: Make upgrading LineageOS a device specific page
+
+   * packages/apps/AudioFX/
+5759bab Automatic translation import
+
+   * packages/apps/Bluetooth/
+6544941c Automatic translation import
+
+   * packages/apps/Calendar/
+500b7e16 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+7edb382d Automatic translation import
+
+   * packages/apps/CertInstaller/
+5171f06 Automatic translation import
+
+   * packages/apps/Contacts/
+cd6ccaff9 Automatic translation import
+
+   * packages/apps/DeskClock/
+1787fc98f Automatic translation import
+
+   * packages/apps/Dialer/
+59b92a5f5 Automatic translation import
+
+   * packages/apps/DocumentsUI/
+5799e29b Automatic translation import
+
+   * packages/apps/Eleven/
+acdb194 Automatic translation import
+
+   * packages/apps/Email/
+aa52fb4fc Automatic translation import
+
+   * packages/apps/EmergencyInfo/
+ad6c6a3 Automatic translation import
+
+   * packages/apps/Exchange/
+34664c71 Automatic translation import
+
+   * packages/apps/Gallery2/
+062871011 Automatic translation import
+
+   * packages/apps/Jelly/
+48d6b67 Automatic translation import
+
    * packages/apps/LineageParts/
+2837a42 Automatic translation import
 1fdf48a Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
+
+   * packages/apps/LockClock/
+c460aed Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+280a8747 Automatic translation import
+
+   * packages/apps/Nfc/
+a3c461f6 Automatic translation import
+
+   * packages/apps/PackageInstaller/
+429c0abf Automatic translation import
+
+   * packages/apps/PhoneCommon/
+a222d05 Automatic translation import
+
+   * packages/apps/Profiles/
+4b81520 Automatic translation import
+
+   * packages/apps/Recorder/
+eb6b9ff Automatic translation import
+
+   * packages/apps/SetupWizard/
+1383018 Automatic translation import
+
+   * packages/apps/Snap/
+fc9f54457 Automatic translation import
+
+   * packages/apps/Stk/
+dc57014 Automatic translation import
+
+   * packages/apps/Tag/
+96d0c00 Automatic translation import
+
+   * packages/apps/Terminal/
+d8c3d80 Automatic translation import
+
+   * packages/apps/Trebuchet/
+36bb45084 Automatic translation import
+
+   * packages/apps/TvSettings/
+ad7f2bc7 Automatic translation import
+
+   * packages/apps/WallpaperPicker/
+dbd66ae Automatic translation import
+
+   * packages/providers/DownloadProvider/
+563b14db Automatic translation import
+
+   * packages/providers/WeatherProvider/
+0bf0022 Automatic translation import
+
+   * packages/resources/devicesettings/
+40e31dd Automatic translation import
+
+   * packages/services/BuiltInPrintService/
+34cb5e8 Automatic translation import
+
+   * packages/services/Telecomm/
+b6211df9 Automatic translation import
+
+   * packages/services/Telephony/
+ee4d15e9d Automatic translation import
+
+====================
+     04-07-2019
+====================
+
+
+   * frameworks/base/
+3da54b5c05f Rotation related corrections
+9248ee4f969 Add back ACCELEROMETER_ROTATION_ANGLES and update references
+
+   * lineage-sdk/
+db39c9a Revert "lineage-sdk: Add ACCELEROMETER_ROTATION_ANGLES to system settings"
+
+   * lineage/wiki/
+0083da3 wiki: FAQ: We can, but we won't
+
+   * packages/apps/LineageParts/
 32b8376 Move the rotation setting to the "normal" SettingsProvider
 
    * system/core/
@@ -31,23 +203,74 @@ e7f238619 healthd: make periodic battery status a debug message
 ====================
 
 
-   * lineage/wiki/
-0083da3 wiki: FAQ: We can, but we won't
-
 ====================
      04-05-2019
 ====================
 
 
-====================
-     04-04-2019
-====================
-
-   * android/
-058c72f manifest: android-9.0.0_r34 -> android-9.0.0_r35
-
    * bionic/
 3b228ee1f bionic: Prefer /sbin/sh if it exists
+
+   * bootable/recovery/
+8efd2e4c recovery: Default to /storage/emulated/0 for emulated install choice
+e5004ac4 recovery: ignore refresh events while on browsing menus
+b3552c54 recovery: only show tests in eng build
+8304e235 recovery: setup a threshold to ignore touch release events after a swipe
+d6eb74e3 recovery: implement natural touch scrolling
+feaa81c8 recovery: prevent drawing the last item of a menu offscreen
+54f55edd recovery: always begin showing menu from the start
+92a8ed5e recovery: account for scrolling when selecting item with touch
+cfd573a6 recovery: VolumeManager: support for multiple /data fs entries
+de4ae5bd recovery: Fix mounting f2fs partitions
+25f976d0 recovery: add reboot to recovery option
+37d729bf recovery: Support configfs usb configuration
+8f693495 minui: Support input device hotplug in recovery mode.
+232ba3f8 minui: Fix the wrong move of the callback.
+ba0a1b2f recovery: autodetect filesystem type
+bc6b4f70 recovery: Add runtime checks for A/B vs traditional updates
+c9ab109b recovery: Scale logo image if necessary
+3389fd42 recovery: minui: Implement image scaling
+e2b6a970 recovery: Allow bypassing signature verification on non-release builds
+3d50d227 recovery: Allow detecting user/release build at compile time
+668f1c3d recovery: Rework sideload threading code for flexibility
+20881807 recovery: Allow device specific backlight path
+bd5a3946 recovery: Add statusbar margin for panels with rounded corners
+e65875bc recovery: Do not show emulated when data is encrypted
+f780f1cf recovery: Fix redraws, flickering, and animation
+bed81718 recovery: Add awk lib and driver
+84221d85 recovery: Respect margins in background and foreground screens
+cb5b7cc0 recovery: New install/progress animation
+820517bd recovery: Graphical UI
+9d56901b minui: Skip EV_REL input devices.
+b910bb3b recovery: Add performance control
+3bb74543 recovery: init: mount pstore fs
+fab941c4 minui: accept RGBA and treat it as RGBX
+741e014c recovery: Enable the menu for User builds
+4e7db2cd recovery: Remove "Supported API" message
+2a07c395 minui: support to pan display (FBIOPAN_DISPLAY)
+3f011a28 recovery: Allow devices to reboot to download mode
+3daed336 recovery: updater: Fix multi-stage docs
+5333a066 recovery: Dejank the menus, fix colors
+17b88b00 recovery: Fix the progress bar
+87c82628 recovery: Return to main menu after selection
+dc95db8e recovery: Add wipe system partition option
+865c6c77 recovery: Provide caching for sideload files
+c575fc4b recovery: bu: Implement backup/restore
+5b4a9d89 recovery: Provide sideload cancellation
+cfcafa14 recovery: Blank screen during shutdown and reboot
+a08c6f18 recovery: Implement a volume manager
+15f14b56 recovery: Allow device-specific recovery modules
+8968e72d recovery: Include vendor init trigger
+635a0bf4 recovery: Add resize2fs, tune2fs to fstools
+ad82f488 recovery: Add fstools
+766ed03a recovery: Enable gunzip/gzip/unzip/zip commands
+b3602328 recovery: Puke out an /etc/fstab so stuff like busybox/toybox is happy
+74f4824f recovery: ui: Support hardware virtual keys
+c0d6e1ef recovery: ui: Minor cleanup for touch code
+5f3b5e29 recovery: ui: Default to touch enabled
+f96dc5e1 recovery: Get a proper shell environment in recovery
+cfafbd07 recovery: Remove HOST_OS guard for f2fs tools
+b4591eb8 Revert "recovery: Fork a process for fuse when sideloading from SD card."
 
    * build/make/
 96c8be549 build: Remove charger from recovery unless needed
@@ -64,6 +287,13 @@ e346c7c exfat: Rename utf conversion symbols
 6e67812 f2fs-tools: Rename utf conversion symbols
 d445c41 f2fs-tools: Rename quota symbols
 20e8f06 f2fs-tools: Add static libs for recovery
+
+====================
+     04-04-2019
+====================
+
+   * android/
+058c72f manifest: android-9.0.0_r34 -> android-9.0.0_r35
 
    * packages/apps/Bluetooth/
 431b90bb Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
@@ -82,6 +312,12 @@ a144aaa Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.
 ====================
 
 
+   * frameworks/base/
+a9fa6b869ce SystemUI: Don't hide right clock when heads up is visible
+
+   * frameworks/opt/telephony/
+3197ce2c8 MMS: Update apnProfileID for MMS only apn.
+
    * lineage/jenkins/
 353b6ec Regenerate device dependency mappings
 
@@ -93,25 +329,11 @@ ba9c813 device-deps: Support lineage-16.0 branch and drop cm-14.1
 ====================
 
 
-   * frameworks/base/
-a9fa6b869ce SystemUI: Don't hide right clock when heads up is visible
-
-   * frameworks/opt/telephony/
-3197ce2c8 MMS: Update apnProfileID for MMS only apn.
-
-   * lineage/scripts/
-ba9c813 device-deps: Support lineage-16.0 branch and drop cm-14.1
-
-====================
-     04-01-2019
-====================
-
-
    * device/qcom/sepolicy-legacy/
 9df97b5 sepolicy: Label persist partition for all SoCs
 
 ====================
-     03-31-2019
+     04-01-2019
 ====================
 
 
@@ -119,34 +341,4 @@ ba9c813 device-deps: Support lineage-16.0 branch and drop cm-14.1
 7d5cb84f toybox: Use toybox for dd, getprop and grep in recovery
 fd4a589c Revert "Reland: Stop building getprop"
 fd080612 toybox: Add install to symlinks
-
-====================
-     03-30-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-6ebf76e op3: Enable OEM unlock and bootable image signing
-
-====================
-     03-29-2019
-====================
-
-
-   * device/lineage/sepolicy/
-4cd1a2f sepolicy: recovery: allow reading fbe key version
-b0b4727 sepolicy: recovery: allow mounting of usb storage
-cc71484 sepolicy: recovery: allow recovery to read battery info
-d3941b0 sepolicy: recovery: Allow setting sys.usb.config
-7c07f0e sepolicy: recovery: Allow volume manager write to /sys/*/uevent
-340f8b9 sepolicy: recovery: Add policy for /dev/block/volmgr
-5e9a260 sepolicy: recovery: Fix the volume manager blkid.tab denial
-6b14545 sepolicy: recovery: Allow reading proc_filesystems
-a816a39 sepolicy: recovery: Add policy for volume manager
-
-   * system/sepolicy/
-1085766d sepolicy: whitelist recovery from node creation neverallow
-
-   * vendor/oneplus/
-9723d2a7 oneplus2: Add back stock libOpenCL
 
