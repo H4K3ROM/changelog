@@ -1,4 +1,103 @@
 ====================
+     04-14-2019
+====================
+
+
+   * bootable/recovery/
+4568c9d2 recovery: show text during install  …
+
+   * build/make/
+54213d297 build: Include AudioPackage14.mk instead of AllAudio.mk  …
+
+   * frameworks/base/
+7e7051bfe3d Audio assets: add NFC sounds  …
+
+   * lineage-sdk/
+808b0ed sdk: Remove VOLUME_KEYS_CONTROL_RING_STREAM  …
+
+   * lineage/jenkins/
+0a22bd9 hudson: Add f1f to download portal
+
+   * packages/apps/LineageParts/
+35ab890 LightSettingsDialog: add bundle extras for preview color and duration  …
+
+   * vendor/lineage/
+080b8db6 config: Include old AOSP alarms/notifications/ringtones  …
+
+   * vendor/oneplus/
+35a53c55 msm8998-common: use unmodified camera blobs
+
+====================
+     04-13-2019
+====================
+
+
+   * lineage/jenkins/
+7c3affc hudson: Promote kuntao to 16.0
+bc3983e hudson: Promote crackling/kipper/lettuce to 16.0
+4b8ade1 hudson: Promote OPPO msm8939 to 16.0
+03afdc0 Regenerate device dependency mappings
+
+   * lineage/wiki/
+2b9aa11 devices: Promote kuntao to 16.0
+
+====================
+     04-12-2019
+====================
+
+
+   * build/make/
+a04f8be86 build: Include AudioPackage14.mk instead of AllAudio.mk
+
+   * frameworks/base/
+7333b969ddc Audio assets: add NFC sounds
+
+   * lineage-sdk/
+9cb69f8 sdk: Remove VOLUME_KEYS_CONTROL_RING_STREAM
+da392f9 sdk: notification: allow forcing notification color for preview
+
+   * lineage/wiki/
+37ee6a7 shieldtablet: Fix missed tag
+
+   * packages/apps/LineageParts/
+e56f91d LightSettingsDialog: add bundle extras for preview color and duration
+b6e35a5 LightSettingsDialog: create and use notification channel
+03f82c4 LightSettingsDialog: remove unused OnColorChangedListener
+
+   * packages/services/Telecomm/
+206e084b Change UI to be consistency with dialer settings light M2 theme
+
+   * packages/services/Telephony/
+f5b8d83b1 Change UI styles to match dialer settings light M2 theme
+d97bebd64 Disable EmergencyDialer multi window mode
+7610ab830 Fix EmergencyDialer UI when display size change
+
+   * vendor/lineage/
+f8b28f13 config: Include old AOSP alarms/notifications/ringtones
+
+   * vendor/oneplus/
+5a592f95 msm8998-common: camera hal is device specific
+
+====================
+     04-11-2019
+====================
+
+
+   * bootable/recovery/
+20c8d41a recovery: show text during install
+a6744196 recovery: always create emulated volume if we fail to detect fs
+
+   * frameworks/base/
+7f722d8473d Exclude Emergency Dialer from recent app list.
+e37ed3c5142 NotificationManagerService: do not use flashing API for staying always on
+
+   * lineage/jenkins/
+e23cf7f Reship shieldtablet
+
+   * lineage/wiki/
+4631315 Promote shieldtablet to 15.1
+
+====================
      04-10-2019
 ====================
 
@@ -18,52 +117,46 @@
    * packages/apps/Settings/
 d30815fe7a Automatic translation import
 
+   * vendor/oneplus/
+d1b12517 sdm845-common: Use ims.apk from daisy
+
 ====================
      04-09-2019
 ====================
 
 
+   * lineage/scripts/
+1d2b5b9 Allow capping the number of workers
+e452d7a Stop common repos creeping in as devices
+
+   * lineage/website/
+4391e2c Fix reverse tag
+
    * lineage/wiki/
 c4b35a4 wiki: Remove contributors no longer working on    *
 
-   * packages/apps/Settings/
-ccdaf09ac2 Automatic translation import
+   * vendor/lineage/
+5ee8c8b0 images: Add 420dpi symlink
 
 ====================
      04-08-2019
 ====================
 
 
-   * build/make/
-85be897e3 Merge https://github.com/LineageOS/android_build into lineage-16.0
-ca07b9e85 Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
-
    * device/oppo/common/
 d493fda Automatic translation import
 
    * frameworks/base/
 e28dab4bb43 Automatic translation import
-3a34c8356ad Update bluetooth drawable
-8174c3f7b1d Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
 
    * hardware/qcom/fm/
 d78abd7 Automatic translation import
 
    * lineage-sdk/
 952ef00 Automatic translation import
-62f7f6c Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
 
    * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
 1e2212d Automatic translation import
-
-   * lineage/crowdin/
-8262498 config: 16.0: Add kuntao devicesettings
-
-   * lineage/wiki/
-66ec674 devices: Promote crackling/kipper/lettuce to 16.0
-78d1113 devices: Promote OPPO msm8939 to 16.0
-7b038e1 wiki: Allow devices to format data on upgrade due to unfixable issues
-64fa2df wiki: Make upgrading LineageOS a device specific page
 
    * packages/apps/AudioFX/
 5759bab Automatic translation import
@@ -112,7 +205,6 @@ ad6c6a3 Automatic translation import
 
    * packages/apps/LineageParts/
 2837a42 Automatic translation import
-1fdf48a Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
 
    * packages/apps/LockClock/
 c460aed Automatic translation import
@@ -134,6 +226,9 @@ a222d05 Automatic translation import
 
    * packages/apps/Recorder/
 eb6b9ff Automatic translation import
+
+   * packages/apps/Settings/
+ccdaf09ac2 Automatic translation import
 
    * packages/apps/SetupWizard/
 1383018 Automatic translation import
@@ -182,21 +277,44 @@ ee4d15e9d Automatic translation import
 ====================
 
 
+   * build/make/
+85be897e3 Merge https://github.com/LineageOS/android_build into lineage-16.0
+ca07b9e85 Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
+
+   * external/icu/
+7ca8e5403 DO NOT MERGE: Apply 2019a tzdb updates
+1e7ba5d1a DO NOT MERGE: Apply upstream fix to use rearguard data
+
    * frameworks/base/
+3a34c8356ad Update bluetooth drawable
+8174c3f7b1d Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
 3da54b5c05f Rotation related corrections
 9248ee4f969 Add back ACCELEROMETER_ROTATION_ANGLES and update references
 
    * lineage-sdk/
+62f7f6c Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
 db39c9a Revert "lineage-sdk: Add ACCELEROMETER_ROTATION_ANGLES to system settings"
 
+   * lineage/crowdin/
+8262498 config: 16.0: Add kuntao devicesettings
+
    * lineage/wiki/
+66ec674 devices: Promote crackling/kipper/lettuce to 16.0
+78d1113 devices: Promote OPPO msm8939 to 16.0
+7b038e1 wiki: Allow devices to format data on upgrade due to unfixable issues
+64fa2df wiki: Make upgrading LineageOS a device specific page
 0083da3 wiki: FAQ: We can, but we won't
 
    * packages/apps/LineageParts/
+1fdf48a Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
 32b8376 Move the rotation setting to the "normal" SettingsProvider
 
    * system/core/
 e7f238619 healthd: make periodic battery status a debug message
+
+   * system/timezone/
+63540a1 DO NOT MERGE: Changes associated with the tzdb 2019a update
+e150721 DO NOT MERGE: Track changes in external/icu for rearguard data
 
 ====================
      04-06-2019
@@ -241,42 +359,9 @@ bed81718 recovery: Add awk lib and driver
 84221d85 recovery: Respect margins in background and foreground screens
 cb5b7cc0 recovery: New install/progress animation
 820517bd recovery: Graphical UI
-9d56901b minui: Skip EV_REL input devices.
-b910bb3b recovery: Add performance control
-3bb74543 recovery: init: mount pstore fs
-fab941c4 minui: accept RGBA and treat it as RGBX
-741e014c recovery: Enable the menu for User builds
-4e7db2cd recovery: Remove "Supported API" message
-2a07c395 minui: support to pan display (FBIOPAN_DISPLAY)
-3f011a28 recovery: Allow devices to reboot to download mode
-3daed336 recovery: updater: Fix multi-stage docs
-5333a066 recovery: Dejank the menus, fix colors
-17b88b00 recovery: Fix the progress bar
-87c82628 recovery: Return to main menu after selection
-dc95db8e recovery: Add wipe system partition option
-865c6c77 recovery: Provide caching for sideload files
-c575fc4b recovery: bu: Implement backup/restore
-5b4a9d89 recovery: Provide sideload cancellation
-cfcafa14 recovery: Blank screen during shutdown and reboot
-a08c6f18 recovery: Implement a volume manager
-15f14b56 recovery: Allow device-specific recovery modules
-8968e72d recovery: Include vendor init trigger
-635a0bf4 recovery: Add resize2fs, tune2fs to fstools
-ad82f488 recovery: Add fstools
-766ed03a recovery: Enable gunzip/gzip/unzip/zip commands
-b3602328 recovery: Puke out an /etc/fstab so stuff like busybox/toybox is happy
-74f4824f recovery: ui: Support hardware virtual keys
-c0d6e1ef recovery: ui: Minor cleanup for touch code
-5f3b5e29 recovery: ui: Default to touch enabled
-f96dc5e1 recovery: Get a proper shell environment in recovery
-cfafbd07 recovery: Remove HOST_OS guard for f2fs tools
-b4591eb8 Revert "recovery: Fork a process for fuse when sideloading from SD card."
 
    * build/make/
 96c8be549 build: Remove charger from recovery unless needed
-
-   * device/qcom/sepolicy/
-b1db637 sepolicy: Label persist partition for all SoCs
 
    * external/exfat/
 e346c7c exfat: Rename utf conversion symbols
@@ -287,58 +372,4 @@ e346c7c exfat: Rename utf conversion symbols
 6e67812 f2fs-tools: Rename utf conversion symbols
 d445c41 f2fs-tools: Rename quota symbols
 20e8f06 f2fs-tools: Add static libs for recovery
-
-====================
-     04-04-2019
-====================
-
-   * android/
-058c72f manifest: android-9.0.0_r34 -> android-9.0.0_r35
-
-   * packages/apps/Bluetooth/
-431b90bb Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
-
-   * packages/apps/Settings/
-8134a71b86 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
-
-   * system/bt/
-cd7d203ee Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
-
-   * system/netd/
-a144aaa Merge tag 'android-9.0.0_r35' into staging/lineage-16.0_merge-android-9.0.0_r35
-
-====================
-     04-03-2019
-====================
-
-
-   * frameworks/base/
-a9fa6b869ce SystemUI: Don't hide right clock when heads up is visible
-
-   * frameworks/opt/telephony/
-3197ce2c8 MMS: Update apnProfileID for MMS only apn.
-
-   * lineage/jenkins/
-353b6ec Regenerate device dependency mappings
-
-   * lineage/scripts/
-ba9c813 device-deps: Support lineage-16.0 branch and drop cm-14.1
-
-====================
-     04-02-2019
-====================
-
-
-   * device/qcom/sepolicy-legacy/
-9df97b5 sepolicy: Label persist partition for all SoCs
-
-====================
-     04-01-2019
-====================
-
-
-   * external/toybox/
-7d5cb84f toybox: Use toybox for dd, getprop and grep in recovery
-fd4a589c Revert "Reland: Stop building getprop"
-fd080612 toybox: Add install to symlinks
 
