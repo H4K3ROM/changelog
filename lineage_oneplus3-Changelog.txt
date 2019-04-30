@@ -1,10 +1,105 @@
 ====================
-     04-21-2019
+     04-30-2019
 ====================
-  * Easter Sunday no changes, just baked after a full sync
+
+
+   * device/oneplus/oneplus3/
+e774b6e op3: Fix keypad fw update denial dianlujitao committed 7 days ago
+
+   * frameworks/base/
+6f91882dc3d SystemUI: Bring back lockscreen tuner (1/2)
+
+   * packages/apps/Settings/
+41db230a8a SystemUI: Bring back lockscreen tuner (2/2)
+
+   * vendor/lineage/
+26a12374 apns : Update the KT IMS apn
 
 ====================
-     04-20-2019
+     04-29-2019
+====================
+
+
+====================
+     04-28-2019
+====================
+
+
+   * lineage/website/
+6305148 Use https per default for lineageos.org links
+
+====================
+     04-27-2019
+====================
+
+
+   * lineage/website/
+4f0f7a9 Goodbye Google+
+
+   * lineage/wiki/
+ce4a55b wiki: device_update: push_update works on both A/B & legacy
+
+====================
+     04-26-2019
+====================
+
+
+   * lineage/mirror/
+7b59624 Updated to 25-Apr-2019 22:00 UTC
+
+   * lineage/wiki/
+8b9ee83 wiki: bring back upgrading.html
+
+====================
+     04-25-2019
+====================
+
+
+   * vendor/lineage/
+c670f148 apns : Update the KT IMS apn
+
+====================
+     04-24-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+801a7de op3: Fix keypad fw update denial
+
+   * packages/apps/Settings/
+c83d681a09 SystemUI: Bring back lockscreen tuner (2/2)
+
+====================
+     04-23-2019
+====================
+
+
+   * hardware/qcom/display/
+bc2fb73d7 display: msm8974: Add -Wno-error to compile with global -Werror.
+
+   * lineage/mirror/
+1be7400 Updated to 22-Apr-2019 18:00:59 UTC
+
+   * lineage/wiki/
+a8d0479 wiki: nash: We don't support dual-sim models
+
+====================
+     04-22-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+0df5f01 op3: s/ro.vendor.product/ro.product.vendor/g
+
+   * kernel/oneplus/msm8996/
+cbd39cd63d0a Merge tag 'f4be035e49063e359859260ee99497dff00d46a9' into HEAD
+039419824680 Merge tag 'LA.UM.7.5.r1-04500-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
+
+   * lineage/wiki/
+dbaf107 wiki: FAQ: Add notes on builds from old devices/versions disappearing
+
+====================
+     04-21-2019
 ====================
 
 
@@ -13,105 +108,4 @@
 
    * lineage/wiki/
 2b7a053 tissot: Update custom TWRP link
-
-====================
-     04-19-2019
-====================
-
-
-   * lineage/wiki/
-bcba646 wiki: CVE Tracker is dead
-619433b wiki: Remove Costs page
-1e6dbfc wiki: contributors: 14.1 is dead
-
-====================
-     04-18-2019
-====================
-
-
-   * lineage/wiki/
-a8edd8c wiki: Make tables less hideous
-6191702 Revert "Advertise custom TWRP for oneplus3/jason"
-
-====================
-     04-17-2019
-====================
-
-
-====================
-     04-16-2019
-====================
-
-
-====================
-     04-15-2019
-====================
-
-
-   * packages/services/OmniJaws/
-f6963d0 Automatic AICP translation import
-
-====================
-     04-14-2019
-====================
-
-
-   * bootable/recovery/
-4568c9d2 recovery: show text during install  …
-
-   * build/make/
-54213d297 build: Include AudioPackage14.mk instead of AllAudio.mk  …
-
-   * frameworks/base/
-7e7051bfe3d Audio assets: add NFC sounds  …
-
-   * lineage-sdk/
-808b0ed sdk: Remove VOLUME_KEYS_CONTROL_RING_STREAM  …
-
-   * lineage/jenkins/
-0a22bd9 hudson: Add f1f to download portal
-
-   * packages/apps/LineageParts/
-35ab890 LightSettingsDialog: add bundle extras for preview color and duration  …
-
-   * vendor/lineage/
-080b8db6 config: Include old AOSP alarms/notifications/ringtones  …
-
-   * vendor/oneplus/
-35a53c55 msm8998-common: use unmodified camera blobs
-
-====================
-     04-13-2019
-====================
-
-
-   * lineage/jenkins/
-7c3affc hudson: Promote kuntao to 16.0
-bc3983e hudson: Promote crackling/kipper/lettuce to 16.0
-4b8ade1 hudson: Promote OPPO msm8939 to 16.0
-
-   * lineage/wiki/
-2b9aa11 devices: Promote kuntao to 16.0
-
-====================
-     04-12-2019
-====================
-
-
-   * lineage-sdk/
-9cb69f8 sdk: Remove VOLUME_KEYS_CONTROL_RING_STREAM
-
-   * lineage/jenkins/
-03afdc0 Regenerate device dependency mappings
-
-   * packages/services/Telecomm/
-206e084b Change UI to be consistency with dialer settings light M2 theme
-
-   * packages/services/Telephony/
-f5b8d83b1 Change UI styles to match dialer settings light M2 theme
-d97bebd64 Disable EmergencyDialer multi window mode
-7610ab830 Fix EmergencyDialer UI when display size change
-
-   * vendor/oneplus/
-5a592f95 msm8998-common: camera hal is device specific
 
