@@ -1,111 +1,306 @@
 ====================
-     04-30-2019
+     05-11-2019
 ====================
 
+   * android/
+f444b48 manifest: Track several Intel hardware repos
+
+   * bootable/recovery/
+371f5bbc Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android…  …
+
+   * build/make/
+512a92f11 Merge https://github.com/LineageOS/android_build into lineage-16.0
+db1fddcef Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
 
    * device/oneplus/oneplus3/
-e774b6e op3: Fix keypad fw update denial dianlujitao committed 7 days ago
+910e092 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0 op3: fix OTA auto-flashing with encrypted f2fs.  …
 
    * frameworks/base/
-6f91882dc3d SystemUI: Bring back lockscreen tuner (1/2)
+27f9d843214 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
+23163753225 Fix migration from pre-O for AndroidTV devices (1/2)
 
    * packages/apps/Settings/
-41db230a8a SystemUI: Bring back lockscreen tuner (2/2)
+38030d63e7 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android…  …
 
    * vendor/lineage/
-26a12374 apns : Update the KT IMS apn
+c476b91a Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0 Commits on May 6, 2019 apns: Update IRAN APNs  … Commits on May 2, 2019 kernel: Fix modules path generated in modules.dep  …
 
 ====================
-     04-29-2019
-====================
-
-
-====================
-     04-28-2019
+     05-10-2019
 ====================
 
 
-   * lineage/website/
-6305148 Use https per default for lineageos.org links
+   * build/make/
+db1fddcef Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
 
-====================
-     04-27-2019
-====================
+   * lineage/hudson/
+c2e31ce hudson: promote FP2 to pie
 
-
-   * lineage/website/
-4f0f7a9 Goodbye Google+
+   * lineage/mirror/
+c461c61 Updated to 09-May-2019 22:00 UTC
 
    * lineage/wiki/
-ce4a55b wiki: device_update: push_update works on both A/B & legacy
+44acaf9 wiki: promote FP2 to pie
 
 ====================
-     04-26-2019
+     05-09-2019
+====================
+
+
+   * build/make/
+87e922110 build: Respect fs_config when generating recovery ramdisk
+
+   * device/lineage/sepolicy/
+1e69dc3 qcom: Extend untrusted_app access to battery/power supply sysfs
+
+====================
+     05-08-2019
+====================
+
+
+   * external/icu/
+1d56f7edc Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * external/skia/
+c34465220b Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * lineage/hudson/
+c024965 hudson: Promote bardock/bardockpro to 16.0
+
+   * lineage/wiki/
+a75074d devices: Promote bardock/bardockpro to 16.0
+
+   * packages/apps/SecureElement/
+24435ae Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Trebuchet/
+61407710d Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * system/timezone/
+5822955 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+====================
+     05-07-2019
+====================
+
+   * android/
+86699a2 manifest: android-9.0.0_r35 -> android-9.0.0_r37
+
+   * bootable/recovery/
+e1de083f Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * development/
+f028b9675 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * frameworks/av/
+6a6fde23d Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * frameworks/base/
+63d76f28fe7 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+4e2ec4894d0 RotationPolicy: Don't crash if configstore 1.1 isn't available
+
+   * frameworks/native/
+088d11fcb Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * frameworks/opt/datetimepicker/
+17490a8 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * frameworks/opt/net/wifi/
+b68d3d888 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * frameworks/opt/telephony/
+0cb5f1cd8 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * hardware/broadcom/wlan/
+b6cf251 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * hardware/interfaces/
+b44d7055 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * hardware/qcom/audio/default/
+4a0bd95db Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/BasicSmsReceiver/
+919facf Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Bluetooth/
+8869360f Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Camera2/
+1545a8819 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/CarrierConfig/
+2659c3b Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/CellBroadcastReceiver/
+1eeeeaf6 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/CertInstaller/
+5c03637 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Contacts/
+311aa830b Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/DeskClock/
+62b5e2127 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/DocumentsUI/
+1aa9bec9 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/EmergencyInfo/
+bf492f9 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/ExactCalculator/
+33c7ed7 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/KeyChain/
+dea1108 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/ManagedProvisioning/
+c7346868 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Nfc/
+eac38a9a Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/PackageInstaller/
+6e07867f Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/PhoneCommon/
+7cd4ebb Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/SafetyRegulatoryInfo/
+f73af73 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Settings/
+d4f2f9736f Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Stk/
+c7f6fe5 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/StorageManager/
+db3842e Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Tag/
+bb0fa05 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/Traceur/
+516f39f Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/apps/TvSettings/
+45aab2cc Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/inputmethods/LatinIME/
+6cbd1e8a7 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/providers/BlockedNumberProvider/
+bae9eed Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/providers/ContactsProvider/
+e8a89db2 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/providers/DownloadProvider/
+43ccc12c Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/providers/MediaProvider/
+da297c2 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/providers/TelephonyProvider/
+4260e89 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/providers/TvProvider/
+300e425 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/providers/UserDictionaryProvider/
+a706008 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/screensavers/Basic/
+50fc972 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/screensavers/PhotoTable/
+dd4981c Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/services/BuiltInPrintService/
+237d6b9 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/services/Mms/
+22a9af8 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/services/Telecomm/
+9cf9123d Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/services/Telephony/
+d8fc1a81d Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * packages/wallpapers/LivePicker/
+11d7355 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * system/bt/
+3957443ab Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * system/core/
+100cf4a9f Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * system/security/
+c7a1e49 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+   * system/sepolicy/
+4b120b62 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
+
+====================
+     05-06-2019
 ====================
 
 
    * lineage/mirror/
-7b59624 Updated to 25-Apr-2019 22:00 UTC
-
-   * lineage/wiki/
-8b9ee83 wiki: bring back upgrading.html
-
-====================
-     04-25-2019
-====================
-
+1c388f4 Updated to 05-May-2019 22:00 UTC
 
    * vendor/lineage/
-c670f148 apns : Update the KT IMS apn
+70161082 apns: Update IRAN APNs
 
 ====================
-     04-24-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-801a7de op3: Fix keypad fw update denial
-
-   * packages/apps/Settings/
-c83d681a09 SystemUI: Bring back lockscreen tuner (2/2)
-
-====================
-     04-23-2019
+     05-05-2019
 ====================
 
 
-   * hardware/qcom/display/
-bc2fb73d7 display: msm8974: Add -Wno-error to compile with global -Werror.
+   * device/lineage/sepolicy/
+0a5dfb2 sepolicy: allow recovery to setenforce
+
+====================
+     05-04-2019
+====================
+
 
    * lineage/mirror/
-1be7400 Updated to 22-Apr-2019 18:00:59 UTC
+c22c008 Updated to 03-May-2019 22:00 UTC
 
    * lineage/wiki/
-a8d0479 wiki: nash: We don't support dual-sim models
+f2d4420 wiki: Stop advertising custom TWRP for tissot
+
+   * vendor/oneplus/
+9fa6d764 msm8998-common: update blobs from 9.0.5
 
 ====================
-     04-22-2019
+     05-03-2019
 ====================
 
 
    * device/oneplus/oneplus3/
-0df5f01 op3: s/ro.vendor.product/ro.product.vendor/g
+30a71ae op3: fix OTA auto-flashing with encrypted f2fs.
 
-   * kernel/oneplus/msm8996/
-cbd39cd63d0a Merge tag 'f4be035e49063e359859260ee99497dff00d46a9' into HEAD
-039419824680 Merge tag 'LA.UM.7.5.r1-04500-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into HEAD
-
-   * lineage/wiki/
-dbaf107 wiki: FAQ: Add notes on builds from old devices/versions disappearing
-
-====================
-     04-21-2019
-====================
-
-
-   * hardware/qcom/data/ipacfg-mgr/
-2e3ed98 msm8998: ipanat: Add missing kernel header dep
+   * frameworks/base/
+42d29cda57f appops: put @hide back to opToDefaultMode
 
    * lineage/wiki/
-2b7a053 tissot: Update custom TWRP link
+0895ca7 wiki: Add Zuk Z2 Plus (z2_plus)
+
+====================
+     05-02-2019
+====================
+
+
+   * lineage/wiki/
+1fcce0c wiki: Devices: Fix for chrome
+
+   * vendor/lineage/
+75975892 kernel: Fix modules path generated in modules.dep
 
