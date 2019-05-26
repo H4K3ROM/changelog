@@ -1,132 +1,78 @@
 ====================
+     05-26-2019
+====================
+
+
+====================
+     05-25-2019
+====================
+
+
+   * packages/apps/Settings/
+0049189d45 Add Dual Channel into Bluetooth Audio Channel Mode developer options …  …
+
+   * vendor/lineage/
+0fa34c31 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+
+====================
+     05-24-2019
+====================
+
+
+====================
+     05-23-2019
+====================
+
+   * android/
+8753868 Sync a newer revision of hardware/google/pixel
+488f3f6 android: Add gitlab remote
+
+   * vendor/lineage/
+20505e9c charger: add 400dpi symlink
+fc5a8fa0 lineage: Build Fi GMS product if WITH_GMS_FI is defined
+
+====================
+     05-22-2019
+====================
+
+   * android/
+1636837 manifest: Track our own libpng
+
+====================
+     05-21-2019
+====================
+
+
+   * lineage/hudson/
+6d9b2c9 hudson: Remove devices with inactive maintainers
+
+====================
+     05-20-2019
+====================
+
+
+   * packages/services/Telephony/
+6b9977a3d Add missing null check on start of SipIncomingCallReceiver received.
+b32b66f7a Change action bar icon and text color from white to grey
+09b9cace6 Fix the drawable resource can't be loaded from RRO package
+
+====================
+     05-19-2019
+====================
+
+
+   * vendor/lineage/
+6b5af98a Actually include legacy privapp whitelist
+f972f5ea Whitelist permissions under legacy package names
+dccc6588 Remove AudioFX
+
+====================
      05-18-2019
 ====================
 
 
-   * vendor/lineage/
-dccc6588 Remove AudioFX
-
 ====================
      05-17-2019
-====================
-
-
-====================
-     05-16-2019
-====================
-
-
-   * bootable/recovery/
-42d93d3d Merge https://github.com/LineageOS/android_bootable_recovery into lineage-16.0 Commits on May 14, 2019 recovery: Blank screen on init  …
-
-   * device/oneplus/oneplus3/
-2793dc3 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0 Commits on May 14, 2019 op3: Wait for MPCTL to start on boot  …
-
-   * frameworks/base/
-1155b556eb9 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0 Commits on May 13, 2019 Allow SBC as HD audio codec in Bluetooth device configuration  …
-
-   * hardware/qcom/audio-caf/msm8996/
-6970cfde8 audio_extn: Add missing pthread.h includes
-
-   * lineage-sdk/
-e4188b8 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0 Commits on May 13, 2019 sdk: Change night/day mode transition behavior  …
-
-====================
-     05-15-2019
-====================
-
-
-====================
-     05-14-2019
-====================
-
-
-   * bootable/recovery/
-5d5abd86 recovery: Blank screen on init
-
-   * device/oneplus/oneplus3/
-d6915c5 op3: Wait for MPCTL to start on boot
-
-   * frameworks/base/
-ee636e6513f Allow SBC as HD audio codec in Bluetooth device configuration
-a8794260828 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
-99dc2c9308c Add CHANNEL_MODE_DUAL_CHANNEL constant
-
-   * lineage-sdk/
-70f6d6b sdk: Change night/day mode transition behavior
-
-   * lineage/mirror/
-e29d8a6 Updated to 13-May-2019 22:00 UTC
-
-   * packages/apps/Bluetooth/
-ecdbaf8e Assume optional codecs are supported if were supported previously
-cc727902 SBC Dual Channel (SBC HD Audio) support
-
-   * system/bt/
-d48026cf8 Explicit SBC Dual Channel (SBC HD) support
-14564802c Increase maximum Bluetooth SBC codec bitrate for SBC HD
-
-====================
-     05-13-2019
-====================
-
-
-   * lineage/wiki/
-f2329d5 bardock/bardockpro: Remove advice to wipe before upgrade.
-
-====================
-     05-12-2019
-====================
-
-
-====================
-     05-11-2019
-====================
-
-   * android/
-f444b48 manifest: Track several Intel hardware repos
-
-   * bootable/recovery/
-371f5bbc Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android…  …
-
-   * build/make/
-512a92f11 Merge https://github.com/LineageOS/android_build into lineage-16.0
-
-   * device/oneplus/oneplus3/
-910e092 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0 op3: fix OTA auto-flashing with encrypted f2fs.  …
-
-   * frameworks/base/
-27f9d843214 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
-23163753225 Fix migration from pre-O for AndroidTV devices (1/2)
-
-   * packages/apps/Dialer/
-d262308bc Dialer: AudioModeProvider: use wired route for usb headsets
-
-   * packages/apps/Settings/
-38030d63e7 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0 Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android…  …
-
-   * vendor/lineage/
-c476b91a Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0 Commits on May 6, 2019 apns: Update IRAN APNs  … Commits on May 2, 2019 kernel: Fix modules path generated in modules.dep  …
-
-====================
-     05-10-2019
-====================
-
-
-   * build/make/
-db1fddcef Merge tag 'android-9.0.0_r37' into staging/lineage-16.0_merge-android-9.0.0_r37
-
-   * lineage/hudson/
-c2e31ce hudson: promote FP2 to pie
-
-   * lineage/mirror/
-c461c61 Updated to 09-May-2019 22:00 UTC
-
-   * lineage/wiki/
-44acaf9 wiki: promote FP2 to pie
-
-====================
-     05-09-2019
 ====================
 
 
