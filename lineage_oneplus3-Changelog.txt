@@ -1,4 +1,82 @@
 ====================
+     06-01-2019
+====================
+
+
+   * frameworks/base/
+3c1c3475ca3 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
+f7fc27e9aa1 frameworks: Add unlinked ringtone and notification volumes
+
+   * hardware/lineage/livedisplay/
+fd1713f sdm: Fix restoring default mode when using prebuilt vendor
+
+   * packages/apps/Settings/
+061f6fd5e6 Commits on May 31, 2019 Settings: Add battery saving mode for location  …
+
+   * vendor/lineage/
+3377293e remove DSP manager
+
+====================
+     05-31-2019
+====================
+
+   * android/
+fdf849c Sync new Backgrounds app
+
+   * device/lineage/sepolicy/
+c249d09 sepol: Label vendor.qcom.bluetooth.soc
+
+   * frameworks/base/
+b3e277ded64 Revert "NightDisplayController: report unavailable if livedisplay feature is present"
+93f33c93d3f SystemUI: Fix several layout bugs
+f64d206d86a SystemUI: Advanced location tile
+bdb84e40d2e SystemUI: Add Profiles tile
+052e9327074 SystemUI: Enable and fix QS detail view, adapt layout to Pie
+
+   * packages/apps/Settings/
+358f7cb9af Settings: Add battery saving mode for location
+
+   * packages/apps/Trebuchet/
+4332fe6d0 Trebuchet: use new wallpaper app
+
+====================
+     05-30-2019
+====================
+
+
+   * lineage/mirror/
+04f3910 Updated to 30-May-2019 00:00 UTC
+
+   * packages/apps/Gallery2/
+c00decac3 Gallery: Sync translations with AOSP
+
+====================
+     05-29-2019
+====================
+
+
+   * build/soong/
+2eebd35c Revert "dumpvar: Dump TARGET_USE_SDCLANG"
+
+   * frameworks/base/
+1600570dd84 base: Redo expanded volume panel for 9.x
+
+====================
+     05-28-2019
+====================
+
+   * android/
+d414bc6 manifest: Add sm8150 HALs
+
+   * packages/apps/OmniSwitch/
+da5a4ee OmniSwitch: add phone camera and assist to possible action buttons
+
+====================
+     05-27-2019
+====================
+
+
+====================
      05-26-2019
 ====================
 
@@ -27,52 +105,10 @@
 8753868 Sync a newer revision of hardware/google/pixel
 488f3f6 android: Add gitlab remote
 
+   * packages/apps/Settings/
+c15b110a30 Revert "Settings: Hide Night Mode suggestion if LiveDisplay feature is present"
+
    * vendor/lineage/
 20505e9c charger: add 400dpi symlink
 fc5a8fa0 lineage: Build Fi GMS product if WITH_GMS_FI is defined
-
-====================
-     05-22-2019
-====================
-
-   * android/
-1636837 manifest: Track our own libpng
-
-====================
-     05-21-2019
-====================
-
-
-   * lineage/hudson/
-6d9b2c9 hudson: Remove devices with inactive maintainers
-
-====================
-     05-20-2019
-====================
-
-
-   * packages/services/Telephony/
-6b9977a3d Add missing null check on start of SipIncomingCallReceiver received.
-b32b66f7a Change action bar icon and text color from white to grey
-09b9cace6 Fix the drawable resource can't be loaded from RRO package
-
-====================
-     05-19-2019
-====================
-
-
-   * vendor/lineage/
-6b5af98a Actually include legacy privapp whitelist
-f972f5ea Whitelist permissions under legacy package names
-dccc6588 Remove AudioFX
-
-====================
-     05-18-2019
-====================
-
-
-====================
-     05-17-2019
-====================
-
 
