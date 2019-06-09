@@ -1,4 +1,217 @@
 ====================
+     06-09-2019
+====================
+
+
+   * external/nano/
+ae26fda9 nano: Regenerate config.h
+9f2c790e nano: fix another implicit declaration of time()
+
+   * lineage/hudson/
+0352cc5 hudson: Promote xiaomi msm8998 to 16.0
+
+   * lineage/wiki/
+f22c7ea devices: Promote xiaomi msm8998 to 16.0
+2f815ef Add "USB debugging" as a valid menu entry for enabling debugging
+91a6332 wiki: Working with Blobs: Resolve typo
+
+   * vendor/lineage/
+d4510a44 Merge branch 'lineage-16.0' of https://github.com/H4K3ROM/android_vendor_lineage into lineage-16.0
+
+====================
+     06-08-2019
+====================
+
+
+   * frameworks/base/
+65ab2b4a12b Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
+dd76556103e Automatic translation import
+
+   * hardware/qcom/fm/
+2140e05 Automatic translation import
+
+   * lineage-sdk/
+a9a80b7 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
+1c52f37 Automatic translation import
+
+   * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+ee00a53 Automatic translation import
+
+   * lineage/crowdin/
+1b6e5fe config: 16.0: Add Sundanese
+
+   * lineage/wiki/
+07ba50a cheeseburger/dumpling: add before_install instructions
+
+   * packages/apps/Calendar/
+726140b5 Automatic translation import
+
+   * packages/apps/Camera2/
+c6ba24690 Automatic translation import
+
+   * packages/apps/Contacts/
+a56ae0127 Automatic translation import
+
+   * packages/apps/DeskClock/
+9f9f274ca Automatic translation import
+
+   * packages/apps/Dialer/
+f15a939a2 Automatic translation import
+
+   * packages/apps/Eleven/
+811407f Automatic translation import
+
+   * packages/apps/Email/
+5197dfcc3 Automatic translation import
+
+   * packages/apps/Gallery2/
+9233b3322 Automatic translation import
+
+   * packages/apps/Jelly/
+8c9812e Automatic translation import
+
+   * packages/apps/LockClock/
+872821e Automatic translation import
+
+   * packages/apps/Profiles/
+500c17e Automatic translation import
+
+   * packages/apps/Recorder/
+ecf5557 Automatic translation import
+
+   * packages/apps/Settings/
+9bf001f519 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
+d4e2f5ca99 Automatic translation import
+70e735df20 Settings: mobile -> cellular
+
+   * packages/apps/Snap/
+f8158606a Automatic translation import
+
+   * packages/apps/Terminal/
+4a764c0 Automatic translation import
+
+   * packages/apps/Trebuchet/
+17568ce41 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+ca7a3082 Automatic translation import
+
+   * packages/providers/WeatherProvider/
+637b12e Automatic translation import
+
+   * packages/services/Mms/
+2066140 Automatic translation import
+
+   * vendor/lineage/
+5ac281a5 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+5ee35ea3 repopick: cmp() is not available in Python 3, define it manually
+
+====================
+     06-07-2019
+====================
+
+
+   * frameworks/base/
+a179062a82e KeyguardStateMonitor: Don't get IUsbRestrict service in constructor
+
+   * packages/services/Telephony/
+330645d46 Allow to disable the new scan API for manual network search.
+
+====================
+     06-06-2019
+====================
+
+
+   * external/nano/
+561b50da nano: don't spam warnings as errors
+ad2eedc1 nano: fix implicit declaration of time function
+161086fe nano: Make revision.h a stub
+5daed7f4 nano: Update makefile for new nanorc path
+3ca7bc57 nano: Add nanorc
+7b10e544 nano: Add android makefile
+161f0291 nano: Add config.h and revision.h
+e810d7e3 nano: Don't ignore config.h & revision.h
+
+   * lineage/crowdin/
+059d920 Move to new wallpaper app
+
+   * vendor/lineage/
+337f13e4 Update default wallpaper
+60fe9352 lineage: Rework DTBO image generation
+
+====================
+     06-05-2019
+====================
+
+
+   * frameworks/base/
+e4f75f0ea8c LiveDisplayTile: Report unavailable on HWC2
+710ae2ecf83 SystemUI: sync dark mode with AOSP night mode too
+
+   * lineage-sdk/
+f781a93 LiveDisplayService: Disable ColorTemperature when NightDisplay is available
+
+====================
+     06-04-2019
+====================
+
+   * android/
+b02a666 manifest: android-9.0.0_r37 -> android-9.0.0_r40
+
+   * device/lineage/sepolicy/
+71566b5 Revert "sepol: Label vendor.qcom.bluetooth.soc"
+
+   * external/skia/
+2c0348a6b0 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
+
+   * frameworks/av/
+4e377ed12 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
+
+   * frameworks/base/
+24ce6c3ea58 AudioService: Remove Analog Dock from fixed-volume devices
+
+   * hardware/qcom/fm/
+221e94e Partially revert "fm: Fix wrong BT SOC property name"
+
+   * packages/apps/Bluetooth/
+82d97865 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
+
+   * system/bt/
+20eae8e4f Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
+
+   * system/vold/
+1e22b41 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
+
+   * vendor/oneplus/
+e81f9953 sdm845-common: Import NXP NFC stack
+
+====================
+     06-03-2019
+====================
+
+
+   * frameworks/base/
+79de08f5eac HeadsUpAppearanceController: allow heads-up to draw beyond bounds
+22de74f8c6f SystemUI: Bring back good ol' circle battery style
+
+   * vendor/lineage/
+a4414a49 overlay: Hide the option to show battery percentage
+
+====================
+     06-02-2019
+====================
+
+
+   * frameworks/base/
+af4729569d5 Fix overlap between operator name and heads-up notification
+
+   * lineage-sdk/
+5ded0fc sdk: Update for refactored battery icon options
+
+   * packages/apps/Settings/
+223c80600f Settings: appops: Drop GET_UNINSTALLED_PACKAGES from getApplicationInfo()
+
+====================
      06-01-2019
 ====================
 
@@ -11,10 +224,13 @@ f7fc27e9aa1 frameworks: Add unlinked ringtone and notification volumes
 fd1713f sdm: Fix restoring default mode when using prebuilt vendor
 
    * packages/apps/Settings/
+4c0948443f Settings: Use correct icon for ring volume
+1b1e4f8484 Settings: Add switch for linked ring and media notification volumes
 061f6fd5e6 Commits on May 31, 2019 Settings: Add battery saving mode for location  …
 
    * vendor/lineage/
 3377293e remove DSP manager
+10ca86d1 apns: Update Singapore's APNs
 
 ====================
      05-31-2019
@@ -39,76 +255,6 @@ bdb84e40d2e SystemUI: Add Profiles tile
    * packages/apps/Trebuchet/
 4332fe6d0 Trebuchet: use new wallpaper app
 
-====================
-     05-30-2019
-====================
-
-
-   * lineage/mirror/
-04f3910 Updated to 30-May-2019 00:00 UTC
-
-   * packages/apps/Gallery2/
-c00decac3 Gallery: Sync translations with AOSP
-
-====================
-     05-29-2019
-====================
-
-
-   * build/soong/
-2eebd35c Revert "dumpvar: Dump TARGET_USE_SDCLANG"
-
-   * frameworks/base/
-1600570dd84 base: Redo expanded volume panel for 9.x
-
-====================
-     05-28-2019
-====================
-
-   * android/
-d414bc6 manifest: Add sm8150 HALs
-
-   * packages/apps/OmniSwitch/
-da5a4ee OmniSwitch: add phone camera and assist to possible action buttons
-
-====================
-     05-27-2019
-====================
-
-
-====================
-     05-26-2019
-====================
-
-
-====================
-     05-25-2019
-====================
-
-
-   * packages/apps/Settings/
-0049189d45 Add Dual Channel into Bluetooth Audio Channel Mode developer options …  …
-
    * vendor/lineage/
-0fa34c31 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-
-====================
-     05-24-2019
-====================
-
-
-====================
-     05-23-2019
-====================
-
-   * android/
-8753868 Sync a newer revision of hardware/google/pixel
-488f3f6 android: Add gitlab remote
-
-   * packages/apps/Settings/
-c15b110a30 Revert "Settings: Hide Night Mode suggestion if LiveDisplay feature is present"
-
-   * vendor/lineage/
-20505e9c charger: add 400dpi symlink
-fc5a8fa0 lineage: Build Fi GMS product if WITH_GMS_FI is defined
+515f8e0a Build our wallpapers app
 
