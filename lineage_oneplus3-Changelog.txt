@@ -1,260 +1,203 @@
 ====================
-     06-09-2019
+     06-28-2019
 ====================
 
 
-   * external/nano/
-ae26fda9 nano: Regenerate config.h
-9f2c790e nano: fix another implicit declaration of time()
+   * device/oneplus/oneplus3/
+02b0e62 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
+2d189df op3/t: nfc: advertise support for extended length NFC
+
+   * lineage-sdk/
+8a022b0 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
+
+   * vendor/lineage/
+9ee47f63 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+
+====================
+     06-27-2019
+====================
+
+
+   * lineage/wiki/
+d62a4b6 wiki: Mark shieldtablet as discontinued
+
+   * vendor/lineage/
+60912cff build: Support SDM710 platform
+
+====================
+     06-26-2019
+====================
+
+
+   * lineage-sdk/
+9a2567b Trust: Onboarding: Listen for locale changes
 
    * lineage/hudson/
-0352cc5 hudson: Promote xiaomi msm8998 to 16.0
+d30da4b Move kiwi to 16.0
 
    * lineage/wiki/
-f22c7ea devices: Promote xiaomi msm8998 to 16.0
-2f815ef Add "USB debugging" as a valid menu entry for enabling debugging
-91a6332 wiki: Working with Blobs: Resolve typo
+2100290 kiwi: Add current_branch
+5449d32 Move kiwi to 16.0
 
    * vendor/lineage/
-d4510a44 Merge branch 'lineage-16.0' of https://github.com/H4K3ROM/android_vendor_lineage into lineage-16.0
-
-====================
-     06-08-2019
-====================
-
-
-   * frameworks/base/
-65ab2b4a12b Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
-dd76556103e Automatic translation import
-
-   * hardware/qcom/fm/
-2140e05 Automatic translation import
-
-   * lineage-sdk/
-a9a80b7 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
-1c52f37 Automatic translation import
-
-   * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
-ee00a53 Automatic translation import
-
-   * lineage/crowdin/
-1b6e5fe config: 16.0: Add Sundanese
-
-   * lineage/wiki/
-07ba50a cheeseburger/dumpling: add before_install instructions
-
-   * packages/apps/Calendar/
-726140b5 Automatic translation import
-
-   * packages/apps/Camera2/
-c6ba24690 Automatic translation import
-
-   * packages/apps/Contacts/
-a56ae0127 Automatic translation import
-
-   * packages/apps/DeskClock/
-9f9f274ca Automatic translation import
-
-   * packages/apps/Dialer/
-f15a939a2 Automatic translation import
-
-   * packages/apps/Eleven/
-811407f Automatic translation import
-
-   * packages/apps/Email/
-5197dfcc3 Automatic translation import
-
-   * packages/apps/Gallery2/
-9233b3322 Automatic translation import
-
-   * packages/apps/Jelly/
-8c9812e Automatic translation import
-
-   * packages/apps/LockClock/
-872821e Automatic translation import
-
-   * packages/apps/Profiles/
-500c17e Automatic translation import
-
-   * packages/apps/Recorder/
-ecf5557 Automatic translation import
-
-   * packages/apps/Settings/
-9bf001f519 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0
-d4e2f5ca99 Automatic translation import
-70e735df20 Settings: mobile -> cellular
-
-   * packages/apps/Snap/
-f8158606a Automatic translation import
-
-   * packages/apps/Terminal/
-4a764c0 Automatic translation import
-
-   * packages/apps/Trebuchet/
-17568ce41 Automatic translation import
-
-   * packages/providers/DownloadProvider/
-ca7a3082 Automatic translation import
-
-   * packages/providers/WeatherProvider/
-637b12e Automatic translation import
-
-   * packages/services/Mms/
-2066140 Automatic translation import
-
-   * vendor/lineage/
-5ac281a5 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-5ee35ea3 repopick: cmp() is not available in Python 3, define it manually
-
-====================
-     06-07-2019
-====================
-
-
-   * frameworks/base/
-a179062a82e KeyguardStateMonitor: Don't get IUsbRestrict service in constructor
-
-   * packages/services/Telephony/
-330645d46 Allow to disable the new scan API for manual network search.
-
-====================
-     06-06-2019
-====================
-
-
-   * external/nano/
-561b50da nano: don't spam warnings as errors
-ad2eedc1 nano: fix implicit declaration of time function
-161086fe nano: Make revision.h a stub
-5daed7f4 nano: Update makefile for new nanorc path
-3ca7bc57 nano: Add nanorc
-7b10e544 nano: Add android makefile
-161f0291 nano: Add config.h and revision.h
-e810d7e3 nano: Don't ignore config.h & revision.h
-
-   * lineage/crowdin/
-059d920 Move to new wallpaper app
-
-   * vendor/lineage/
-337f13e4 Update default wallpaper
-60fe9352 lineage: Rework DTBO image generation
-
-====================
-     06-05-2019
-====================
-
-
-   * frameworks/base/
-e4f75f0ea8c LiveDisplayTile: Report unavailable on HWC2
-710ae2ecf83 SystemUI: sync dark mode with AOSP night mode too
-
-   * lineage-sdk/
-f781a93 LiveDisplayService: Disable ColorTemperature when NightDisplay is available
-
-====================
-     06-04-2019
-====================
-
-   * android/
-b02a666 manifest: android-9.0.0_r37 -> android-9.0.0_r40
-
-   * device/lineage/sepolicy/
-71566b5 Revert "sepol: Label vendor.qcom.bluetooth.soc"
-
-   * external/skia/
-2c0348a6b0 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
-
-   * frameworks/av/
-4e377ed12 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
-
-   * frameworks/base/
-24ce6c3ea58 AudioService: Remove Analog Dock from fixed-volume devices
-
-   * hardware/qcom/fm/
-221e94e Partially revert "fm: Fix wrong BT SOC property name"
-
-   * packages/apps/Bluetooth/
-82d97865 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
-
-   * system/bt/
-20eae8e4f Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
-
-   * system/vold/
-1e22b41 Merge tag 'android-9.0.0_r40' into staging/lineage-16.0_merge-android-9.0.0_r40
+dd5fecb3 addonsu: Pass filesystem type for mounting /system_root when needed
 
    * vendor/oneplus/
-e81f9953 sdm845-common: Import NXP NFC stack
+b09f8a22 sdm845-common: Update blobs to enchilada OB21
+e3a8d254 sdm845-common: Update ims blobs from daisy
 
 ====================
-     06-03-2019
+     06-25-2019
 ====================
 
+
+   * bootable/recovery/
+b0c4a5f9 Merge https://github.com/LineageOS/android_bootable_recovery into lineage-16.0
+
+   * device/oneplus/oneplus3/
+c95a70d Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
 
    * frameworks/base/
-79de08f5eac HeadsUpAppearanceController: allow heads-up to draw beyond bounds
-22de74f8c6f SystemUI: Bring back good ol' circle battery style
-
-   * vendor/lineage/
-a4414a49 overlay: Hide the option to show battery percentage
-
-====================
-     06-02-2019
-====================
-
-
-   * frameworks/base/
-af4729569d5 Fix overlap between operator name and heads-up notification
+b2810be3b4f Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
 
    * lineage-sdk/
-5ded0fc sdk: Update for refactored battery icon options
+990f700 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
 
-   * packages/apps/Settings/
-223c80600f Settings: appops: Drop GET_UNINSTALLED_PACKAGES from getApplicationInfo()
+   * lineage/hudson/
+3c9dc38 hudson: Discontinue Shield Tablet builds (for now)
 
-====================
-     06-01-2019
-====================
+   * packages/apps/LineageParts/
+8ce7956 Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
 
-
-   * frameworks/base/
-3c1c3475ca3 Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
-f7fc27e9aa1 frameworks: Add unlinked ringtone and notification volumes
-
-   * hardware/lineage/livedisplay/
-fd1713f sdm: Fix restoring default mode when using prebuilt vendor
-
-   * packages/apps/Settings/
-4c0948443f Settings: Use correct icon for ring volume
-1b1e4f8484 Settings: Add switch for linked ring and media notification volumes
-061f6fd5e6 Commits on May 31, 2019 Settings: Add battery saving mode for location  …
+   * packages/services/OmniJaws/
+6d639bf Automatic AICP translation import
 
    * vendor/lineage/
-3377293e remove DSP manager
-10ca86d1 apns: Update Singapore's APNs
+1c29c373 extract_utils: Add functions to extract vendor blobs from vendor.img
+c06fd05a Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+a7b2d0a6 build: Separate platform macros from QCOM platform definition
+66ce59c8 build: Reorganize inclusion of QCOM macros
+40ab94de privapp-permissions: Regenerate permissions list
+123fcd37 build: Remove unused script
+b7b49cc0 build: Use ifeq/else ifeq/else construction in board config
+5512b647 build: Set mode for makefiles
+fcc1e196 Whitelist permissions for AOSP FM radio app
 
 ====================
-     05-31-2019
+     06-24-2019
 ====================
 
-   * android/
-fdf849c Sync new Backgrounds app
 
-   * device/lineage/sepolicy/
-c249d09 sepol: Label vendor.qcom.bluetooth.soc
+   * bootable/recovery/
+8ce44955 recovery: wipe bootloader message from index 0 when using custom offsets
+
+   * packages/apps/Nfc/
+5de5ed97 NFCService: Add sysprop to prevent FW download during boot  with NFC off.
+
+====================
+     06-23-2019
+====================
+
+
+====================
+     06-22-2019
+====================
+
+
+   * lineage/wiki/
+fd7c658 wiki: Improve Android Studio instructions
+
+====================
+     06-21-2019
+====================
+
 
    * frameworks/base/
-b3e277ded64 Revert "NightDisplayController: report unavailable if livedisplay feature is present"
-93f33c93d3f SystemUI: Fix several layout bugs
-f64d206d86a SystemUI: Advanced location tile
-bdb84e40d2e SystemUI: Add Profiles tile
-052e9327074 SystemUI: Enable and fix QS detail view, adapt layout to Pie
+717d5811ec0 SystemUI: Use proper lock icon scale on dismissing notification panel view
+65c4b4cdba9 StatusBarMobileView: Properly init MobileGroup visibility
 
-   * packages/apps/Settings/
-358f7cb9af Settings: Add battery saving mode for location
+====================
+     06-21-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+296f1a1 op3: Kill camera shim library
+
+   * frameworks/base/
+717d5811ec0 SystemUI: Use proper lock icon scale on dismissing notification panel view
+65c4b4cdba9 StatusBarMobileView: Properly init MobileGroup visibility
+
+====================
+     06-20-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+94cb3b4 op3: Address IFAA denial
+
+   * device/oppo/common/
+f6a58c3 Automatic translation import
+
+   * frameworks/base/
+aa7e3cc7d7b Automatic translation import
+
+   * lineage-sdk/
+f3b2904 Automatic translation import
+
+   * lineage/crowdin/
+ed3af93 crowdin: Improve empty resource file removal
+b158798 crowdin: Remove invalid strings
+
+   * lineage/wiki/
+67bcbb3 wiki: add workaround for booting into TWRP recovery
+f4fed97 hint to brotli for decompressing system.new.dat.br
+
+   * packages/apps/Backgrounds/
+67030d1 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+48483955 Automatic translation import
+
+   * packages/apps/Contacts/
+bc8f536b3 Automatic translation import
+
+   * packages/apps/DeskClock/
+54b4d625f Automatic translation import
+
+   * packages/apps/Dialer/
+5144582a2 Automatic translation import
+
+   * packages/apps/Eleven/
+a80c79e Automatic translation import
+
+   * packages/apps/LineageParts/
+c16ce86 Automatic translation import
+
+   * packages/apps/SetupWizard/
+9a75b2b Automatic translation import
+
+   * packages/apps/Snap/
+73ed3f0da Automatic translation import
 
    * packages/apps/Trebuchet/
-4332fe6d0 Trebuchet: use new wallpaper app
+e89bb983a Automatic translation import
 
-   * vendor/lineage/
-515f8e0a Build our wallpapers app
+   * packages/providers/BlockedNumberProvider/
+aa3ec7f Automatic translation import
+
+   * packages/providers/CallLogProvider/
+8a65c76 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+03daffc1 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+3f48ca06 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+b507f7e Automatic translation import
+
+   * packages/resources/devicesettings/
+b73e3bc Automatic translation import
 
