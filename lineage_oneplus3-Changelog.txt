@@ -1,3 +1,63 @@
+
+====================
+     07-06-2019
+====================
+
+
+   * hardware/qcom/fm/
+647ae02 Automatic translation import
+
+   * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+39c4b9c Automatic translation import
+
+   * lineage/wiki/
+f79e47d wiki: {Install|Upgrading}: Use sideload & General TLC
+
+   * packages/apps/Camera2/
+82280aff7 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+f2d2f8f0 Automatic translation import
+
+   * packages/apps/DeskClock/
+5dd41032d Automatic translation import
+
+   * packages/apps/Dialer/
+7c804b94a Automatic translation import
+
+   * packages/apps/Email/
+1647871b3 Automatic translation import
+
+   * packages/apps/Exchange/
+f66c26eb Automatic translation import
+
+   * packages/apps/Jelly/
+7ccd689 Automatic translation import
+
+   * packages/apps/Snap/
+f4db56cb9 Automatic translation import
+
+   * packages/apps/Trebuchet/
+3b1733980 Automatic translation import
+
+   * packages/apps/wallpaperPicker/
+bbc85a4 Add h4k3rom walls
+
+   * packages/inputmethods/LatinIME/
+4fa5d0184 Automatic translation import
+
+   * packages/providers/BlockedNumberProvider/
+3ddff9e Automatic translation import
+
+   * packages/providers/CallLogProvider/
+1288db6 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+57024b53 Automatic translation import
+
+   * vendor/lineage/
+f6872e89 Update App to ver. 07_05_19 Remove link to wallpaper app
+
 ====================
      07-05-2019
 ====================
@@ -5,12 +65,6 @@
 
    * lineage/wiki/
 752cb38 wiki: mata: Use correct bootloader unlock command
-
-   * packages/apps/wallpaperPicker/
-bbc85a4 Add h4k3rom walls
-
-   * vendor/lineage/
-f6872e89 Update App to ver. 07_05_19 Remove link to wallpaper app
 
 ====================
      07-04-2019
@@ -32,9 +86,23 @@ fbe1704b20 Add setup UI for minimum delay between an app's notification sounds  
      07-02-2019
 ====================
 
+   * android/
+0d788ce manifest: android-9.0.0_r40 -> android-9.0.0_r44
 
    * device/lineage/sepolicy/
 f3ffbac sepolicy: Dontaudit sysinit
+
+   * external/icu/
+f8039486b Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * frameworks/av/
+f3932de95 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * frameworks/native/
+4df02db84 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * hardware/qcom/sdm845/display/
+2b361a0c Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
 
    * lineage/hudson/
 5fbfe93 Add github funding info
@@ -46,6 +114,30 @@ f3ffbac sepolicy: Dontaudit sysinit
 b802b58 www: mata didn't ship on 15.1
 d2deb6b Changelog 23
 e4800b8 Add Patreon
+
+   * packages/apps/PackageInstaller/
+faf29847 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * packages/apps/Traceur/
+f79de3c Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * packages/providers/TelephonyProvider/
+6910265 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * system/bt/
+e820e3c27 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * system/core/
+cafd273e9 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * system/netd/
+caa9739 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * system/security/
+82635e4 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+   * system/tools/hidl/
+6ba0d22 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
 
 ====================
      07-01-2019
@@ -82,54 +174,6 @@ e4800b8 Add Patreon
    * packages/apps/Trebuchet/
 189455136 Trebuchet: update square icon path to match the one used in the Play Store
 
-====================
-     06-27-2019
-====================
-
-
-   * lineage/wiki/
-d62a4b6 wiki: Mark shieldtablet as discontinued
-
    * vendor/lineage/
 60912cff build: Support SDM710 platform
-
-====================
-     06-26-2019
-====================
-
-
-   * bootable/recovery/
-b0c4a5f9 Merge https://github.com/LineageOS/android_bootable_recovery into lineage-16.0
-
-   * device/oneplus/oneplus3/
-c95a70d Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-
-   * frameworks/base/
-b2810be3b4f Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
-
-   * lineage-sdk/
-9a2567b Trust: Onboarding: Listen for locale changes
-990f700 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
-
-   * lineage/hudson/
-d30da4b Move kiwi to 16.0
-3c9dc38 hudson: Discontinue Shield Tablet builds (for now)
-
-   * lineage/wiki/
-2100290 kiwi: Add current_branch
-5449d32 Move kiwi to 16.0
-
-   * packages/apps/LineageParts/
-8ce7956 Merge https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0
-
-   * vendor/lineage/
-dd5fecb3 addonsu: Pass filesystem type for mounting /system_root when needed
-1c29c373 extract_utils: Add functions to extract vendor blobs from vendor.img
-c06fd05a Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-a7b2d0a6 build: Separate platform macros from QCOM platform definition
-66ce59c8 build: Reorganize inclusion of QCOM macros
-
-   * vendor/oneplus/
-b09f8a22 sdm845-common: Update blobs to enchilada OB21
-e3a8d254 sdm845-common: Update ims blobs from daisy
 
