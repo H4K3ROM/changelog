@@ -1,6 +1,36 @@
+====================
+     07-09-2019
+====================
+
+
+   * build/make/
+fbf6dedbc Commits on Jul 1, 2019 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android…  …
+
+   * frameworks/base/
+6e5e8a59e0c Commits on Jul 7, 2019 Automatic translation import  …
+
+   * lineage/website/
+1d5f9b4 Engineering article: Bluetooth SBC Dual Channel (SBC XQ/SBC HD)
+
+   * lineage/wiki/
+14d7adc wiki: Add 'you may need new recovery' tip to device upgrade page
+
+====================
+     07-08-2019
+====================
+
 
 ====================
      07-07-2019
+====================
+
+
+   * frameworks/base/
+80fb3fb4b32 Automatic translation import
+a00c8bf548f Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
+
+====================
+     07-06-2019
 ====================
 
 
@@ -9,9 +39,6 @@
 
    * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
 39c4b9c Automatic translation import
-
-   * lineage/wiki/
-f79e47d wiki: {Install|Upgrading}: Use sideload & General TLC
 
    * packages/apps/Camera2/
 82280aff7 Automatic translation import
@@ -64,6 +91,7 @@ f6872e89 Update App to ver. 07_05_19 Remove link to wallpaper app
 
 
    * lineage/wiki/
+f79e47d wiki: {Install|Upgrading}: Use sideload & General TLC
 752cb38 wiki: mata: Use correct bootloader unlock command
 
 ====================
@@ -88,6 +116,9 @@ fbe1704b20 Add setup UI for minimum delay between an app's notification sounds  
 
    * android/
 0d788ce manifest: android-9.0.0_r40 -> android-9.0.0_r44
+
+   * build/make/
+de2c19fe3 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
 
    * device/lineage/sepolicy/
 f3ffbac sepolicy: Dontaudit sysinit
@@ -148,32 +179,4 @@ caa9739 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.
      06-30-2019
 ====================
 
-
-====================
-     06-29-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-02b0e62 Merge https://github.com/LineageOS/android_device_oneplus_oneplus3 into lineage-16.0
-
-   * lineage-sdk/
-8a022b0 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0
-
-   * vendor/lineage/
-9ee47f63 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
-
-====================
-     06-28-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-2d189df op3/t: nfc: advertise support for extended length NFC
-
-   * packages/apps/Trebuchet/
-189455136 Trebuchet: update square icon path to match the one used in the Play Store
-
-   * vendor/lineage/
-60912cff build: Support SDM710 platform
 
