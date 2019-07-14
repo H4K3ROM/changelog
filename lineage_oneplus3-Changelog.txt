@@ -1,4 +1,293 @@
 ====================
+     07-14-2019
+====================
+
+   * android/
+fda2c22 manifest: Track updated NDK ABI dumps
+6280273 Remove empty AOSP repositories
+
+   * art/
+8f0ff544d9 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * bionic/
+df535c2a2 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * bootable/recovery/
+eecae650 Commits on Jul 13, 2019 OMGRainbows  …
+0ccad61c OMGRainbows
+
+   * build/kati/
+47b94ac Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * dalvik/
+59eb8b686 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * development/
+9b8a35f8e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * device/lineage/sepolicy/
+ac26bd2 sepolicy: Add hal_lineage_camera_motor domain
+
+   * external/f2fs-tools/
+bd0159a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/fsck_msdos/
+8eea348 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/icu/
+c555ad468 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/libpng/
+19908ec Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/proguard/
+56c2bf7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * external/skia/
+b9f8bff8e4 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * frameworks/av/
+8307c6848 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * frameworks/base/
+b6f300c2079 Commits on Jul 12, 2019 Improve performance of unclipped save layers.  …
+60ed54d8c94 Improve performance of unclipped save layers.
+
+   * frameworks/native/
+22abc3cf4 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * frameworks/opt/datetimepicker/
+bf6e061 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * frameworks/opt/net/wifi/
+2fef2b18a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * frameworks/opt/telephony/
+2bb45ebc6 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/broadcom/wlan/
+9610886 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/interfaces/
+aafcb970 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/lineage/interfaces/
+afba321 Introduce camera motor hal
+
+   * hardware/nxp/nfc/
+030e0b8 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/audio/default/
+768ef7316 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/bootctrl/
+f705d0e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/data/ipacfg-mgr/
+7367dc7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/display/
+501f9aed6 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/gps/
+a62882c Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/qcom/media/
+ef30d8cfa Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * hardware/ril/
+cac7758 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * lineage-sdk/
+9e0a652 Commits on Jul 6, 2019 Automatic translation import  …
+
+   * packages/apps/BasicSmsReceiver/
+f7e4ffc Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Bluetooth/
+d6155591 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Camera2/
+645b52293 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/CarrierConfig/
+8213808 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/CellBroadcastReceiver/
+e96b6ddc Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/CertInstaller/
+5e5265d Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Contacts/
+98d5cfa80 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/DeskClock/
+a35f2d4a2 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/DocumentsUI/
+172cc90d Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Email/
+3998bc586 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/EmergencyInfo/
+c686d95 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/ExactCalculator/
+6f35a66 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/KeyChain/
+b5a4311 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/LineageParts/
+e9ecf73 Commits on Jul 7, 2019 Settings: Don't index display mode and color temperature on HWC2  …
+
+   * packages/apps/ManagedProvisioning/
+5940b33a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Nfc/
+dd246222 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/PackageInstaller/
+789e1b6c Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/PhoneCommon/
+f4e5f81 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/SafetyRegulatoryInfo/
+1bb9d1d Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/SecureElement/
+41a2301 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Settings/
+dbe98daaf9 Commits on Jul 6, 2019 Automatic translation import  …
+
+   * packages/apps/Stk/
+57c70ac Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/StorageManager/
+66bd861 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Tag/
+bc55e2f Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/Traceur/
+298e87c Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/TvSettings/
+dac32e2e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/apps/UnifiedEmail/
+3506426ec Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/inputmethods/LatinIME/
+1b9730c10 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/providers/BlockedNumberProvider/
+4e5f671 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/providers/ContactsProvider/
+e4fbc461 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/providers/DownloadProvider/
+3119e23a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/providers/MediaProvider/
+6753167 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/providers/TelephonyProvider/
+d1edfe5 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/providers/TvProvider/
+03c2ab6 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/providers/UserDictionaryProvider/
+250bc22 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/screensavers/Basic/
+3b8a138 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/screensavers/PhotoTable/
+618d115 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/services/BuiltInPrintService/
+2ea3c5f Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/services/Mms/
+28380a2 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/services/Telecomm/
+590ff8a7 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * packages/services/Telephony/
+66baf6aed Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/bt/
+88a701354 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/core/
+74b109970 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/extras/
+3b4b5a8d Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/netd/
+cfc04f6 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/security/
+f595c85 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/sepolicy/
+927ac412 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/timezone/
+de4a2bf Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/tools/hidl/
+c7efb50 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/update_engine/
+5be3b00 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+   * system/vold/
+0c8dc22 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
+====================
+     07-12-2019
+====================
+
+
+   * device/lineage/sepolicy/
+00b3ad1 sepolicy: qcom: Label /d/rpmh
+
+   * external/nano/
+1d23c7f7 nano: Zero entire struct sigaction struct
+5f71cf2e nano: Bump PACKAGE_STRING to 4.3 too
+37aec986 Properly 0 initialize sigaction
+10fe4835 Merge tag 'v4.3' into HEAD
+
+   * frameworks/av/
+0155defa2 CameraService: Support hooks for motorized camera
+
+   * system/core/
+6dbdf5f20 fastboot: Add --cmdline alias
+
+====================
+     07-11-2019
+====================
+
+
+====================
+     07-10-2019
+====================
+
+
+   * external/skia/
+a137d816f2 Add private save-behind and draw-behind methods to canvas.
+
+====================
      07-09-2019
 ====================
 
@@ -6,19 +295,240 @@
    * build/make/
 fbf6dedbc Commits on Jul 1, 2019 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android…  …
 
+   * development/
+ff5079718 Merge "Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b" into pie-gsi
+6207d9d0c Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b
+8ef31cb46 Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release
+
+   * external/icu/
+bd4c5fe40 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release am: 16b3c0277e
+b9cd61962 Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release am: a63df92ad9
+16b3c0277 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release
+
+   * external/skia/
+1193a855ff Merge "Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202" into pie-gsi
+afe8ba9906 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202
+9d46f09202 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release
+
+   * frameworks/av/
+377dd121d Merge "Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release am: bcb87e5568" into pie-gsi
+1997ff037 Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release am: bcb87e5568
+6d33ddd45 Merge "Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release am: 8a898328aa" into pie-gsi
+98bc67e01 Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release am: 8a898328aa
+bcb87e556 Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release
+
    * frameworks/base/
 6e5e8a59e0c Commits on Jul 7, 2019 Automatic translation import  …
 
-   * lineage/website/
-1d5f9b4 Engineering article: Bluetooth SBC Dual Channel (SBC XQ/SBC HD)
+   * frameworks/opt/net/wifi/
+fab418ca7 Snap for 5622519 from f0a226d6715cd32f37825298feee66fd7f226fdf to pi-platform-release am: d35320d2f5
+d35320d2f Snap for 5622519 from f0a226d6715cd32f37825298feee66fd7f226fdf to pi-platform-release
 
-   * lineage/wiki/
-14d7adc wiki: Add 'you may need new recovery' tip to device upgrade page
+   * frameworks/opt/telephony/
+47d475983 Merge "Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release am: 741849452e" into pie-gsi
+a81dafce9 Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release am: 741849452e
+741849452 Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release
+
+   * hardware/interfaces/
+5d75cebe Snap for 5622519 from b095226d9286245c7d05088a441c2cff43d2ae65 to pi-platform-release am: 0ef08c828d
+0ef08c82 Snap for 5622519 from b095226d9286245c7d05088a441c2cff43d2ae65 to pi-platform-release
+
+   * hardware/qcom/audio/default/
+ab7d2ba3b Merge "Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0" into pie-gsi
+84356ce53 Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0
+0c26ce89e Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release
+
+   * packages/apps/Bluetooth/
+f1734a3e Merge "Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release am: f53bce45ef" into pie-gsi
+57ad741e Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release am: f53bce45ef
+f53bce45 Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release
+
+   * packages/apps/CellBroadcastReceiver/
+54e2dfbe Merge "Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751" into pie-gsi
+6d13c9af Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751
+cb84ec27 Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release
+
+   * packages/apps/CertInstaller/
+c0bdc42 Merge "Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release am: 1b44a3492f" into pie-gsi
+9b78882 Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release am: 1b44a3492f
+1b44a34 Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release
+
+   * packages/apps/Contacts/
+29db2b04d Merge "Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669" into pie-gsi
+c106966d7 Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669
+5889de766 Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release
+
+   * packages/apps/DeskClock/
+751f81c7f Merge "Snap for 5622519 from f2133fbd3c66cd2ea1fe10abb31996602d729e37 to pi-platform-release am: 6f28b99868" into pie-gsi
+4a28f5d8d Snap for 5622519 from f2133fbd3c66cd2ea1fe10abb31996602d729e37 to pi-platform-release am: 6f28b99868
+6f28b9986 Snap for 5622519 from f2133fbd3c66cd2ea1fe10abb31996602d729e37 to pi-platform-release
+
+   * packages/apps/DocumentsUI/
+0252d26f Snap for 5622519 from 9b6f2643661e4667493debdcccbba3ec518eb963 to pi-platform-release am: 003bac8220
+003bac82 Snap for 5622519 from 9b6f2643661e4667493debdcccbba3ec518eb963 to pi-platform-release
+
+   * packages/apps/EmergencyInfo/
+5c9a761 Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release am: 9a5e31527f
+9a5e315 Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release
+
+   * packages/apps/KeyChain/
+a6cda5b Merge "Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release am: 314f42f024" into pie-gsi
+550eb50 Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release am: 314f42f024
+314f42f Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release
+
+   * packages/apps/ManagedProvisioning/
+00cb9168 Snap for 5622519 from 8f63ecce54a23e6612c68470392be6f027174354 to pi-platform-release am: a5c080aadc
+a5c080aa Snap for 5622519 from 8f63ecce54a23e6612c68470392be6f027174354 to pi-platform-release
+
+   * packages/apps/Nfc/
+bd9db4f5 Merge "Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e" into pie-gsi
+59960655 Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e
+f6d7678d Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release
+
+   * packages/apps/PackageInstaller/
+80892d48 Merge "Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release am: dbd2ae2b63" into pie-gsi
+fed0811f Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release am: dbd2ae2b63
+f39dc13e Merge "Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release am: b5641733bf" into pie-gsi
+1ca66ade Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release am: b5641733bf
+dbd2ae2b Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release
+
+   * packages/apps/SafetyRegulatoryInfo/
+cfe1b33 Snap for 5622519 from 5808cb0fa4c18ee52b5e69695045b3b766035788 to pi-platform-release am: 7444ff41f0
+7444ff4 Snap for 5622519 from 5808cb0fa4c18ee52b5e69695045b3b766035788 to pi-platform-release
+
+   * packages/apps/StorageManager/
+20ce53a Snap for 5622519 from 7ee02962075f652d966e25e8d5c862896412ce0b to pi-platform-release am: 831ebdbde9
+831ebdb Snap for 5622519 from 7ee02962075f652d966e25e8d5c862896412ce0b to pi-platform-release
+
+   * packages/apps/Traceur/
+6e8e773 Snap for 5622519 from 2ad79563216ec72e1ca6a536f02be38f6f3a617c to pi-platform-release am: 70c6d8eb8d
+2bdf8df Snap for 5600800 from d94f15c9318a702fdd955a670e5ef81578f3972e to pi-platform-release am: a4d265b057
+70c6d8e Snap for 5622519 from 2ad79563216ec72e1ca6a536f02be38f6f3a617c to pi-platform-release
+
+   * packages/apps/TvSettings/
+dab60972 Snap for 5622519 from f2cc5b4ae1178481564c8768ed94aa6666d17e8b to pi-platform-release am: 21a47331d7
+21a47331 Snap for 5622519 from f2cc5b4ae1178481564c8768ed94aa6666d17e8b to pi-platform-release
+
+   * packages/inputmethods/LatinIME/
+3f40ccc26 Merge "Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6" into pie-gsi
+55f5ab770 Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6
+8c6c1e2be Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release
+
+   * packages/providers/ContactsProvider/
+1fc38550 Merge "Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release am: 2ba10b3757" into pie-gsi
+19d286b8 Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release am: 2ba10b3757
+2ba10b37 Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release
+
+   * packages/providers/MediaProvider/
+62abcea Merge "Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5" into pie-gsi
+6525cbc Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5
+f5e8f5b Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release
+
+   * packages/providers/TelephonyProvider/
+72c83fa Merge "Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release am: 7324b69df9" into pie-gsi
+2de6cec Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release am: 7324b69df9
+fdfcc6a Merge "Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release am: d6a067466c" into pie-gsi
+6bd21d3 Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release am: d6a067466c
+7324b69 Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release
+
+   * packages/providers/UserDictionaryProvider/
+10f6ef4 Merge "Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release am: 357ea98e57" into pie-gsi
+97cc20a Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release am: 357ea98e57
+357ea98 Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release
+
+   * packages/screensavers/Basic/
+f56b115 Merge "Snap for 5622519 from e898a916f8acbd53a907c6cd1c72f5531f05457e to pi-platform-release am: 447a368017" into pie-gsi
+e79ea92 Snap for 5622519 from e898a916f8acbd53a907c6cd1c72f5531f05457e to pi-platform-release am: 447a368017
+447a368 Snap for 5622519 from e898a916f8acbd53a907c6cd1c72f5531f05457e to pi-platform-release
+
+   * packages/screensavers/PhotoTable/
+5444b6f Merge "Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release am: 7896f9d758" into pie-gsi
+8ff1a94 Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release am: 7896f9d758
+7896f9d Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release
+
+   * packages/services/BuiltInPrintService/
+7c98074 Snap for 5622519 from 78e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5 to pi-platform-release am: 8d47970031
+8d47970 Snap for 5622519 from 78e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5 to pi-platform-release
+
+   * packages/services/Telecomm/
+e0f8071b Snap for 5622519 from b65ecc5a1264c78e2543dc6beade501c4d60b282 to pi-platform-release am: c83df82dbc
+c83df82d Snap for 5622519 from b65ecc5a1264c78e2543dc6beade501c4d60b282 to pi-platform-release
+
+   * packages/services/Telephony/
+96d6f4a26 Merge "Snap for 5622519 from c9341c73af4b14d180ab95ac44b82bc8c0409c8a to pi-platform-release am: a6050952e7" into pie-gsi
+428d08a58 Snap for 5622519 from c9341c73af4b14d180ab95ac44b82bc8c0409c8a to pi-platform-release am: a6050952e7
+a6050952e Snap for 5622519 from c9341c73af4b14d180ab95ac44b82bc8c0409c8a to pi-platform-release
+
+   * system/bt/
+4b1d4904a Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release am: db4e774cab
+abff8cd5f Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release am: 1e2fde1e24
+db4e774ca Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release
+
+   * system/netd/
+76448f5 Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release am: 02ebe2a46c
+6dcdfc8 Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release am: f138d4c17e
+02ebe2a Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release
+
+   * system/security/
+2e0205b Merge "Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5" into pie-gsi
+9eae64f Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5
+8607f11 Merge "Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76" into pie-gsi
+a2fb4b1 Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76
+de927dd Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release
+
+   * system/tools/hidl/
+25a76d8 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release am: a5f1137806
+607da63 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release am: 1df6c91f83
+a5f1137 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release
+
+   * system/vold/
+ca19a84 Merge "Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1" into pie-gsi
+f2fb54f Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1
+ec0cb71 Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release
 
 ====================
      07-08-2019
 ====================
 
+
+   * external/icu/
+a63df92ad Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release
+
+   * frameworks/av/
+8a898328a Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release
+
+   * frameworks/base/
+dfe3a8a0517 Switch widgets away from android.text.format.Time
+ed5d3494bff Migrate telephony code away from Time
+ed33b45ee46 Remove unused class
+2c25d816d73 Remove unnecessary usage of deprecated Time class
+f83cf3708df Add a basic benchmark for android.text.format.Time
+0254d5e6f6c Avoid use of DateUtilsBridge.icuTimeZone()
+
+   * packages/apps/LineageParts/
+6e96470 Settings: Don't index display mode and color temperature on HWC2
+7998c55 LiveDisplaySettings: Fix outdoor mode preference on hwc2
+
+   * packages/apps/PackageInstaller/
+b5641733 Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release
+
+   * packages/apps/Traceur/
+a4d265b Snap for 5600800 from d94f15c9318a702fdd955a670e5ef81578f3972e to pi-platform-release
+
+   * packages/providers/TelephonyProvider/
+d6a0674 Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release
+
+   * system/bt/
+1e2fde1e2 Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release
+
+   * system/netd/
+f138d4c Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release
+
+   * system/security/
+4a5cb0b Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release
+
+   * system/tools/hidl/
+1df6c91 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release
 
 ====================
      07-07-2019
@@ -29,6 +539,9 @@ fbf6dedbc Commits on Jul 1, 2019 Merge tag 'android-9.0.0_r44' into staging/line
 80fb3fb4b32 Automatic translation import
 a00c8bf548f Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
 
+   * frameworks/native/
+9e96d5424 Add vendor version for libgui
+
 ====================
      07-06-2019
 ====================
@@ -36,6 +549,9 @@ a00c8bf548f Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-androi
 
    * hardware/qcom/fm/
 647ae02 Automatic translation import
+
+   * lineage-sdk/
+6068c7d Automatic translation import
 
    * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
 39c4b9c Automatic translation import
@@ -60,6 +576,12 @@ f66c26eb Automatic translation import
 
    * packages/apps/Jelly/
 7ccd689 Automatic translation import
+
+   * packages/apps/LineageParts/
+88aeb2c Automatic translation import
+
+   * packages/apps/Settings/
+ee4b84b406 Automatic translation import
 
    * packages/apps/Snap/
 f4db56cb9 Automatic translation import
@@ -87,96 +609,6 @@ f6872e89 Update App to ver. 07_05_19 Remove link to wallpaper app
 
 ====================
      07-05-2019
-====================
-
-
-   * lineage/wiki/
-f79e47d wiki: {Install|Upgrading}: Use sideload & General TLC
-752cb38 wiki: mata: Use correct bootloader unlock command
-
-====================
-     07-04-2019
-====================
-
-
-   * frameworks/base/
-9424fbcbb4e Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
-
-   * packages/apps/Settings/
-fbe1704b20 Add setup UI for minimum delay between an app's notification sounds  …
-
-====================
-     07-03-2019
-====================
-
-
-====================
-     07-02-2019
-====================
-
-   * android/
-0d788ce manifest: android-9.0.0_r40 -> android-9.0.0_r44
-
-   * build/make/
-de2c19fe3 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * device/lineage/sepolicy/
-f3ffbac sepolicy: Dontaudit sysinit
-
-   * external/icu/
-f8039486b Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * frameworks/av/
-f3932de95 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * frameworks/native/
-4df02db84 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * hardware/qcom/sdm845/display/
-2b361a0c Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * lineage/hudson/
-5fbfe93 Add github funding info
-
-   * lineage/mirror/
-55fab71 Updated to 02-Jul-2019 16:46:38 UTC
-
-   * lineage/website/
-b802b58 www: mata didn't ship on 15.1
-d2deb6b Changelog 23
-e4800b8 Add Patreon
-
-   * packages/apps/PackageInstaller/
-faf29847 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * packages/apps/Traceur/
-f79de3c Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * packages/providers/TelephonyProvider/
-6910265 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * system/bt/
-e820e3c27 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * system/core/
-cafd273e9 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * system/netd/
-caa9739 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * system/security/
-82635e4 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * system/tools/hidl/
-6ba0d22 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-====================
-     07-01-2019
-====================
-
-
-====================
-     06-30-2019
 ====================
 
 
