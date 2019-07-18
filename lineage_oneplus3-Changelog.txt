@@ -1,5 +1,52 @@
 ====================
+     07-17-2019
+====================
+
+
+   * bootable/recovery/
+0fa1faa6 More of: @luca020400 luca020400 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi 15 new commits behind LineageOS:lineage-16.0. applied to h4k3rom
+
+   * build/make/
+fd0816cc8 Commits on Jul 13, 2019 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi  …
+
+   * device/oneplus/oneplus3/
+48bd753 op3: Update mediacodec performance values from OOS 9.0.4
+
+   * frameworks/base/
+181af68052a This branch is 16 commits ahead, 172 commits behind LineageOS:lineage-16.0. LineageOS:lineage-16.0 a ton of commits during the merge...
+
+   * packages/apps/Settings/
+81b3f3efd3 More of: @luca020400 luca020400 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi 40 commits behind LineageOS:lineage-16.0. updated during merge. Hope nothing breaks ;)
+
+   * vendor/lineage/
+7f40e1cc Keep h4k3rom bootanimation current Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+
+====================
+     07-16-2019
+====================
+
+
+   * device/oneplus/oneplus3/
+de9e7a7 op3: Update mediacodec performance values from OOS 9.0.4
+
+   * vendor/oneplus/
+bb96182b op3: Update blobs from Oxygen OS 9.0.4
+
+====================
+     07-15-2019
+====================
+
+
+   * lineage/scripts/
+c4ed5a6 config-fs-gen: Initial commit
+
+====================
      07-14-2019
+====================
+
+
+====================
+     07-13-2019
 ====================
 
    * android/
@@ -13,20 +60,21 @@ fda2c22 manifest: Track updated NDK ABI dumps
 df535c2a2 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 
    * bootable/recovery/
+bc9c7082 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 eecae650 Commits on Jul 13, 2019 OMGRainbows  …
 0ccad61c OMGRainbows
 
    * build/kati/
 47b94ac Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 
+   * build/make/
+a25016159 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
+
    * dalvik/
 59eb8b686 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 
    * development/
 9b8a35f8e Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
-
-   * device/lineage/sepolicy/
-ac26bd2 sepolicy: Add hal_lineage_camera_motor domain
 
    * external/f2fs-tools/
 bd0159a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
@@ -50,8 +98,8 @@ b9f8bff8e4 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 8307c6848 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 
    * frameworks/base/
+1fe7143a8c3 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 b6f300c2079 Commits on Jul 12, 2019 Improve performance of unclipped save layers.  …
-60ed54d8c94 Improve performance of unclipped save layers.
 
    * frameworks/native/
 22abc3cf4 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
@@ -70,9 +118,6 @@ bf6e061 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 
    * hardware/interfaces/
 aafcb970 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
-
-   * hardware/lineage/interfaces/
-afba321 Introduce camera motor hal
 
    * hardware/nxp/nfc/
 030e0b8 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
@@ -162,6 +207,7 @@ f4e5f81 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 41a2301 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 
    * packages/apps/Settings/
+27546daf7a Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 dbe98daaf9 Commits on Jul 6, 2019 Automatic translation import  …
 
    * packages/apps/Stk/
@@ -254,22 +300,26 @@ c7efb50 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
    * system/vold/
 0c8dc22 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
 
+   * vendor/lineage/
+bf5dcb13 common: Add getcap/setcap to PRODUCT_PACKAGES
+
 ====================
      07-12-2019
 ====================
 
 
    * device/lineage/sepolicy/
+ac26bd2 sepolicy: Add hal_lineage_camera_motor domain
 00b3ad1 sepolicy: qcom: Label /d/rpmh
-
-   * external/nano/
-1d23c7f7 nano: Zero entire struct sigaction struct
-5f71cf2e nano: Bump PACKAGE_STRING to 4.3 too
-37aec986 Properly 0 initialize sigaction
-10fe4835 Merge tag 'v4.3' into HEAD
 
    * frameworks/av/
 0155defa2 CameraService: Support hooks for motorized camera
+
+   * frameworks/base/
+60ed54d8c94 Improve performance of unclipped save layers.
+
+   * hardware/lineage/interfaces/
+afba321 Introduce camera motor hal
 
    * system/core/
 6dbdf5f20 fastboot: Add --cmdline alias
@@ -278,6 +328,12 @@ c7efb50 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi
      07-11-2019
 ====================
 
+
+   * external/nano/
+1d23c7f7 nano: Zero entire struct sigaction struct
+5f71cf2e nano: Bump PACKAGE_STRING to 4.3 too
+37aec986 Properly 0 initialize sigaction
+10fe4835 Merge tag 'v4.3' into HEAD
 
 ====================
      07-10-2019
@@ -293,211 +349,202 @@ a137d816f2 Add private save-behind and draw-behind methods to canvas.
 
 
    * build/make/
-fbf6dedbc Commits on Jul 1, 2019 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android…  …
+ecc443bf1 Merge "Make change and version bump to PPRL.190705.004 am: 8b4bc55df0" into pie-gsi
+646877d5d Make change and version bump to PPRL.190705.004 am: 8b4bc55df0
+ad4170e86 Merge "Make change and version bump to PPRL.190705.003 am: b0faf21d08" into pie-gsi
+e4d4f7ffa Make change and version bump to PPRL.190705.003 am: b0faf21d08
 
    * development/
 ff5079718 Merge "Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b" into pie-gsi
 6207d9d0c Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b
-8ef31cb46 Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release
 
    * external/icu/
 bd4c5fe40 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release am: 16b3c0277e
 b9cd61962 Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release am: a63df92ad9
-16b3c0277 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release
 
    * external/skia/
 1193a855ff Merge "Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202" into pie-gsi
 afe8ba9906 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202
-9d46f09202 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release
 
    * frameworks/av/
 377dd121d Merge "Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release am: bcb87e5568" into pie-gsi
 1997ff037 Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release am: bcb87e5568
 6d33ddd45 Merge "Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release am: 8a898328aa" into pie-gsi
 98bc67e01 Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release am: 8a898328aa
-bcb87e556 Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release
 
    * frameworks/base/
-6e5e8a59e0c Commits on Jul 7, 2019 Automatic translation import  …
+4cf1c0fbbbe Merge "Snap for 5622519 from b869620327dabaebe715a7d8fb3d12cdddd5a221 to pi-platform-release am: 5c3946d093" into pie-gsi
+01577783a25 Snap for 5622519 from b869620327dabaebe715a7d8fb3d12cdddd5a221 to pi-platform-release am: 5c3946d093
+b1cec28b95d Merge "Snap for 5600800 from b3f4ac23836263a1f7844b12455a81150c92bace to pi-platform-release am: f84f3454c7" into pie-gsi
+d8814cdc190 Snap for 5600800 from b3f4ac23836263a1f7844b12455a81150c92bace to pi-platform-release am: f84f3454c7
 
    * frameworks/opt/net/wifi/
 fab418ca7 Snap for 5622519 from f0a226d6715cd32f37825298feee66fd7f226fdf to pi-platform-release am: d35320d2f5
-d35320d2f Snap for 5622519 from f0a226d6715cd32f37825298feee66fd7f226fdf to pi-platform-release
 
    * frameworks/opt/telephony/
 47d475983 Merge "Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release am: 741849452e" into pie-gsi
 a81dafce9 Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release am: 741849452e
-741849452 Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release
 
    * hardware/interfaces/
 5d75cebe Snap for 5622519 from b095226d9286245c7d05088a441c2cff43d2ae65 to pi-platform-release am: 0ef08c828d
-0ef08c82 Snap for 5622519 from b095226d9286245c7d05088a441c2cff43d2ae65 to pi-platform-release
 
    * hardware/qcom/audio/default/
 ab7d2ba3b Merge "Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0" into pie-gsi
 84356ce53 Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0
-0c26ce89e Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release
 
    * packages/apps/Bluetooth/
 f1734a3e Merge "Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release am: f53bce45ef" into pie-gsi
 57ad741e Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release am: f53bce45ef
-f53bce45 Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release
 
    * packages/apps/CellBroadcastReceiver/
 54e2dfbe Merge "Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751" into pie-gsi
 6d13c9af Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751
-cb84ec27 Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release
 
    * packages/apps/CertInstaller/
 c0bdc42 Merge "Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release am: 1b44a3492f" into pie-gsi
 9b78882 Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release am: 1b44a3492f
-1b44a34 Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release
 
    * packages/apps/Contacts/
 29db2b04d Merge "Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669" into pie-gsi
 c106966d7 Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669
-5889de766 Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release
 
    * packages/apps/DeskClock/
 751f81c7f Merge "Snap for 5622519 from f2133fbd3c66cd2ea1fe10abb31996602d729e37 to pi-platform-release am: 6f28b99868" into pie-gsi
 4a28f5d8d Snap for 5622519 from f2133fbd3c66cd2ea1fe10abb31996602d729e37 to pi-platform-release am: 6f28b99868
-6f28b9986 Snap for 5622519 from f2133fbd3c66cd2ea1fe10abb31996602d729e37 to pi-platform-release
 
    * packages/apps/DocumentsUI/
 0252d26f Snap for 5622519 from 9b6f2643661e4667493debdcccbba3ec518eb963 to pi-platform-release am: 003bac8220
-003bac82 Snap for 5622519 from 9b6f2643661e4667493debdcccbba3ec518eb963 to pi-platform-release
 
    * packages/apps/EmergencyInfo/
 5c9a761 Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release am: 9a5e31527f
-9a5e315 Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release
 
    * packages/apps/KeyChain/
 a6cda5b Merge "Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release am: 314f42f024" into pie-gsi
 550eb50 Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release am: 314f42f024
-314f42f Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release
 
    * packages/apps/ManagedProvisioning/
 00cb9168 Snap for 5622519 from 8f63ecce54a23e6612c68470392be6f027174354 to pi-platform-release am: a5c080aadc
-a5c080aa Snap for 5622519 from 8f63ecce54a23e6612c68470392be6f027174354 to pi-platform-release
 
    * packages/apps/Nfc/
 bd9db4f5 Merge "Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e" into pie-gsi
 59960655 Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e
-f6d7678d Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release
 
    * packages/apps/PackageInstaller/
 80892d48 Merge "Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release am: dbd2ae2b63" into pie-gsi
 fed0811f Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release am: dbd2ae2b63
 f39dc13e Merge "Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release am: b5641733bf" into pie-gsi
 1ca66ade Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release am: b5641733bf
-dbd2ae2b Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release
 
    * packages/apps/SafetyRegulatoryInfo/
 cfe1b33 Snap for 5622519 from 5808cb0fa4c18ee52b5e69695045b3b766035788 to pi-platform-release am: 7444ff41f0
-7444ff4 Snap for 5622519 from 5808cb0fa4c18ee52b5e69695045b3b766035788 to pi-platform-release
+
+   * packages/apps/Settings/
+dabc81c058 Merge "Snap for 5622519 from fd365ae91ebe924197c5f443c889928eb07bd02c to pi-platform-release am: ec58694ae8" into pie-gsi
+783d0549dd Snap for 5622519 from fd365ae91ebe924197c5f443c889928eb07bd02c to pi-platform-release am: ec58694ae8
 
    * packages/apps/StorageManager/
 20ce53a Snap for 5622519 from 7ee02962075f652d966e25e8d5c862896412ce0b to pi-platform-release am: 831ebdbde9
-831ebdb Snap for 5622519 from 7ee02962075f652d966e25e8d5c862896412ce0b to pi-platform-release
 
    * packages/apps/Traceur/
 6e8e773 Snap for 5622519 from 2ad79563216ec72e1ca6a536f02be38f6f3a617c to pi-platform-release am: 70c6d8eb8d
 2bdf8df Snap for 5600800 from d94f15c9318a702fdd955a670e5ef81578f3972e to pi-platform-release am: a4d265b057
-70c6d8e Snap for 5622519 from 2ad79563216ec72e1ca6a536f02be38f6f3a617c to pi-platform-release
 
    * packages/apps/TvSettings/
 dab60972 Snap for 5622519 from f2cc5b4ae1178481564c8768ed94aa6666d17e8b to pi-platform-release am: 21a47331d7
-21a47331 Snap for 5622519 from f2cc5b4ae1178481564c8768ed94aa6666d17e8b to pi-platform-release
 
    * packages/inputmethods/LatinIME/
 3f40ccc26 Merge "Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6" into pie-gsi
 55f5ab770 Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6
-8c6c1e2be Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release
 
    * packages/providers/ContactsProvider/
 1fc38550 Merge "Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release am: 2ba10b3757" into pie-gsi
 19d286b8 Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release am: 2ba10b3757
-2ba10b37 Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release
 
    * packages/providers/MediaProvider/
 62abcea Merge "Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5" into pie-gsi
 6525cbc Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5
-f5e8f5b Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release
 
    * packages/providers/TelephonyProvider/
 72c83fa Merge "Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release am: 7324b69df9" into pie-gsi
 2de6cec Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release am: 7324b69df9
 fdfcc6a Merge "Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release am: d6a067466c" into pie-gsi
 6bd21d3 Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release am: d6a067466c
-7324b69 Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release
 
    * packages/providers/UserDictionaryProvider/
 10f6ef4 Merge "Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release am: 357ea98e57" into pie-gsi
 97cc20a Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release am: 357ea98e57
-357ea98 Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release
 
    * packages/screensavers/Basic/
 f56b115 Merge "Snap for 5622519 from e898a916f8acbd53a907c6cd1c72f5531f05457e to pi-platform-release am: 447a368017" into pie-gsi
 e79ea92 Snap for 5622519 from e898a916f8acbd53a907c6cd1c72f5531f05457e to pi-platform-release am: 447a368017
-447a368 Snap for 5622519 from e898a916f8acbd53a907c6cd1c72f5531f05457e to pi-platform-release
 
    * packages/screensavers/PhotoTable/
 5444b6f Merge "Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release am: 7896f9d758" into pie-gsi
 8ff1a94 Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release am: 7896f9d758
-7896f9d Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release
 
    * packages/services/BuiltInPrintService/
 7c98074 Snap for 5622519 from 78e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5 to pi-platform-release am: 8d47970031
-8d47970 Snap for 5622519 from 78e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5 to pi-platform-release
 
    * packages/services/Telecomm/
 e0f8071b Snap for 5622519 from b65ecc5a1264c78e2543dc6beade501c4d60b282 to pi-platform-release am: c83df82dbc
-c83df82d Snap for 5622519 from b65ecc5a1264c78e2543dc6beade501c4d60b282 to pi-platform-release
 
    * packages/services/Telephony/
 96d6f4a26 Merge "Snap for 5622519 from c9341c73af4b14d180ab95ac44b82bc8c0409c8a to pi-platform-release am: a6050952e7" into pie-gsi
 428d08a58 Snap for 5622519 from c9341c73af4b14d180ab95ac44b82bc8c0409c8a to pi-platform-release am: a6050952e7
-a6050952e Snap for 5622519 from c9341c73af4b14d180ab95ac44b82bc8c0409c8a to pi-platform-release
 
    * system/bt/
 4b1d4904a Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release am: db4e774cab
 abff8cd5f Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release am: 1e2fde1e24
-db4e774ca Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release
 
    * system/netd/
 76448f5 Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release am: 02ebe2a46c
 6dcdfc8 Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release am: f138d4c17e
-02ebe2a Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release
 
    * system/security/
 2e0205b Merge "Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5" into pie-gsi
 9eae64f Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5
 8607f11 Merge "Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76" into pie-gsi
 a2fb4b1 Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76
-de927dd Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release
 
    * system/tools/hidl/
 25a76d8 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release am: a5f1137806
 607da63 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release am: 1df6c91f83
-a5f1137 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release
 
    * system/vold/
 ca19a84 Merge "Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1" into pie-gsi
 f2fb54f Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1
-ec0cb71 Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release
+
+   * vendor/lineage/
+bc4bce82 Fix bootanimation destpath if building off-tree
 
 ====================
      07-08-2019
 ====================
 
 
+   * build/make/
+fbf6dedbc Commits on Jul 1, 2019 Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android…  …
+8b4bc55df Make change and version bump to PPRL.190705.004
+b0faf21d0 Make change and version bump to PPRL.190705.003
+
+   * development/
+8ef31cb46 Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release
+
    * external/icu/
+16b3c0277 Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release
 a63df92ad Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release
 
+   * external/skia/
+9d46f09202 Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release
+
    * frameworks/av/
+bcb87e556 Snap for 5622519 from f29ab2dbaaf2635f403be82238b18ad3ff673514 to pi-platform-release
 8a898328a Snap for 5600800 from 127949a9f35c23446a2ce4d8821fd7df21a3fa77 to pi-platform-release
 
    * frameworks/base/
+6e5e8a59e0c Commits on Jul 7, 2019 Automatic translation import  …
+5c3946d0935 Snap for 5622519 from b869620327dabaebe715a7d8fb3d12cdddd5a221 to pi-platform-release
+f84f3454c7f Snap for 5600800 from b3f4ac23836263a1f7844b12455a81150c92bace to pi-platform-release
 dfe3a8a0517 Switch widgets away from android.text.format.Time
 ed5d3494bff Migrate telephony code away from Time
 ed33b45ee46 Remove unused class
@@ -505,110 +552,115 @@ ed33b45ee46 Remove unused class
 f83cf3708df Add a basic benchmark for android.text.format.Time
 0254d5e6f6c Avoid use of DateUtilsBridge.icuTimeZone()
 
-   * packages/apps/LineageParts/
-6e96470 Settings: Don't index display mode and color temperature on HWC2
-7998c55 LiveDisplaySettings: Fix outdoor mode preference on hwc2
+   * frameworks/opt/net/wifi/
+d35320d2f Snap for 5622519 from f0a226d6715cd32f37825298feee66fd7f226fdf to pi-platform-release
+
+   * frameworks/opt/telephony/
+741849452 Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release
+
+   * hardware/interfaces/
+0ef08c82 Snap for 5622519 from b095226d9286245c7d05088a441c2cff43d2ae65 to pi-platform-release
+
+   * hardware/qcom/audio/default/
+0c26ce89e Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release
+
+   * packages/apps/Bluetooth/
+f53bce45 Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release
+
+   * packages/apps/CellBroadcastReceiver/
+cb84ec27 Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release
+
+   * packages/apps/CertInstaller/
+1b44a34 Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release
+
+   * packages/apps/Contacts/
+5889de766 Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release
+
+   * packages/apps/DeskClock/
+6f28b9986 Snap for 5622519 from f2133fbd3c66cd2ea1fe10abb31996602d729e37 to pi-platform-release
+
+   * packages/apps/DocumentsUI/
+003bac82 Snap for 5622519 from 9b6f2643661e4667493debdcccbba3ec518eb963 to pi-platform-release
+
+   * packages/apps/EmergencyInfo/
+9a5e315 Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release
+
+   * packages/apps/KeyChain/
+314f42f Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release
+
+   * packages/apps/ManagedProvisioning/
+a5c080aa Snap for 5622519 from 8f63ecce54a23e6612c68470392be6f027174354 to pi-platform-release
+
+   * packages/apps/Nfc/
+f6d7678d Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release
 
    * packages/apps/PackageInstaller/
+dbd2ae2b Snap for 5622519 from 73e82477c145d8178180382a5ad2b9f9fa4b8235 to pi-platform-release
 b5641733 Snap for 5600800 from d6b752934f71c3c59b6339900f07b204dce0d505 to pi-platform-release
 
+   * packages/apps/SafetyRegulatoryInfo/
+7444ff4 Snap for 5622519 from 5808cb0fa4c18ee52b5e69695045b3b766035788 to pi-platform-release
+
+   * packages/apps/Settings/
+ec58694ae8 Snap for 5622519 from fd365ae91ebe924197c5f443c889928eb07bd02c to pi-platform-release
+
+   * packages/apps/StorageManager/
+831ebdb Snap for 5622519 from 7ee02962075f652d966e25e8d5c862896412ce0b to pi-platform-release
+
    * packages/apps/Traceur/
+70c6d8e Snap for 5622519 from 2ad79563216ec72e1ca6a536f02be38f6f3a617c to pi-platform-release
 a4d265b Snap for 5600800 from d94f15c9318a702fdd955a670e5ef81578f3972e to pi-platform-release
 
+   * packages/apps/TvSettings/
+21a47331 Snap for 5622519 from f2cc5b4ae1178481564c8768ed94aa6666d17e8b to pi-platform-release
+
+   * packages/inputmethods/LatinIME/
+8c6c1e2be Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release
+
+   * packages/providers/ContactsProvider/
+2ba10b37 Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release
+
+   * packages/providers/MediaProvider/
+f5e8f5b Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release
+
    * packages/providers/TelephonyProvider/
+7324b69 Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release
 d6a0674 Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release
 
+   * packages/providers/UserDictionaryProvider/
+357ea98 Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release
+
+   * packages/screensavers/Basic/
+447a368 Snap for 5622519 from e898a916f8acbd53a907c6cd1c72f5531f05457e to pi-platform-release
+
+   * packages/screensavers/PhotoTable/
+7896f9d Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release
+
+   * packages/services/BuiltInPrintService/
+8d47970 Snap for 5622519 from 78e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5 to pi-platform-release
+
+   * packages/services/Telecomm/
+c83df82d Snap for 5622519 from b65ecc5a1264c78e2543dc6beade501c4d60b282 to pi-platform-release
+
+   * packages/services/Telephony/
+a6050952e Snap for 5622519 from c9341c73af4b14d180ab95ac44b82bc8c0409c8a to pi-platform-release
+
    * system/bt/
+db4e774ca Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release
 1e2fde1e2 Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release
 
    * system/netd/
+02ebe2a Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release
 f138d4c Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release
 
    * system/security/
+de927dd Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release
 4a5cb0b Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release
 
    * system/tools/hidl/
+a5f1137 Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release
 1df6c91 Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release
 
-====================
-     07-07-2019
-====================
-
-
-   * frameworks/base/
-80fb3fb4b32 Automatic translation import
-a00c8bf548f Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44
-
-   * frameworks/native/
-9e96d5424 Add vendor version for libgui
-
-====================
-     07-06-2019
-====================
-
-
-   * hardware/qcom/fm/
-647ae02 Automatic translation import
-
-   * lineage-sdk/
-6068c7d Automatic translation import
-
-   * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
-39c4b9c Automatic translation import
-
-   * packages/apps/Camera2/
-82280aff7 Automatic translation import
-
-   * packages/apps/CellBroadcastReceiver/
-f2d2f8f0 Automatic translation import
-
-   * packages/apps/DeskClock/
-5dd41032d Automatic translation import
-
-   * packages/apps/Dialer/
-7c804b94a Automatic translation import
-
-   * packages/apps/Email/
-1647871b3 Automatic translation import
-
-   * packages/apps/Exchange/
-f66c26eb Automatic translation import
-
-   * packages/apps/Jelly/
-7ccd689 Automatic translation import
-
-   * packages/apps/LineageParts/
-88aeb2c Automatic translation import
-
-   * packages/apps/Settings/
-ee4b84b406 Automatic translation import
-
-   * packages/apps/Snap/
-f4db56cb9 Automatic translation import
-
-   * packages/apps/Trebuchet/
-3b1733980 Automatic translation import
-
-   * packages/apps/wallpaperPicker/
-bbc85a4 Add h4k3rom walls
-
-   * packages/inputmethods/LatinIME/
-4fa5d0184 Automatic translation import
-
-   * packages/providers/BlockedNumberProvider/
-3ddff9e Automatic translation import
-
-   * packages/providers/CallLogProvider/
-1288db6 Automatic translation import
-
-   * packages/providers/ContactsProvider/
-57024b53 Automatic translation import
-
-   * vendor/lineage/
-f6872e89 Update App to ver. 07_05_19 Remove link to wallpaper app
-
-====================
-     07-05-2019
-====================
-
+   * system/vold/
+ec0cb71 Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release
 
