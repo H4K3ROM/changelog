@@ -1,16 +1,145 @@
 ====================
+     08-03-2019
+====================
+
+
+   * bootable/recovery/
+842a2cab Make adb sideload work properly
+
+   * build/make/
+540a56ccb Commits on Aug 1, 2019 fix "build: Only set the default verity key as a fallback"  …
+
+   * device/oneplus/oneplus3/
+6ea880d op3: Disable ALMK and PPR on all targets
+
+   * frameworks/base/
+16407edd647 Commits on Aug 1, 2019 SystemUI: Fix multiple issues with hiding unprovisioned SIMs  …
+
+   * packages/apps/Calendar/
+43e611c Let's test out some Android Q preview 5 goodies on OnePlus3T too!
+1b3d8ac Update README.md
+78ff95c Initial commit
+
+   * packages/apps/LineageParts/
+73817fa livedisplay: Don't show duplicate title in LiveDisplay options
+
+   * packages/apps/Music/
+6ac2712 Let's test out some Android Q preview 5 goodies on OnePlus3T too!
+9859382 Update README.md
+4da46ba Initial commit
+
+   * packages/apps/Terminal/
+abb5ed3 Let's test out some Android Q preview 5 goodies on OnePlus3T too!
+2ecb5f3 Update README.md
+09c8d59 Initial commit
+
+   * packages/inputmethods/LatinIME/
+b01ef233d Add support for Ukrainian spell checking
+
+   * vendor/lineage/
+30b4df71 lineage: Make a lineage_x86_64 target
+57e8fc00 Music Android q-release-5 Preview
+
+====================
+     08-02-2019
+====================
+
+
+   * build/make/
+cc1d78713 fix "build: Only set the default verity key as a fallback"
+
+   * hardware/broadcom/libbt/
+4545703 libbt: configure audio codec right after firmware
+
+====================
+     08-01-2019
+====================
+
+   * android/
+7de0e02 manifest: Use master branch for chromium-webview
+
+   * frameworks/base/
+2413c2481d8 SystemUI: Fix multiple issues with hiding unprovisioned SIMs
+
+   * lineage/contributors-cloud-generator/
+7904870 Fix another null pointer
+21d97cb Bump DEFAULT_SIZE to 1928
+
+   * vendor/lineage/
+2e39f356 lineage: Make a lineage_x86_64 target
+
+====================
+     07-31-2019
+====================
+
+
+   * build/make/
+ff27cc2e7 build: Only set the default verity key as a fallback
+
+   * hardware/qcom/audio-caf/msm8960/
+b49d4dcf0 hal: Add support for voice calls on Fusion3 platforms
+d50691ca0 audio-hw: Restrict voice_start_usecase only for 1 call at a time
+b89a37db8 hal: Fix no audio during voice call with voip in background
+ab3534805 hal: fix no sound issue in voice call
+
+====================
+     07-30-2019
+====================
+
+
+   * device/lineage/sepolicy/
+7125675 lineage: Guard neverallowed policy for system_file with userdebug/eng
+
+   * packages/services/OmniJaws/
+ebd755a Merge "OmniJaws: Bye bye Yahoo - it was fun with you" into p9.0
+6e8ea74 OmniJaws: Bye bye Yahoo - it was fun with you
+
+====================
+     07-29-2019
+====================
+
+
+====================
+     07-28-2019
+====================
+
+
+   * bootable/recovery/
+99bf69f9 Make adb sideload work properly
+
+   * device/oneplus/oneplus3/
+df9d706 op3: Disable ALMK and PPR on all targets
+
+   * vendor/oneplus/
+ecd0a7eb msm8998-common: update blobs from 9.0.7
+
+====================
      07-27-2019
 ====================
 
 
    * bootable/recovery/
 5aa74db1 Commits on Jul 26, 2019 recovery: hide option to mount emulated storage after wiping data  …
+6687a237 recovery: hide option to mount emulated storage after wiping data
 
    * device/oneplus/oneplus3/
 b618b68 Commits on Jul 26, 2019 op3: Enable QC combo NLP  …
 
    * frameworks/base/
+4d12c537ca9 Fix sim pin on DSDS
+23042d81e4d Dismiss SIM lock page after correct SIM
+90a791ed539 When data switches during voice call, make sure signal bar updates it.
+af4eb1c0d9b Stop USB Debugging authorization window dismissing on tap outside.
+48c89fb287d Update navigation bar upon change of display density
+e18c1188eee Unable to input PIN with hardware keyboard
+7042bf0420d Fix the behavior of keyguard bouncer in a corner case
+b221a9a139a Fixes context for tiles without longClick
+e114b10cffa Fix to register the receiver for all users
+f275ab8cfaa Remove unnecessary right padding from time picker
 c6fe5cf0b3b Commits on Jul 25, 2019 Default the network location provider to none  …
+
+   * lineage/scripts/
+9448587 scripts: Add atv to devices.py blacklist
 
    * packages/apps/Settings/
 53dfc53d5f Commits on Jul 23, 2019 Settings: Preserve sound timeout pref when showing legacy notificatio…  …
@@ -22,9 +151,6 @@ eb31c921 Commits on Jul 25, 2019 privapp-permissions: Allow Trebuchet to use and
      07-26-2019
 ====================
 
-
-   * bootable/recovery/
-6687a237 recovery: hide option to mount emulated storage after wiping data
 
    * device/oneplus/oneplus3/
 00c5e39 op3: Enable QC combo NLP
@@ -47,111 +173,4 @@ cb87cd63 Fix null pointer exception on AvrcpTargetService
 
    * vendor/lineage/
 a5e776e5 privapp-permissions: Allow Trebuchet to use android.permission.STATUS_BAR
-
-====================
-     07-24-2019
-====================
-
-
-   * external/gptfdisk/
-c1ea282 gptfdisk: include gptcl.h after sgdisk.h
-
-   * frameworks/base/
-22c9c67a32d jni: Fix improper call to createFromExisting()
-
-====================
-     07-23-2019
-====================
-
-
-   * frameworks/base/
-4a63515b91f ProfilesTile: Enable authentication for handleClick()
-9fe755d76fb Merge https://github.com/LineageOS/android_frameworks_base into lineage-16.0
-
-   * packages/apps/Settings/
-ffb84a13a7 Settings: Preserve sound timeout pref when showing legacy notification settings
-be130949d3 Commits on Jul 22, 2019 Settings: per-app VPN data restriction  …
-
-   * packages/apps/Trebuchet/
-61ee173fa Trebuchet: Define missing permissions
-
-====================
-     07-22-2019
-====================
-
-
-   * frameworks/base/
-8c169086e60 NetworkManagement : Add ability to restrict app vpn usage
-
-   * lineage/scripts/
-9d1d3ba scripts: Change devices.py output to correct file name
-
-   * packages/apps/Settings/
-4616aaba51 Settings: per-app VPN data restriction
-
-   * system/netd/
-37bc18d NetD : Allow passing in interface names for vpn app restriction
-
-====================
-     07-21-2019
-====================
-
-
-   * build/make/
-8053c5660 make: Use build prop overrides when generating vendor build.prop too
-
-   * frameworks/av/
-4d5b74c47 media: Add support for up to level 6.2 for AVC
-
-   * frameworks/base/
-8a4810c7e65 MediaCodecInfo: Add support for level 6.2
-
-   * frameworks/native/
-de85ffd83 media: Add support for level 6-6.2 for AVC
-
-   * vendor/lineage/
-f7aebcf9 Commits on Jul 20, 2019 qcom: Add UM 4.14 platforms  …
-
-====================
-     07-20-2019
-====================
-
-
-   * build/make/
-8be34b658 make: Use build prop overrides when generating vendor build.prop too
-
-   * vendor/lineage/
-05aded86 qcom: Add UM 4.14 platforms
-
-====================
-     07-19-2019
-====================
-
-
-   * vendor/lineage/
-6047f5a0 kernel: Consider depmod version when handling kernel modules
-
-====================
-     07-18-2019
-====================
-
-
-   * bootable/recovery/
-0fa1faa6 More of: @luca020400 luca020400 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi 15 new commits behind LineageOS:lineage-16.0. applied to h4k3rom
-
-   * build/make/
-fd0816cc8 Commits on Jul 13, 2019 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi  …
-
-   * device/oneplus/oneplus3/
-48bd753 op3: Update mediacodec performance values from OOS 9.0.4
-
-   * frameworks/base/
-181af68052a This branch is 16 commits ahead, 172 commits behind LineageOS:lineage-16.0. LineageOS:lineage-16.0 a ton of commits during the merge...
-
-   * packages/apps/Settings/
-81b3f3efd3 More of: @luca020400 luca020400 Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi 40 commits behind LineageOS:lineage-16.0. updated during merge. Hope nothing breaks ;)
-
-   * vendor/lineage/
-19c36cd7 extract_utils: Support multidex
-7f40e1cc Keep h4k3rom bootanimation current Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
 
