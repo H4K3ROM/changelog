@@ -1,5 +1,90 @@
 ====================
-     08-03-2019
+     08-10-2019
+====================
+
+
+   * packages/apps/Calendar/
+a1e2e54 Android Q Preview 6
+
+   * vendor/lineage/
+f552ca67 Update common.mk
+
+====================
+     08-09-2019
+====================
+
+   * android/
+435f16d Switch prebuilts/abi-dumps/vndk to our fork
+
+   * packages/apps/LineageParts/
+a12687a0a8 PrivacyGuard: Resolve error message hardcoded white color
+
+   * vendor/lineage/
+7112abb4 Commits on Aug 8, 2019 overlay: Remove config_auto_perf_activities …
+
+====================
+     08-08-2019
+====================
+
+
+   * packages/apps/LineageParts/
+fb805b45a1 PrivacyGuard: Resolve error message hardcoded white color
+
+   * vendor/lineage/
+31c50708 overlay: Remove config_auto_perf_activities
+
+====================
+     08-07-2019
+====================
+
+   * android/
+8df87ec Switch system/keymaster & test/vts-testcase/vndk to our forks
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+524414fb Skip setEnableHostRouting when switching to screen off
+
+====================
+     08-06-2019
+====================
+
+
+   * frameworks/base/
+87efb0d93f3 Commits on Aug 4, 2019 Automatic translation import …
+
+   * lineage-sdk/
+204a8e2 Commits on Aug 4, 2019 Automatic translation import …
+
+   * packages/apps/LineageParts/
+44dd2ce881 Commits on Aug 4, 2019 Automatic translation import …
+
+   * packages/apps/Settings/
+6062a07789 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+361dda6ef LatinIME: Add Hungarian QWERTY, enable predictive dictionary
+bcf642571 Add support for Georgian spell checking
+2a6dfb26d Set proper keyboard for Georgian script
+0c7fc58d6 Add support for Bulgarian spell checking
+bae409850 Add new type for Bulgarian script
+f67df333c Add support for Portuguese spell checking
+a609b6685 Add support for Hebrew spell checking
+41782dffc Add support for Croatian spell checking
+97c290ec8 Add support for Czech spell checking
+13a5a7b6a Add support for Polish spell checking
+
+   * vendor/lineage/
+eb8277b1 LatinIME: Add Polish dictionary
+
+   * vendor/oneplus/
+3ebce5d1 sdm845-common: Drop libdisplayconfig.so, libqdMetaData.system.so
+
+====================
+     08-05-2019
+====================
+
+
+====================
+     08-04-2019
 ====================
 
 
@@ -13,32 +98,103 @@
 6ea880d op3: Disable ALMK and PPR on all targets
 
    * frameworks/base/
+c29588aac04 Automatic translation import
+31c92db28df SystemUI: Use appropriate function when trying to retrieve colorError
 16407edd647 Commits on Aug 1, 2019 SystemUI: Fix multiple issues with hiding unprovisioned SIMs  …
 
+   * hardware/qcom/fm/
+2cf84a8 Automatic translation import
+
+   * lineage-sdk/
+10e0e87 Automatic translation import
+
+   * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+df9c2bc Automatic translation import
+
+   * packages/apps/Backgrounds/
+6236b71 Automatic translation import
+
    * packages/apps/Calendar/
+1b5215a change timeout and snooze preferences
 43e611c Let's test out some Android Q preview 5 goodies on OnePlus3T too!
 1b3d8ac Update README.md
 78ff95c Initial commit
 
+   * packages/apps/Contacts/
+0a9031dbe Automatic translation import
+
+   * packages/apps/Dialer/
+81f3d53ed Automatic translation import
+
+   * packages/apps/Eleven/
+47de731 Automatic translation import
+
+   * packages/apps/Email/
+1cf0202e7 Automatic translation import
+
+   * packages/apps/Exchange/
+83888ed3 Automatic translation import
+
+   * packages/apps/Gallery2/
+6d7159ccc Automatic translation import
+
+   * packages/apps/Jelly/
+f63033a Automatic translation import
+
    * packages/apps/LineageParts/
-73817fa livedisplay: Don't show duplicate title in LiveDisplay options
+65600c12e4 Automatic translation import
+73817fa63d livedisplay: Don't show duplicate title in LiveDisplay options
+
+   * packages/apps/LockClock/
+218bcbd Automatic translation import
 
    * packages/apps/Music/
 6ac2712 Let's test out some Android Q preview 5 goodies on OnePlus3T too!
 9859382 Update README.md
 4da46ba Initial commit
 
+   * packages/apps/Profiles/
+69c8a12 Automatic translation import
+
+   * packages/apps/Recorder/
+9b940e8 Automatic translation import
+
+   * packages/apps/Settings/
+42ccbd92c1 Automatic translation import
+
+   * packages/apps/SetupWizard/
+3a90e81 Automatic translation import
+
+   * packages/apps/Snap/
+2cc7d61b3 Automatic translation import
+
    * packages/apps/Terminal/
+32bcc25 Remove a few items that break the build
 abb5ed3 Let's test out some Android Q preview 5 goodies on OnePlus3T too!
 2ecb5f3 Update README.md
 09c8d59 Initial commit
 
+   * packages/apps/Trebuchet/
+4430561c3 Automatic translation import
+
    * packages/inputmethods/LatinIME/
-b01ef233d Add support for Ukrainian spell checking
+474a7a5c7 Automatic translation import
+
+   * packages/resources/devicesettings/
+6f0205a Automatic translation import
 
    * vendor/lineage/
+8fc28175 Update common.mk
 30b4df71 lineage: Make a lineage_x86_64 target
 57e8fc00 Music Android q-release-5 Preview
+
+====================
+     08-03-2019
+====================
+
+
+   * packages/inputmethods/LatinIME/
+b01ef233d Add support for Ukrainian spell checking
 
 ====================
      08-02-2019
@@ -67,110 +223,4 @@ cc1d78713 fix "build: Only set the default verity key as a fallback"
 
    * vendor/lineage/
 2e39f356 lineage: Make a lineage_x86_64 target
-
-====================
-     07-31-2019
-====================
-
-
-   * build/make/
-ff27cc2e7 build: Only set the default verity key as a fallback
-
-   * hardware/qcom/audio-caf/msm8960/
-b49d4dcf0 hal: Add support for voice calls on Fusion3 platforms
-d50691ca0 audio-hw: Restrict voice_start_usecase only for 1 call at a time
-b89a37db8 hal: Fix no audio during voice call with voip in background
-ab3534805 hal: fix no sound issue in voice call
-
-====================
-     07-30-2019
-====================
-
-
-   * device/lineage/sepolicy/
-7125675 lineage: Guard neverallowed policy for system_file with userdebug/eng
-
-   * packages/services/OmniJaws/
-ebd755a Merge "OmniJaws: Bye bye Yahoo - it was fun with you" into p9.0
-6e8ea74 OmniJaws: Bye bye Yahoo - it was fun with you
-
-====================
-     07-29-2019
-====================
-
-
-====================
-     07-28-2019
-====================
-
-
-   * bootable/recovery/
-99bf69f9 Make adb sideload work properly
-
-   * device/oneplus/oneplus3/
-df9d706 op3: Disable ALMK and PPR on all targets
-
-   * vendor/oneplus/
-ecd0a7eb msm8998-common: update blobs from 9.0.7
-
-====================
-     07-27-2019
-====================
-
-
-   * bootable/recovery/
-5aa74db1 Commits on Jul 26, 2019 recovery: hide option to mount emulated storage after wiping data  …
-6687a237 recovery: hide option to mount emulated storage after wiping data
-
-   * device/oneplus/oneplus3/
-b618b68 Commits on Jul 26, 2019 op3: Enable QC combo NLP  …
-
-   * frameworks/base/
-4d12c537ca9 Fix sim pin on DSDS
-23042d81e4d Dismiss SIM lock page after correct SIM
-90a791ed539 When data switches during voice call, make sure signal bar updates it.
-af4eb1c0d9b Stop USB Debugging authorization window dismissing on tap outside.
-48c89fb287d Update navigation bar upon change of display density
-e18c1188eee Unable to input PIN with hardware keyboard
-7042bf0420d Fix the behavior of keyguard bouncer in a corner case
-b221a9a139a Fixes context for tiles without longClick
-e114b10cffa Fix to register the receiver for all users
-f275ab8cfaa Remove unnecessary right padding from time picker
-c6fe5cf0b3b Commits on Jul 25, 2019 Default the network location provider to none  …
-
-   * lineage/scripts/
-9448587 scripts: Add atv to devices.py blacklist
-
-   * packages/apps/Settings/
-53dfc53d5f Commits on Jul 23, 2019 Settings: Preserve sound timeout pref when showing legacy notificatio…  …
-
-   * vendor/lineage/
-eb31c921 Commits on Jul 25, 2019 privapp-permissions: Allow Trebuchet to use android.permission.STATUS…  …
-
-====================
-     07-26-2019
-====================
-
-
-   * device/oneplus/oneplus3/
-00c5e39 op3: Enable QC combo NLP
-
-====================
-     07-25-2019
-====================
-
-
-   * bootable/recovery/
-486c4673 recovery: Extend mountable check to all volumes and fix volume selection
-
-   * frameworks/base/
-c854c29598f Default the network location provider to none
-a405c90500e combo issue when location reported by providers do not come with extras
-7b20d4354de NLP Combo feature
-
-   * packages/apps/Bluetooth/
-cb87cd63 Fix null pointer exception on AvrcpTargetService
-
-   * vendor/lineage/
-a5e776e5 privapp-permissions: Allow Trebuchet to use android.permission.STATUS_BAR
 
