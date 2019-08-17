@@ -1,13 +1,424 @@
 ====================
-     08-10-2019
+     08-17-2019
 ====================
 
+
+   * bootable/recovery/
+2d55def0 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_bootable_recovery into lineage-16.0 Commits on Aug 11, 2019 recovery: calibrate touchscreen …
+
+   * build/make/
+3388d7f71 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build into lineage-16.0
+
+   * frameworks/base/
+8f6b3d9f2a6 Merge remote-tracking branch 'upstream/lineage-16.0' into lineage-16.0 Commits on Aug 12, 2019 Fix wrong locale causing reboot in recovery …
+
+   * packages/apps/Settings/
+3bdf763cf3 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0 Commits on Aug 5, 2019 Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android… …
+
+   * vendor/lineage/
+38963700 Merge remote-tracking branch 'upstream/lineage-16.0' into lineage-16.0 Commits on Aug 15, 2019 overlay: Remove config_wifi_wakeup_available …
+
+====================
+     08-16-2019
+====================
+
+
+   * kernel/oneplus/msm8996/
+682d3393adad gpiolib: Fix OnePlus mismerge
+4ffad93ffe97 PM: Break out once fingerprint wake thread found
+f355c5a88677 qcacld-2.0: Disable debug and diag
+18a14bd23ea5 drivers/pinctrl: skip non-reable gpio pins
+4b1c9c456405 power: don't ever reboot to verity red
+9a97e1fb7120 cfq-iosched: fix the setting of IOPS mode on SSDs
+0a3ae968bcb1 block: Make CFQ default to IOPS mode on SSDs
+fce4c4c91dc1 add toggle for disabling newly added USB devices
+ef7abd5b0d44 ANDROID: clock_gettime(CLOCK_BOOTTIME,) slows down >20x
+09be48aaf2e9 ANDROID: op3: turn on VDSO32
+4a132fea68c1 ANDROID: CROSS_COMPILE_ARM32 must work if CONFIG_COMPAT_VDSO
+e6692adbc3e4 FROMLIST: BACKPORT: [PATCH 6/6] arm64: Wire up and expose the new compat vDSO
+7c1e832edebb FROMLIST: BACKPORT: [PATCH 5/6] arm64: compat: 32-bit vDSO setup
+a0c0d81246ab FROMLIST: [PATCH 4/6] arm64: compat: Add a 32-bit vDSO
+1011d9e2d675 FROMLIST: BACKPORT: [PATCH 3/6] arm64: Refactor vDSO init/setup
+8face8378ce6 FROMLIST: BACKPORT: [PATCH 2/6] arm64: elf: Set AT_SYSINFO_EHDR in compat processes
+5f3118588d24 FROMLIST: [PATCH 1/6] arm64: compat: Use vDSO sigreturn trampolines if available
+503a0de4cc45 FROMLIST: lib: vdso: add support for time
+ea1f6919ed9d FROMLIST: BACKPORT: [PATCH] arm64: compat: Expose offset to registers in sigframes
+7e878774f9a8 FROMLIST: [PATCH v5 12/12] lib: vdso: do not expose gettimeofday, if no arch supported timer
+da5e8368b7c0 FROMLIST: BACKPORT: [PATCH v5 11/12] lib: vdso: Add support for CLOCK_BOOTTIME
+5e168d5d2634 FROMLIST: BACKPORT: [PATCH v5 10/12] arm64: vdso: replace gettimeofday.S with global vgettimeofday.C
+94dbee647c4a FROMLIST: [PATCH v5 09/12] arm: vdso: move vgettimeofday.c to lib/vdso/
+5d97f1717f4b FROMLIST: [PATCH v5 08/12] arm: vdso: Add ARCH_CLOCK_FIXED_MASK
+9ea4d882562f FROMLIST: [PATCH v5 07/12] arm: vdso: disable profiling
+91ffea5cfb23 FROMLIST: [PATCH v5 06/12] arm: vdso: add support for clock_getres
+b540158a2c16 FROMLIST: BACKPORT: [PATCH v6 05/12] arm: vdso: Add support for CLOCK_MONOTONIC_RAW
+c568dedd8c38 FROMLIST: [PATCH v5 04/12] arm: vdso: do calculations outside reader loops
+3847ed71ced0 FROMLIST: [PATCH v5 03/12] arm: vdso: inline assembler operations to compiler.h
+a59cefd36c1d FROMLIST: [PATCH v5 02/12] arm: vdso: add include file defining __get_datapage()
+5483d89bd9b5 FROMLIST: [PATCH v5 01/12] arm: vdso: rename vdso_datapage variables
+fcbddeca278f FROMLIST: BACKPORT: [PATCH v2 3/3] arm64: compat: Add CONFIG_KUSER_HELPERS
+85122ff275aa FROMLIST: BACKPORT: [PATCH v2 2/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (assembler sources)
+62e9dc7986fd FROMLIST: BACKPORT: [PATCH v2 1/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (C sources)
+733cdf8cecb0 BACKPORT: arm64: apply __ro_after_init to some objects
+75ecc583ce84 Revert "Android.bp: Initial header export bp for Android (qseecom only)"
+9fde4977cc38 irqchip: msm: log wakeup interrupts
+9bc51def03f5 power: wakeup_reason: make log function work in interrupt context
+e4d3041b4ef7 irq: Add wakeup reason logging
+8f321bb9ef7a arm: cpuinfo: drop L1 cache type print from pr_info to pr_debug
+81cf6adc604f fs: Improve eventpoll logging to stop indicting timerfd
+70af78d1d9b7 Add kernel logging for when timerfd_read blocks
+ce0cee48b8d0 fs: add useful debug info to eventpoll string
+32b8a75ff093 power: qpnp-fg: make read_beat a static function
+c1beded4154d power: qpnp-fg: have sanity check beat once before wakelock
+6f225e23807b lowmemorykiller: account for unevictable pages
+cff8bbadf050 ANDROID: disable CONFIG_CC_OPTIMIZE_FOR_SIZE
+4aaafd4a19b1 misc: Fix uninitilized variables
+a56fb38e09c1 soc: qcom: ipc_router_mhi_xprt: Initialize variable at start
+6f6c9e645d6d msm: mhi: initialize variables to default values
+d4d24195f9f1 ASoC: msm: qdspv2: initialize variables before use
+d01adf451c5f arm64: mm: move dma_overlap() out of init section
+f70f3c3cc1bf drivers: iommu, leds, input, clk, devfreq: fix warnings
+d7a16a23cfd9 ASoC: wcd9335: Initialize variables before use
+fc16f9a42ab8 media: vidc: change default return vaule to 0
+f36f6a4b0579 ANDROID: clean up uninitilized variable
+4a0f601da0f1 ANDROID: fix uninitilized variable
+826db3f063aa kernel: initialize and free cpufreq stats properly
+7af5a198b306 kernel: Fix massive cpufreq stats memory leaks
+a05ef84e30ca cpufreq: stats: use seq iterator for large uid-related files
+3ba78e51d04c cpufreq: stats: update uid data in acct_update_power
+d28dc14e6d95 ANDROID: cpufreq: change uid_cpupower to use u32
+7c4e737026ff STOPSHIP: ANDROID: cpufreq: concurrent_*_time P/H experiment
+2681f7746fc1 ANDROID: cpufreq: Remove seq_printf from critical path
+bd3b2ad24691 ANDROID: cpufreq: uid_concurrent_policy_time
+6d074cbddfa5 ANDROID: cpufreq: uid_concurrent_active_time
+90ac98c744d5 ANDROID: cpufreq: concurrent_policy_time by pid
+a5819cde8d38 ANDROID: cpufreq: concurrent_active_time by pid
+4a9ba2852680 proc: add null check in proc_uid_init
+92bf36889d82 ANDROID: cpufreq: Add time_in_state to /proc/uid directories
+8bc5d77e4acf ANDROID: proc: Add /proc/uid directory
+3d766ba09904 ANDROID: cpufreq: stats: Fix dead stats clearing timing
+8fa21952a633 ANDROID: cpufreq: stats: Fix sleeping while atomic in cpufreq_task_stats_init
+7111271ac2b5 ANDROID: cpufreq: stats: add uid removal for uid_time_in_state
+71eb85124dd0 ANDROID: cpufreq_stats: Fix task time in state locking
+b78c931fbcc2 ANDROID: cpufreq_stat: add per task/uid/freq stats
+7378e12ef5c7 CHROMIUM: cpufreq: Declare acct_update_power as static inline if needed
+be28951242f3 op3: Enable optimized cryptographic algorithms
+07a6cf2cb9b1 arm64/crypto: use crypto instructions to generate AES key schedule
+710e2668efa9 arm64/crypto: issue aese/aesmc instructions in pairs
+b91015ebd464 arm64: crypto: Change priority of arm64 aes cipher.
+a099257b5ab5 crypto: arm64/crc32 - bring in line with generic CRC32
+cff0be6a691f crypto: crc32 - Add ARM64 CRC32 hw accelerated module
+b87773e14d3c power: qpnp-smbcharger: init power supply type as USB
+1dd985e6799a scsi: ufs: extend the time out value of discard
+72e7add3d418 ARM: dts: msm: Set default GPU freq to 133MHz on msm8996 and msm8996pro
+bb2354dde72d oneplus_fastcg: Silence log spam
+5a1241f83bee leds: leds-qpnp: replace pwm_free with pwm_disable
+349e8248d686 op3: Enable support for RTL8152/RTL8153 Ethernet devices
+33653c66ce88 ion: ensure valid start address
+bea2e485cc39 fs/proc: Override reboot boot mode with normal
+039789d269ad net: core: Remove warning for cloned packets in ingress path
+03c01ff43e3a mm: fix pageblock heuristic
+acfce18e1df5 drivers: cpufreq_interactive: handle error for module load fail
+0953cd51e6fd cpufreq: interactive: fix to come out of hysteresis mode
+f61f524cf15a cpufreq_interactive: Allow hispeed_freq to work with prediction
+6d714e32a69b uid_sys_stats: fix overflow when io usage delta is negative
+bb90bf7c3cf0 clk: msm: clock-gcc-8996: Add 50 us delay after BLSP1 AHB clock enable
+200c163cd28e msm: mdss: Silence invalid data for dither log spam
+a3f672521ec5 clk: msm: clock-cpu-8996: Use CLKFLAG_NO_RATE_CACHE for perfcl_hf_mux
+3afe9f44b7da qcom-cpufreq: Use CLKFLAG_NO_RATE_CACHE
+69919a121d21 msm: msm_bus: Don't enable QoS clocks when none are present
+3d8d522ae26d serial: msm_serial_hs: optimize total tty port support
+492933601c38 msm_serial_hs:  make the Bluetooth tty thread RT
+70124387e07e Make msm_serial_hs RT to improve bluetooth performance
+a0084cd58192 tty:  check before stopping kthread
+42087b1f4e33 tty: add tty_port_set_policy function
+6b6afaaef97d tty: move tty_port workqueue to be a kthread
+07098d6e687c mdss: rotator: Use FIFO kthread for rotator work
+5dbbd0f2a085 UPSTREAM: sched/preempt: Fix preempt_count manipulations
+ff7e23a484ab pinctrl: qcom: unconditionally mark handled in msm_gpio_irq_handler
+08eb5245eea9 gpio: Mask non-wakeup GPIO interrupts on suspend
+76f9035a4b35 ANDROID: sched: rt: Avoid preempting CPUs if softirq explicity disable
+38bd38b5e798 sched: avoid migrating when softint on tgt cpu should be short
+b72ce0010d12 sched: avoid scheduling RT threads on cores currently handling softirqs
+b5c69a196f7e sched/rt: Avoid moving rt task if destination CPU does not run low priority task.
+0c8828d4c898 ANDROID: ARM64: smp: disable preempt in backtracing across all cores
+c5f19943846e perf:arm64: fix lockdep warning when handling CPU_STARTING.
+beb6e9263726 perf:arm64: fix pmu percpu irq handling at hotplug.
+97cc1b6cb659 perf: disable cross_hotplug for l2 cache pmu.
+4254b7e9c5d2 perf: arm64: fix RCU usage on pmu resume from low-power
+b7a179622cd3 perf: arm64: implement CPU_PM notifier
+febcc8215f29 Revert "Perf: arm64: support hotplug and power collapse"
+9c45bcbc4049 Revert "Perf: arm64: fix disable of pmu irq during hotplug"
+d2205ecb1be6 Revert "Perf: arm64: restore registers after reset"
+717d4b167bc5 Revert "Perf: arm64: stop counters when going into hotplug"
+11a7204554d3 ion: adjust system heap pool orders
+522b36c15fce do not call trace_printk on non-debug build
+1820bd244f8b Silences WLAN, PCIe, and CPU suspend state kernel messages
+5680c79af7ce cpuidle: don't disable cpuidle when entering suspend
+ba02793eda7d qpnp-smbcharger: Publish charger voltage to the usb psy
+c21ba511168b power: msm-core: Fix mutex not getting unlocked in error path
+5b9d16d185eb soc: qcom: secure_buffer: Fix memory leak
+47873a473221 msm: camera: sensor: Fix memory leaks when sensor probe fails
+7d5a89175129 cpufreq: stats: Fix memory leaks when updating stats table
+5feb5e268d81 msm: camera: isp: Fix memory leaks in vfe probe
+5075107465cd msm: mdss: Don't cache the address of a stack variable in timings init
+80a378401ccc soc: qcom: glink: Fix memory leak in driver probe
+beac735c9f76 arm64/configs: op3: increase log buffer to 1 MiB
+1095027922be arm64/configs: Remove LIMITS_LITE_HW config
+318d5f2653c8 op3: set default readahead to 2048KB
+b38e8c5f6276 ANDROID: mm: add config for default readahead size
+7cba55701159 Add VTI to op3 Kernel Config
+94c74529be5b arm64/configs: op3: remove unused configs for Bluetooth
+287161b2f1ab op3: Disable MDSS xlog debug
+a96abbe70542 op3: Disable MSM_11AD
+d513093da818 op3: Enable support for sdFAT filesystem
+e8977a6bc502 op3: Preserve memory on restart
+7455d20194a4 power: reset: Allow device to preserve memory on restart
+97bbab7c2430 op3: Enable OverlayFS
+a9cd6862a544 op3: Update defconfig
+a2c3e7b9fe9a op3: Enable jump label
+9c13eb141027 arm64: configs: op3: fix incorrect Android configs
+683ebe1c7db8 op3: defconfig: enable CONFIG_MEMORY_STATE_TIME
+144fe18302ca arm64: configs: op3: add CONFIG_PCI_QUIRKS back
+52a617a314a2 arm64: configs: op3: add FUSE FS back
+7b2d29604ed3 arm64: configs: op3: remove unused kernel funtions
+59ab7e0eab93 arm64/configs: op3: Audit syscalls blocked by seccomp
+4c0f495af090 op3: Enable NAN data path kernel config
+6869e70f5a35 arm64: configs: op3: clean up unused kernel features
+909ac6c4efc9 arm64/configs: op3: enable RCU_BOOST
+925b1ae246df op3: enable additional RCU debugging
+00245bc5d450 rcu: Print to trace on RCU stalls
+996d0f29bce6 rcu: boost: avoid preemption before calling complete()
+fe4401efca4f op3: disable QBT1000 driver
+82586e934078 BACKPORT: rcu: sysctl: Panic on RCU Stall
+352d45912dc1 BACKPORT: rcu: Optionally run grace-period kthreads at real-time priority
+1ab03578d396 BACKPORT: rcu: Unify boost and kthread priorities
+b02e36d9d8e9 BACKPORT: rcu: Move RCU_BOOST variable declarations, eliminating #ifdef
+50887bbb60e5 BACKPORT: rcu: Fix missing task information during rcu-preempt stall
+464487b381b4 UPSTREAM: rcu: Improve diagnostics for spurious RCU CPU stall warnings
+cdebc029c86a arm64: configs: op3: disable MSM_CACHE_M4M_ERP64_PANIC_ON_CE
+40f453fc9d8e arm64/configs: op3: remove unused filesystem configs
+be7051238c4c arm64/configs: op3: remove tuner support
+efe7caf774a5 op3: Disable unused EHCI-HCD kernel driver
+9b3623424041 op3: Disable unused kernel sensor drivers
+3e60e242c9dc arm64/config: op3: remove usb_mon and savedefconfig
+6a0f7be557bd op3: disable CONFIG_MSM_RDBG
+80bd3611e9f2 op3: Disable CONFIG_IKCONFIG_PROC
+fdc14ca76d78 arm64: configs: op3: CONFIG_NR_CPUS=4
+50a4e54ee504 op3: update mmap_rnd_bits to max value
+c8750cbf900f op3: Disable CONFIG_SYSRQ_SCHED_DEBUG
+d1fe38352d1b op3: Disable CoreSight Tracing Support
+808ba22f3bd3 arm64/configs: op3: enable ext4 encryption and savedefconfig
+e00c5dc734e5 op3: disable CONFIG_INPUT_EVBUG
+04803918bceb ARM: dts: 15801: Decommonize BCL mitigation freq
+c444408e79b7 ARM: dts: 15801: Disable core hotplugging, up the mitigation freq
+fdb03fbfa921 removing msm calls to trace_printk
+05969ca8ff9f oneplus: make sure some wakelock references are destroyed
+d03f04dc705c power: oneplus_fastcg: Silence log spam
+310f568af809 input: tri-state-key: Fix trivial code style issue in IRQ handler
+417fe51ddec9 input: tri-state-key: Use ffz() instead of find_first_zero_bit()
+c5d3b7fb5427 input: tri-state-key: Clean up some code styling
+94522cbb9f03 input: tri-state-key: Rewrite and optimize
+e11aad126b14 input: tri-state-key: Properly filter out spurious interrupts
+6cf1018bb30a input: tri-state-key: Get it ready for CM
+a918d99cba6f fpc1020: Re-add the dummy store function for irq node
+2466ce5b9de4 misc: fpc1020: Use device struct as wakeup source
+ff3c79706787 misc: fpc1020: Rewrite and optimize
+844910616045 misc: fpc1020: Wait for uevent to send before exiting IRQ handler
+5dcfffd02f3a misc: fpc1020: Simplify proximity shut-off
+9e4878770473 misc: fpc1020: Honor proximity state
+6476e5fc610e misc: fpc1020: Clean up interrupt handler
+3a7aaa375477 misc: fpc1020: Set fingerprint hal priority to max when screen is off
+efed6b3a95de misc: fpc1020: Clean up PM routines and move them into dedicated worker
+87d9913cf33a power: bq27541: Fix memory leak in driver probe
+373fdbfc21de power: bq27541: Don't queue work onto a specific CPU
+03e85c036d75 power: bq27541: Silence log spam
+a058c9996f9e ARM: dts: 15801: Add livedisplay features
+81ac69dc33bc op3: Adjust display power settings
+08727d38b315 ARM: dts: 15801: Regen panel dtsi using gcdb parser
+032c04f40e0f mdss: livedisplay: Don't send sRGB/DCI-P3 off cmd when dsi on
+90882d1b7078 mdss: livedisplay: Remove deprecated CMD_CLK_CTRL flag
+ebe609329643 mdss: livedisplay: Add support for DCI-P3 mode
+90e4126dc5ac mdss: livedisplay: Fix memory leaks in mdss_livedisplay_update()
+185cdfae229e mdss: livedisplay: Add commands to enable SRGB mode
+40817942ed6a video: mdss: LiveDisplay driver
+22da7c84108a op3: Enable BFQ
+3bbd8d4147fb block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.18.0
+2522b05dd2b8 block: introduce the BFQ-v7r8 I/O sched for 3.18.0
+225753dafe1e block: cgroups, kconfig, build bits for BFQ-v7r8-3.18.0
+f211e317d443 msm: qpnp-haptic: Use a high-priority workqueue for haptics
+472f51fee090 msm: qpnp-haptic: Process haptics asynchronously
+b0fd72959df1 qpnp-haptic: Dejank the haptics
+6f4cf53376e1 msm: qpnp-haptic: set up sysfs interface for common cmhw implementation
+2907709119e8 qpnp-haptic: Add sysfs interface to control intensity
+950a6b665f5d input: synaptics: s3320: Don't run baseline inside IRQ handler
+de6e87d67346 input: synaptics: fw_update: Fix various memory leaks
+f5dd15a48f90 synaptics_driver: Fix transposed memset() arguments
+c57df45feb91 input: synaptics: s3320: Silence log spam
+5e1b3c41af44 input: synaptics: s1302: Clean up PM routines and move them into worker
+b304158a616c input: synaptics_s3320: Remove unused workqueue
+a5791c22921a input: synaptics_s3320: Report nanosecond timestamps to improve accuracy
+f507db116cc7 input: synaptics: s3320: Fix type##_read_func function
+519fcf6e711d input: synaptics: s3320: Fix unsafe memory accesses in procfs nodes
+ef22f700e8f1 input: synaptics_s3320: Create custom procfs nodes for gestures
+57b5c0bdae72 input: synaptics: Ditch oneplus virtual abs code
+f4f3cccf987e input: synaptics_s3320: Clean up oneplus' logic
+56eba7fb92ae op3: Adjust LEDs configuration slightly
+8f8cd0f0475c ARM: dts: 15801: Add synchronized RGB blink params
+95ffc32836df leds: leds-qpnp: add synchronized rgb control
+ee2b2cf07a1e pwm: qpnp-pwm: add api for synchronous enable of pwms
+f0904801027b op3: Enable F2FS
+98a4951a6339 op3: Enable cpusets
+3039272f793c op3: CONFIG_HZ_300
+d230f499bd80 op3: Enable pstore
+55938fa7c49d ARM: dts: 15801: Configure ramoops buffer
+3d17bee4343a ANDROID: pstore: Use vmalloc for large allocations due to ramoops size
+c70c548b749f ANDROID: fs/pstore/ramoops: Use vmalloc() for old buffer
+81c241235a43 pstore/ram: Use memcpy_fromio() to save old buffer
+078ee07dd278 pstore/ram: Use memcpy_toio instead of memcpy
+5985541a0672 pstore: fix code comment to match code
+2cd6495380c8 pstore: Fix return type of pstore_is_mounted()
+8fe9ce812d84 pstore: add a helper function pstore_register_kmsg
+a2c7b30228b1 ramoops: make it possible to change mem_type param.
+235fae3a8566 pstore/ram: verify ramoops header before saving record
+8ce1bfbb9348 fs/pstore: Optimization function ramoops_init_przs
+f140d9a5640e fs/pstore: update the backend parameter in pstore module
+6a5cfbbdecf6 pstore: do not use message compression without lock
+f45a8e435a05 pstore: Fix the ramoops module parameters update
+91f7fd63425d pstore: Fix sprintf format specifier in pstore_dump()
+51ba609f9f24 pstore/ram: Strip ramoops header for correct decompression
+2fbe1d9a7a0d FROMLIST: pstore-ram: fix NULL reference when used with pdata
+8fef3308284d FROMLIST: pstore-ram: add Device Tree bindings
+91629a747c91 fs/exec: fix use after free in execve
+5ec7c42c4f21 kernel: Fix potential refcount leak in su check
+3d36a63741dd kernel: Only expose su when daemon is running
+f9fa59842dd6 op3: Disable IPC Router MHI transport
+69f0372e33fa ARM: dts: 15801: Enable DMA for i2c8
+5c3add0034e3 op3: Build in qcacld-2.0 driver
+afacf5b29c12 op3: Disable modules
+c6973d94fcba op3: refer to correct GPU firmware signature for msm8996sg
+
+   * vendor/lineage/
+19074ef5 overlay: Remove config_wifi_wakeup_available
+
+====================
+     08-15-2019
+====================
+
+
+====================
+     08-14-2019
+====================
+
+
+   * kernel/oneplus/msm8996/
+e94c60dcd168 ARM: dts: 15801: Correct MPP4 behaviour
+6b130113e8cb op3: Enable OnePlus device drivers
+42bbd39602e0 op3: Add initial defconfig
+4f3948cb9bec sched/core: Fix an SMP ordering race in try_to_wake_up() vs. schedule()
+6716268d4f6e hrtimer: Avoid locking in hrtimer_cancel() if timer not active
+b8464a25650f UPSTREAM: sched/core: Fix a race between try_to_wake_up() and a woken up task
+5b386960170f PM: Import OnePlus changes
+5d755851163a of: cache phandle nodes to reduce cost of of_find_node_by_phandle()
+0fec43224dc4 UPSTREAM: cpu/hotplug: Handle unbalanced hotplug enable/disable
+30b47e7ae2d7 cpu-hotplug: convert cpu_hotplug_disabled to a counter
+607a3c3d58ec power: reset: Import OnePlus changes
+c86003d6dc39 soc: qcom: ipc_router_mhi_xprt: Avoid memory leak on read_data
+1be4ed31db82 soc: qcom: Import OnePlus changes
+c12cc9b15421 PCI: Import OnePlus changes
+90a01efffcb6 firmware_class: make firmware caching configurable
+642243faf5b2 msm: mdss: Import OnePlus changes
+f8e7d33b3f5a net: rmnet_data: validate csum in SW
+e8bb51a90235 msm: wlan: Import OnePlus changes
+667c86a8e65e cfg80211: limit scan results cache size
+370b3adb029e gadget/f_fs: reduce logspam on suspend/resume
+9ca8c03a751f usb: Import OnePlus changes
+8a929eb92907 scsi: ufs: Import OnePlus changes
+a88b901a625d nfc: Import pn544 driver from OnePlus
+b7aabe980caf misc: Import Type-C charger driver from OnePlus
+0a5a83e377f6 msm: camera: Import OnePlus changes
+c91b6507b814 msm: camera: sensor: Fix video node creation
+9736f89f826e Revert "msm: camerav2: isp: Allocate UB for all source types"
+538b66c07a07 Revert "msm: camerav2: isp: Reserve rdi ub based on image size"
+7bf1ce75898a Revert "msm: camera: isp: Handle standby mode for B+M"
+9d22e8084252 Revert "msm: isp: Add support for VFE resolution limit"
+3dde02a9ca7d input: touchscreen: Import Synaptics driver from OnePlus
+4a55e1365f92 input: Import triple state key driver from OnePlus
+ec7f55ccf19a input: Import fpc driver from OnePlus
+d5d6a97d9038 ASoC: Import OnePlus changes
+d1cedf33772e power: Import OnePlus changes
+bf82f98c6334 Revert "power: qpnp-smbcharger: Fix notifying FG while handling TCC interrupt"
+ecf3f1b96624 ARM: dts: msm: Import 15801 and 15811 devicetree
+
+   * lineage/scripts/
+ad95588 Update Chromium Webview to 76.0.3809.89
+
+====================
+     08-13-2019
+====================
+
+
+   * frameworks/base/
+6d414fb909c Fix wrong locale causing reboot in recovery
+
+====================
+     08-12-2019
+====================
+
+
+   * frameworks/av/
+e86b87275 Camera: Lazy load sound files to speed up camera startup
+
+   * frameworks/base/
+82414728712 Correction in logic of roundend size calculation of SD card
+
+   * kernel/oneplus/msm8996/
+8c4e84be5d5f ARM64: Fix merge derp
+df4457d0a5e2 unifdef.c: use memcpy() instead of the dodgy strncpy().
+c4df0fc3b8ab kconfig: Avoid format overflow warning from GCC 8.1
+6cd8d4e8cb98 Revert "scripts: gcc-wrapper: Use wrapper to check compiler warnings"
+c94ca5674ab8 Revert "scripts: gcc-wrapper: Route the GCC errors to stderr"
+72863bb71f0e Makefile: add -Werror
+16805efef50a fs: Include sdfat driver
+11730f5a2fd1 Add 'fs/sdfat/' from commit '5671af07ab2187ce4071837e2311c945fdcdc03b'
+d4a21f125966 qcacld-2.0: Remove unused files, add make entry for QCA WLAN
+4f8ce395dd1a qcacld-2.0: Import from LA.UM.7.5.r1-05300-8x96.0
+
+====================
+     08-11-2019
+====================
+
+   * android/
+f41bb3a manifest: android-9.0.0_r44 -> android-9.0.0_r46
+
+   * bootable/recovery/
+2a99d0cd recovery: calibrate touchscreen
+
+   * frameworks/native/
+c073e131b Fix build error
+9919a326c SF : Map metadata before accessing value.
+6897f7701 SF: Add support for 64 bit consumer usage flag
+e2069e25f sf: Do not black out HDR layer
+9d256ffb3 Exsf: Add hardware hdr capability check
+dec8d0db5 SurfaceFlinger: Exclude CAF extensions from non-QC devices
+b6db258a7 SF : Include display Intf headers library
+adc305ae6 SurfaceFlinger: Combine SF Refactor changes.
 
    * packages/apps/Calendar/
 a1e2e54 Android Q Preview 6
 
    * vendor/lineage/
+97cb87c8 vendor: Add qcom platform type to soongs vars
+8ea42c9f config: Remove duplicate notification sounds
+1585d0a8 config: Include charging sounds in notification sounds
 f552ca67 Update common.mk
+
+====================
+     08-10-2019
+====================
+
+
+   * vendor/oneplus/
+d2ea2007 msm8998-common: update blobs from 9.0.8
 
 ====================
      08-09-2019
@@ -26,201 +437,12 @@ a12687a0a8 PrivacyGuard: Resolve error message hardcoded white color
      08-08-2019
 ====================
 
+   * android/
+8df87ec Switch system/keymaster & test/vts-testcase/vndk to our forks
 
    * packages/apps/LineageParts/
 fb805b45a1 PrivacyGuard: Resolve error message hardcoded white color
 
    * vendor/lineage/
 31c50708 overlay: Remove config_auto_perf_activities
-
-====================
-     08-07-2019
-====================
-
-   * android/
-8df87ec Switch system/keymaster & test/vts-testcase/vndk to our forks
-
-   * vendor/nxp/opensource/commonsys/packages/apps/Nfc/
-524414fb Skip setEnableHostRouting when switching to screen off
-
-====================
-     08-06-2019
-====================
-
-
-   * frameworks/base/
-87efb0d93f3 Commits on Aug 4, 2019 Automatic translation import …
-
-   * lineage-sdk/
-204a8e2 Commits on Aug 4, 2019 Automatic translation import …
-
-   * packages/apps/LineageParts/
-44dd2ce881 Commits on Aug 4, 2019 Automatic translation import …
-
-   * packages/apps/Settings/
-6062a07789 Automatic translation import
-
-   * packages/inputmethods/LatinIME/
-361dda6ef LatinIME: Add Hungarian QWERTY, enable predictive dictionary
-bcf642571 Add support for Georgian spell checking
-2a6dfb26d Set proper keyboard for Georgian script
-0c7fc58d6 Add support for Bulgarian spell checking
-bae409850 Add new type for Bulgarian script
-f67df333c Add support for Portuguese spell checking
-a609b6685 Add support for Hebrew spell checking
-41782dffc Add support for Croatian spell checking
-97c290ec8 Add support for Czech spell checking
-13a5a7b6a Add support for Polish spell checking
-
-   * vendor/lineage/
-eb8277b1 LatinIME: Add Polish dictionary
-
-   * vendor/oneplus/
-3ebce5d1 sdm845-common: Drop libdisplayconfig.so, libqdMetaData.system.so
-
-====================
-     08-05-2019
-====================
-
-
-====================
-     08-04-2019
-====================
-
-
-   * bootable/recovery/
-842a2cab Make adb sideload work properly
-
-   * build/make/
-540a56ccb Commits on Aug 1, 2019 fix "build: Only set the default verity key as a fallback"  …
-
-   * device/oneplus/oneplus3/
-6ea880d op3: Disable ALMK and PPR on all targets
-
-   * frameworks/base/
-c29588aac04 Automatic translation import
-31c92db28df SystemUI: Use appropriate function when trying to retrieve colorError
-16407edd647 Commits on Aug 1, 2019 SystemUI: Fix multiple issues with hiding unprovisioned SIMs  …
-
-   * hardware/qcom/fm/
-2cf84a8 Automatic translation import
-
-   * lineage-sdk/
-10e0e87 Automatic translation import
-
-   * lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
-df9c2bc Automatic translation import
-
-   * packages/apps/Backgrounds/
-6236b71 Automatic translation import
-
-   * packages/apps/Calendar/
-1b5215a change timeout and snooze preferences
-43e611c Let's test out some Android Q preview 5 goodies on OnePlus3T too!
-1b3d8ac Update README.md
-78ff95c Initial commit
-
-   * packages/apps/Contacts/
-0a9031dbe Automatic translation import
-
-   * packages/apps/Dialer/
-81f3d53ed Automatic translation import
-
-   * packages/apps/Eleven/
-47de731 Automatic translation import
-
-   * packages/apps/Email/
-1cf0202e7 Automatic translation import
-
-   * packages/apps/Exchange/
-83888ed3 Automatic translation import
-
-   * packages/apps/Gallery2/
-6d7159ccc Automatic translation import
-
-   * packages/apps/Jelly/
-f63033a Automatic translation import
-
-   * packages/apps/LineageParts/
-65600c12e4 Automatic translation import
-73817fa63d livedisplay: Don't show duplicate title in LiveDisplay options
-
-   * packages/apps/LockClock/
-218bcbd Automatic translation import
-
-   * packages/apps/Music/
-6ac2712 Let's test out some Android Q preview 5 goodies on OnePlus3T too!
-9859382 Update README.md
-4da46ba Initial commit
-
-   * packages/apps/Profiles/
-69c8a12 Automatic translation import
-
-   * packages/apps/Recorder/
-9b940e8 Automatic translation import
-
-   * packages/apps/Settings/
-42ccbd92c1 Automatic translation import
-
-   * packages/apps/SetupWizard/
-3a90e81 Automatic translation import
-
-   * packages/apps/Snap/
-2cc7d61b3 Automatic translation import
-
-   * packages/apps/Terminal/
-32bcc25 Remove a few items that break the build
-abb5ed3 Let's test out some Android Q preview 5 goodies on OnePlus3T too!
-2ecb5f3 Update README.md
-09c8d59 Initial commit
-
-   * packages/apps/Trebuchet/
-4430561c3 Automatic translation import
-
-   * packages/inputmethods/LatinIME/
-474a7a5c7 Automatic translation import
-
-   * packages/resources/devicesettings/
-6f0205a Automatic translation import
-
-   * vendor/lineage/
-8fc28175 Update common.mk
-30b4df71 lineage: Make a lineage_x86_64 target
-57e8fc00 Music Android q-release-5 Preview
-
-====================
-     08-03-2019
-====================
-
-
-   * packages/inputmethods/LatinIME/
-b01ef233d Add support for Ukrainian spell checking
-
-====================
-     08-02-2019
-====================
-
-
-   * build/make/
-cc1d78713 fix "build: Only set the default verity key as a fallback"
-
-   * hardware/broadcom/libbt/
-4545703 libbt: configure audio codec right after firmware
-
-====================
-     08-01-2019
-====================
-
-   * android/
-7de0e02 manifest: Use master branch for chromium-webview
-
-   * frameworks/base/
-2413c2481d8 SystemUI: Fix multiple issues with hiding unprovisioned SIMs
-
-   * lineage/contributors-cloud-generator/
-7904870 Fix another null pointer
-21d97cb Bump DEFAULT_SIZE to 1928
-
-   * vendor/lineage/
-2e39f356 lineage: Make a lineage_x86_64 target
 
