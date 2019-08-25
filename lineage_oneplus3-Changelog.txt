@@ -1,4 +1,155 @@
 ====================
+     08-25-2019
+====================
+
+   * android/
+f56ece1 manifest: Track device/lineage/atv
+
+   * lineage-sdk/
+de6154f3 Merge https://github.com/LineageOS/android_lineage-sdk into lineage-16.0 Commits on Aug 24, 2019 sdk: tests: fix LineageHardwareTest …
+1be72e7e sdk: tests: fix LineageHardwareTest
+
+   * packages/apps/LineageParts/
+e5435c0231 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_LineageParts into lineage-16.0 Commits on Aug 20, 2019 LiveDisplaySettings: Hide automatic outdoor mode preference on HWC2 …
+
+   * packages/apps/Settings/
+08a48f5a62 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0 Commits on Aug 16, 2019 Settings: Add hotspot setting to allow VPN upstreams …
+
+   * packages/apps/Terminal/
+5d48cb9 remove libraries that break the build in P for now
+efb331a Update to Q Preview 6 files
+
+   * vendor/lineage/
+5173e38f Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0 lineage: atv: Inherit lineage atv device tree
+871f250c lineage: atv: Inherit lineage atv device tree
+46013784 Merge https://github.com/LineageOS/android_vendor_lineage into lineage-16.0
+
+====================
+     08-24-2019
+====================
+
+
+   * device/lineage/sepolicy/
+a09f4a8 sepolicy: Add hal_lineage_fod domain
+
+   * frameworks/base/
+817541a8353 Initial support for in-display fingerprint sensors
+
+   * lineage-sdk/
+8942a9c4 sdk: Add LineageContextConstants.Features.FOD
+
+   * vendor/lineage/
+c4e288c4 backuptool_ab: Make copy_file preserve file/directory attrs
+276e7770 vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission
+
+====================
+     08-23-2019
+====================
+
+
+   * frameworks/base/
+10464b98a3b SystemUI: Use matching data usage size formatting between QS and Settings
+42e8dd74cc0 Update Xbox BT controller mapping to support upcoming controller firmware update
+
+====================
+     08-22-2019
+====================
+
+
+   * frameworks/base/
+cc845e2b4d8 Add keylayout for Xbox One USB controller
+0ed941e3f0c Keylayout for xbox controllers
+4fad09831e1 Added mapping files for DualShock3 and DualShock4
+fbbb66a954d Fallback BUTTON_MODE to HOME
+b3a53f81971 Remap PS key to BUTTON_MODE
+
+====================
+     08-21-2019
+====================
+
+
+   * vendor/lineage/
+214dfb94 lineage: Enforce privapp-permissions whitelist
+
+   * vendor/oneplus/
+397b51cf Import sm8150-common
+
+====================
+     08-20-2019
+====================
+
+
+   * external/toybox/
+232850b4 Regenerate config files
+d3b8f503 Fix cp -r dir/. symlink child.
+10538639 Add failing test for cp -r dir/. symlink child.
+beef651d Fix cp permissions when copying symlink contents, and add test.
+c078b2b6 Implement --preserve default = mot behavior (fixes segfault when no argument).
+50a83f51 Fix "cp -p" doesn't preserve timestamps bug
+f11efa35 Add cp --parents
+c113fb14 Add mkpath() for common case of mkpathat(), and #define magic constants.
+
+   * frameworks/base/
+3ae1cbc7021 LiveDisplayTile: Refresh state after livedisplay initialization
+3aafeec8342 LiveDisplayTile: Enable for outdoor mode and skip night display on HWC2
+d1a8aade1dc Crash app on foreground service notification error.
+7f11f6fe381 Set default VR_MODE based on VR feature support
+368894d2a94 fw/b: Add capability to allow tethering to use VPN upstreams
+1416722f908 power: Respect global vibration setting for charging sounds
+
+   * hardware/qcom/display/
+4ddd15141 Revert "sdm: core: Use upstream DRM_MODE_REFLECT_ defines"
+
+   * lineage-sdk/
+63a59062 LiveDisplayService: Notify SystemUI after initialization finished
+62885aca LiveDisplayManager: Perform null check in getConfig()
+36a87acd OutdoorModeController: Unconditionally enable auto mode on HWC2
+73fdcd14 OutdoorModeController: Advertise MODE_AUTO
+0f5f0e25 LiveDisplayService: Properly disable ColorTemperature
+c0d4150a linage-sdk: Add secure setting to allow tethering via VPN upstream
+2250c782 lineage-sdk: Correct default value of charging sounds
+92bd1871 lineage-sdk: Use AOSP default ringtone for power notification
+
+   * packages/apps/LineageParts/
+fe9bce78d1 LiveDisplaySettings: Hide automatic outdoor mode preference on HWC2
+1b8c7db754 LiveDisplaySettings: Reenable display mode preference for outdoor mode
+
+   * vendor/lineage/
+4ec88136 config: Use tether automatic upstream selection
+
+====================
+     08-19-2019
+====================
+
+
+   * packages/services/BuiltInPrintService/
+0041ca1 Move new strings to lineage_strings
+
+   * system/vold/
+0ff3b95 Add "changepw" command to vdc.
+
+====================
+     08-18-2019
+====================
+
+
+   * packages/apps/SetupWizard/
+8b4804d SetupWizard: Add tablet specific strings for secure lock screen
+
+   * packages/inputmethods/LatinIME/
+b431a68ff Remove extend touchable region for AOSP keyboard
+
+   * packages/services/BuiltInPrintService/
+a14bc6b fix crash during PCLM duplex job with odd page count
+9fed81d add print service recommendations under More Options
+dd42b04 fix PWG-Raster duplex case
+d76e931 Request ACCESS_FINE_LOCATION when necessary
+c7f8b78 Print photos in high-quality mode.
+6e2b222 Warn user when printing with less encryption than before
+f3ca0ab Fix long-edge vs short-edge duplex in PWG-Raster
+947370f Prevent MITM attacks
+
+====================
      08-17-2019
 ====================
 
@@ -10,7 +161,7 @@
 3388d7f71 Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build into lineage-16.0
 
    * frameworks/base/
-8f6b3d9f2a6 Merge remote-tracking branch 'upstream/lineage-16.0' into lineage-16.0 Commits on Aug 12, 2019 Fix wrong locale causing reboot in recovery …
+23e35f6f310 Fix ExternalStorageProvider always throw exception when rename
 
    * packages/apps/Settings/
 3bdf763cf3 Merge https://github.com/LineageOS/android_packages_apps_Settings into lineage-16.0 Commits on Aug 5, 2019 Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android… …
@@ -297,152 +448,12 @@ f9fa59842dd6 op3: Disable IPC Router MHI transport
 afacf5b29c12 op3: Disable modules
 c6973d94fcba op3: refer to correct GPU firmware signature for msm8996sg
 
+   * packages/apps/LineageParts/
+5538e1c867 LineageParts: Update weather provider download url
+
+   * packages/apps/Settings/
+7981419773 Settings: Add hotspot setting to allow VPN upstreams
+
    * vendor/lineage/
 19074ef5 overlay: Remove config_wifi_wakeup_available
-
-====================
-     08-15-2019
-====================
-
-
-====================
-     08-14-2019
-====================
-
-
-   * kernel/oneplus/msm8996/
-e94c60dcd168 ARM: dts: 15801: Correct MPP4 behaviour
-6b130113e8cb op3: Enable OnePlus device drivers
-42bbd39602e0 op3: Add initial defconfig
-4f3948cb9bec sched/core: Fix an SMP ordering race in try_to_wake_up() vs. schedule()
-6716268d4f6e hrtimer: Avoid locking in hrtimer_cancel() if timer not active
-b8464a25650f UPSTREAM: sched/core: Fix a race between try_to_wake_up() and a woken up task
-5b386960170f PM: Import OnePlus changes
-5d755851163a of: cache phandle nodes to reduce cost of of_find_node_by_phandle()
-0fec43224dc4 UPSTREAM: cpu/hotplug: Handle unbalanced hotplug enable/disable
-30b47e7ae2d7 cpu-hotplug: convert cpu_hotplug_disabled to a counter
-607a3c3d58ec power: reset: Import OnePlus changes
-c86003d6dc39 soc: qcom: ipc_router_mhi_xprt: Avoid memory leak on read_data
-1be4ed31db82 soc: qcom: Import OnePlus changes
-c12cc9b15421 PCI: Import OnePlus changes
-90a01efffcb6 firmware_class: make firmware caching configurable
-642243faf5b2 msm: mdss: Import OnePlus changes
-f8e7d33b3f5a net: rmnet_data: validate csum in SW
-e8bb51a90235 msm: wlan: Import OnePlus changes
-667c86a8e65e cfg80211: limit scan results cache size
-370b3adb029e gadget/f_fs: reduce logspam on suspend/resume
-9ca8c03a751f usb: Import OnePlus changes
-8a929eb92907 scsi: ufs: Import OnePlus changes
-a88b901a625d nfc: Import pn544 driver from OnePlus
-b7aabe980caf misc: Import Type-C charger driver from OnePlus
-0a5a83e377f6 msm: camera: Import OnePlus changes
-c91b6507b814 msm: camera: sensor: Fix video node creation
-9736f89f826e Revert "msm: camerav2: isp: Allocate UB for all source types"
-538b66c07a07 Revert "msm: camerav2: isp: Reserve rdi ub based on image size"
-7bf1ce75898a Revert "msm: camera: isp: Handle standby mode for B+M"
-9d22e8084252 Revert "msm: isp: Add support for VFE resolution limit"
-3dde02a9ca7d input: touchscreen: Import Synaptics driver from OnePlus
-4a55e1365f92 input: Import triple state key driver from OnePlus
-ec7f55ccf19a input: Import fpc driver from OnePlus
-d5d6a97d9038 ASoC: Import OnePlus changes
-d1cedf33772e power: Import OnePlus changes
-bf82f98c6334 Revert "power: qpnp-smbcharger: Fix notifying FG while handling TCC interrupt"
-ecf3f1b96624 ARM: dts: msm: Import 15801 and 15811 devicetree
-
-   * lineage/scripts/
-ad95588 Update Chromium Webview to 76.0.3809.89
-
-====================
-     08-13-2019
-====================
-
-
-   * frameworks/base/
-6d414fb909c Fix wrong locale causing reboot in recovery
-
-====================
-     08-12-2019
-====================
-
-
-   * frameworks/av/
-e86b87275 Camera: Lazy load sound files to speed up camera startup
-
-   * frameworks/base/
-82414728712 Correction in logic of roundend size calculation of SD card
-
-   * kernel/oneplus/msm8996/
-8c4e84be5d5f ARM64: Fix merge derp
-df4457d0a5e2 unifdef.c: use memcpy() instead of the dodgy strncpy().
-c4df0fc3b8ab kconfig: Avoid format overflow warning from GCC 8.1
-6cd8d4e8cb98 Revert "scripts: gcc-wrapper: Use wrapper to check compiler warnings"
-c94ca5674ab8 Revert "scripts: gcc-wrapper: Route the GCC errors to stderr"
-72863bb71f0e Makefile: add -Werror
-16805efef50a fs: Include sdfat driver
-11730f5a2fd1 Add 'fs/sdfat/' from commit '5671af07ab2187ce4071837e2311c945fdcdc03b'
-d4a21f125966 qcacld-2.0: Remove unused files, add make entry for QCA WLAN
-4f8ce395dd1a qcacld-2.0: Import from LA.UM.7.5.r1-05300-8x96.0
-
-====================
-     08-11-2019
-====================
-
-   * android/
-f41bb3a manifest: android-9.0.0_r44 -> android-9.0.0_r46
-
-   * bootable/recovery/
-2a99d0cd recovery: calibrate touchscreen
-
-   * frameworks/native/
-c073e131b Fix build error
-9919a326c SF : Map metadata before accessing value.
-6897f7701 SF: Add support for 64 bit consumer usage flag
-e2069e25f sf: Do not black out HDR layer
-9d256ffb3 Exsf: Add hardware hdr capability check
-dec8d0db5 SurfaceFlinger: Exclude CAF extensions from non-QC devices
-b6db258a7 SF : Include display Intf headers library
-adc305ae6 SurfaceFlinger: Combine SF Refactor changes.
-
-   * packages/apps/Calendar/
-a1e2e54 Android Q Preview 6
-
-   * vendor/lineage/
-97cb87c8 vendor: Add qcom platform type to soongs vars
-8ea42c9f config: Remove duplicate notification sounds
-1585d0a8 config: Include charging sounds in notification sounds
-f552ca67 Update common.mk
-
-====================
-     08-10-2019
-====================
-
-
-   * vendor/oneplus/
-d2ea2007 msm8998-common: update blobs from 9.0.8
-
-====================
-     08-09-2019
-====================
-
-   * android/
-435f16d Switch prebuilts/abi-dumps/vndk to our fork
-
-   * packages/apps/LineageParts/
-a12687a0a8 PrivacyGuard: Resolve error message hardcoded white color
-
-   * vendor/lineage/
-7112abb4 Commits on Aug 8, 2019 overlay: Remove config_auto_perf_activities …
-
-====================
-     08-08-2019
-====================
-
-   * android/
-8df87ec Switch system/keymaster & test/vts-testcase/vndk to our forks
-
-   * packages/apps/LineageParts/
-fb805b45a1 PrivacyGuard: Resolve error message hardcoded white color
-
-   * vendor/lineage/
-31c50708 overlay: Remove config_auto_perf_activities
 
